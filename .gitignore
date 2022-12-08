@@ -1,0 +1,29 @@
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs, Linux shared object libraries)
+# -- *.dll
+# -- *.so
+# -- *.so.*
+# -- *.dylib
+
+# Executables
+*.exe
+*.rtexe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+
+# ignore builds
+**/builds/**
+**/bin/**
+**/buildsALL/**
+
+# ignore ni packages
+*.nipkg
+
+# ignore doc builder temp files
+FRC_LV_CtrlTraj_Library_Doc_Builder/HTML_Build_Work/Temp/*
