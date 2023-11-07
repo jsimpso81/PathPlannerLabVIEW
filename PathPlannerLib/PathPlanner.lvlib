@@ -48,6 +48,7 @@
 		<Item Name="PathPlanner_Trajectory_JoinSplines.vi" Type="VI" URL="../PathPlanner_Trajectory_JoinSplines.vi"/>
 		<Item Name="PathPlanner_Trajectory_New.vi" Type="VI" URL="../PathPlanner_Trajectory_New.vi"/>
 		<Item Name="PathPlanner_Trajectory_New_States.vi" Type="VI" URL="../PathPlanner_Trajectory_New_States.vi"/>
+		<Item Name="PathPlanner_Trajectory_ReadCSVFile.vi" Type="VI" URL="../PathPlanner_Trajectory_ReadCSVFile.vi"/>
 		<Item Name="PathPlanner_Trajectory_RecalculateValues.vi" Type="VI" URL="../PathPlanner_Trajectory_RecalculateValues.vi"/>
 		<Item Name="PathPlanner_Trajectory_Sample.vi" Type="VI" URL="../PathPlanner_Trajectory_Sample.vi"/>
 		<Item Name="PathPlanner_TrajectoryState_GetState.vi" Type="VI" URL="../PathPlanner_TrajectoryState_GetState.vi"/>
