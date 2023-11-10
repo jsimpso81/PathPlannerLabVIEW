@@ -1,0 +1,8 @@
+
+pathplanner labview 24 work check list.
+
+Java class			labview name prefix
+
+PathPlannerTrajectory		PathPlanner_Trajectory
+PathPlannerTrajectory.State	PathPlanner_TrajectoryState
+PathConstraints			PathPlanner_Constraints
