@@ -1,8 +1,52 @@
 
 pathplanner labview 24 work check list.
 
-Java class			labview name prefix
+created done	Java class			labview name prefix
 
-PathPlannerTrajectory		PathPlanner_Trajectory
-PathPlannerTrajectory.State	PathPlanner_TrajectoryState
-PathConstraints			PathPlanner_Constraints
+X	/	path/ConstraintsZone			PathPlanner_ConstraintsZone
+			not done	fromJSON
+-	-	path/EventMarker
+X	/	path/GoalEndState			PathPlanner_GoalEndState
+			not done	fromJSON
+X	/	path/PathConstraints			PathPlanner_Constraints
+			not done	fromJSON
+X	/	path/PathPlannerPath			PathPlanner_Path
+			not done	need to review and update - 2 VI broken
+X	/	path/PathPlannerTrajectory		PathPlanner_Trajectory
+			not done	need to review and update - 9 VI broken
+		X	new_states( states )
+X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
+			need ?		getState (wpilib state)
+X	X	path/PathPoint				PathPlanner_Point
+X	/	path/PathSegment			PathPlanner_Segment
+			not done	findConstraintsZone
+			not done	new
+X	/	path/RotationTarget			PathPlanner_RotationTarget
+			not done	fromJSON
+
+		util/ChassisSpeedRateLimit		
+		util/GeometryUtil
+		util/HolonomicPathFollowerConfig
+		util/PathPlannerLogging
+		util/PIDConstants
+		util/PPLibTelemetry
+		util/ReplanningConfig
+
+		pathfinding/LocalADStar
+		pathfinding/Pathfinder
+		pathfinding/Pathfinding
+
+		controllers/PathFollowingController	-- interface
+		controllers/PPHolonomicDriveController
+		controllers/PPLTVController
+		controllers/PPRamseteController
+
+		auto/... not now
+		commands/... not now
+
+		
+
+		
+
+		
+		
