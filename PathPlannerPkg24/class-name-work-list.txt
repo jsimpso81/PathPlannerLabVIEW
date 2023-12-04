@@ -1,28 +1,50 @@
 
+Based on Beta 5 with updates from Nov 9 - 461 and 460
+source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\java\com\pathplanner\lib\path
+
+X - completely done
+/ - partially done -- notes indicate what isn't done.
+! - major work to do
+
+
 pathplanner labview 24 work check list.
 
 created done	Java class			labview name prefix
 
 X	/	path/ConstraintsZone			PathPlanner_ConstraintsZone
 			not done	fromJSON
+
 -	-	path/EventMarker
+
 X	/	path/GoalEndState			PathPlanner_GoalEndState
 			not done	fromJSON
+
 X	/	path/PathConstraints			PathPlanner_Constraints
 			not done	fromJSON
-X	/	path/PathPlannerPath			PathPlanner_Path
+
+X	!	path/PathPlannerPath			PathPlanner_Path
 			not done	need to review and update - 2 VI broken
-X	/	path/PathPlannerTrajectory		PathPlanner_Trajectory
+					relies on trajectory
+			many new functions....
+
+X	!	path/PathPlannerTrajectory		PathPlanner_Trajectory
 			not done	need to review and update - 9 VI broken
-		X	new_states( states )
+			not done	generateStates
+			not done	new  -- need path
+			CHECK - lots of obsolete functions.
+
 X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
-			need ?		getState (wpilib state)
+			may need item update routines
+			need ?		getWPITrajectoryState (wpilib state)
 X	X	path/PathPoint				PathPlanner_Point
+
 X	/	path/PathSegment			PathPlanner_Segment
 			not done	findConstraintsZone
 			not done	new
+
 X	/	path/RotationTarget			PathPlanner_RotationTarget
 			not done	fromJSON
+
 
 		util/ChassisSpeedRateLimit		
 		util/GeometryUtil
