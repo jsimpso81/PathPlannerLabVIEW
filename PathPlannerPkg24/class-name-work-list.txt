@@ -38,16 +38,16 @@ X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
 			need ?		getWPITrajectoryState (wpilib state)
 X	X	path/PathPoint				PathPlanner_Point
 
-X	/	path/PathSegment			PathPlanner_Segment
-			not done	findConstraintsZone
-			not done	new
+X	X	path/PathSegment			PathPlanner_Segment
 
 X	/	path/RotationTarget			PathPlanner_RotationTarget
 			not done	fromJSON
 
 
 		util/ChassisSpeedRateLimit		
-		util/GeometryUtil
+
+X	X	util/GeometryUtil
+
 		util/HolonomicPathFollowerConfig
 		util/PathPlannerLogging
 		util/PIDConstants
