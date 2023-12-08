@@ -1,0 +1,46 @@
+destinations for temp build of pdf doc..
+
+Uses WPILIB LabVIEW Math documentation builder....  Open project file
+C:\Shares\github\LabVIEWMath\FRC_LV_CtrlTraj_Library_Doc_Builder
+
+Run each main program for Doc, Typedef, Enum
+
+DOC
+---
+output
+C:\Shares\github\PathPlannerLabVIEW\Temp
+
+source library
+C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\VI
+
+second source library
+C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\VI2
+
+
+TYPEDEF
+-------
+output
+C:\Shares\github\PathPlannerLabVIEW\Temp2
+
+source
+C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\TypeDef
+
+
+ENUM
+-------
+Currently there aren't any, but if there where these are the directories.
+
+output
+C:\Shares\github\PathPlannerLabVIEW\Temp2
+
+source
+C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\ENum
+
+
+Need to edit TYPEDEF and ENUM html files since these are not in separate directories.
+
+Then merge TEMP2 back into TEMP.
+
+
+
+
