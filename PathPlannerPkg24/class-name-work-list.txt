@@ -11,42 +11,35 @@ pathplanner labview 24 work check list.
 
 created done	Java class			labview name prefix
 
-X	/	path/ConstraintsZone			PathPlanner_ConstraintsZone
-			not done	fromJSON
+X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
 
 X	/	path/EventMarker
-			not done	fromJSON	PathPlanner_EventMarker
 			not done	equals
 			almost done	shouldTrigger (handle nulls)
 
-X	/	path/GoalEndState			PathPlanner_GoalEndState
-			not done	fromJSON
+X	X	path/GoalEndState			PathPlanner_GoalEndState
 
-X	/	path/PathConstraints			PathPlanner_PathConstraints
-			not done	fromJSON
+X	X	path/PathConstraints			PathPlanner_PathConstraints
 
 X	/	path/PathPlannerPath			PathPlanner_Path
 			not done	hotReload
-			not done	fromPathFile
-			not done	fromJSON
-			not done	bezierPointsFromWaypointsJson
-			not done	pointFromJson
+			not done	pointFromJson (Dont need)
 			not done	replan
 			not done	equals
 			
 
 X	X	path/PathPlannerTrajectory		PathPlanner_Trajectory
-			enhance		readCSVFile
+		x	enhance		readCSVFile
+		x	enhance		wrteCSVFile
 
 X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
-			enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
+		x	enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
 
 X	X	path/PathPoint				PathPlanner_PathPoint
 
 X	X	path/PathSegment			PathPlanner_PathSegment
 
-X	/	path/RotationTarget			PathPlanner_RotationTarget
-			not done	fromJSON
+X	X	path/RotationTarget			PathPlanner_RotationTarget
 
 
 		util/ChassisSpeedRateLimit		

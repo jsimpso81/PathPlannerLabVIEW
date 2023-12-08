@@ -25,19 +25,9 @@
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
-		<Item Name="_Obsolete_Path" Type="Folder">
-			<Item Name="_Obsolete_PathPlanner_Path_JoinPaths.vi" Type="VI" URL="../_Obsolete_PathPlanner_Path_JoinPaths.vi"/>
-		</Item>
-		<Item Name="_Obsolete_Waypoint" Type="Folder">
-			<Item Name="_Obsolete_PathPlanner_TrajectoryWaypoint_New.vi" Type="VI" URL="../VI/_Obsolete_PathPlanner_TrajectoryWaypoint_New.vi"/>
-			<Item Name="_Obsolete_PathPlanner_TrajectoryWaypoint_New_Empty.vi" Type="VI" URL="../VI/_Obsolete_PathPlanner_TrajectoryWaypoint_New_Empty.vi"/>
-		</Item>
-		<Item Name="_TO_DO" Type="Folder">
-			<Item Name="PathPlanner_Trajectory_ReadCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_ReadCSVFile.vi"/>
-			<Item Name="PathPlanner_Trajectory_WriteCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFile.vi"/>
-			<Item Name="PathPlanner_Trajectory_WriteCSVFileIndividualState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileIndividualState.vi"/>
-			<Item Name="PathPlanner_Trajectory_WriteCSVFileStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileStates.vi"/>
-		</Item>
+		<Item Name="_Obsolete_Path" Type="Folder"/>
+		<Item Name="_Obsolete_Waypoint" Type="Folder"/>
+		<Item Name="_TO_DO" Type="Folder"/>
 		<Item Name="ConstraintsZone" Type="Folder">
 			<Item Name="PathPlanner_ConstraintsZone_Equals.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_Equals.vi"/>
 			<Item Name="PathPlanner_ConstraintsZone_ForSegmentIndex.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_ForSegmentIndex.vi"/>
@@ -48,6 +38,7 @@
 			<Item Name="PathPlanner_ConstraintsZone_OverlapsRange.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_OverlapsRange.vi"/>
 		</Item>
 		<Item Name="EventMarker" Type="Folder">
+			<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
 			<Item Name="PathPlanner_EventMarker_GetCommand.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetCommand.vi"/>
 			<Item Name="PathPlanner_EventMarker_GetMinimumTriggerDistance.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetMinimumTriggerDistance.vi"/>
 			<Item Name="PathPlanner_EventMarker_GetWaypointRelativePos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetWaypointRelativePos.vi"/>
@@ -63,8 +54,11 @@
 		</Item>
 		<Item Name="Path" Type="Folder">
 			<Item Name="PathPlanner_Path_BezierFromPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromPoses.vi"/>
+			<Item Name="PathPlanner_Path_BezierFromWaypointsJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromWaypointsJSON.vi"/>
 			<Item Name="PathPlanner_Path_CreatePath.vi" Type="VI" URL="../VI/PathPlanner_Path_CreatePath.vi"/>
 			<Item Name="PathPlanner_Path_Equals.vi" Type="VI" URL="../VI/PathPlanner_Path_Equals.vi"/>
+			<Item Name="PathPlanner_Path_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_FromJSON.vi"/>
+			<Item Name="PathPlanner_Path_FromPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathFile.vi"/>
 			<Item Name="PathPlanner_Path_FromPathPonts.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathPonts.vi"/>
 			<Item Name="PathPlanner_Path_GetAllPathPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetAllPathPoint.vi"/>
 			<Item Name="PathPlanner_Path_GetConstraintsForPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetConstraintsForPoint.vi"/>
@@ -76,7 +70,6 @@
 			<Item Name="PathPlanner_Path_GetPreviewStartingHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPreviewStartingHolonomicPose.vi"/>
 			<Item Name="PathPlanner_Path_GetStartingDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetStartingDifferentialPose.vi"/>
 			<Item Name="PathPlanner_Path_IsReversed.vi" Type="VI" URL="../VI/PathPlanner_Path_IsReversed.vi"/>
-			<Item Name="PathPlanner_Path_LoadPath.vi" Type="VI" URL="../VI/PathPlanner_Path_LoadPath.vi"/>
 			<Item Name="PathPlanner_Path_MapPct.vi" Type="VI" URL="../VI/PathPlanner_Path_MapPct.vi"/>
 			<Item Name="PathPlanner_Path_New.vi" Type="VI" URL="../VI/PathPlanner_Path_New.vi"/>
 			<Item Name="PathPlanner_Path_New_Empty.vi" Type="VI" URL="../VI/PathPlanner_Path_New_Empty.vi"/>
@@ -126,7 +119,11 @@
 			<Item Name="PathPlanner_Trajectory_GetWPITrajectory.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetWPITrajectory.vi"/>
 			<Item Name="PathPlanner_Trajectory_New.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_New.vi"/>
 			<Item Name="PathPlanner_Trajectory_New_States.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_New_States.vi"/>
+			<Item Name="PathPlanner_Trajectory_ReadCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_ReadCSVFile.vi"/>
 			<Item Name="PathPlanner_Trajectory_Sample.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_Sample.vi"/>
+			<Item Name="PathPlanner_Trajectory_WriteCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFile.vi"/>
+			<Item Name="PathPlanner_Trajectory_WriteCSVFileIndividualState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileIndividualState.vi"/>
+			<Item Name="PathPlanner_Trajectory_WriteCSVFileStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileStates.vi"/>
 		</Item>
 		<Item Name="TrajectoryState" Type="Folder">
 			<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetAll.vi"/>
@@ -148,7 +145,6 @@
 				<Item Name="PathPlanner_GeomUtil_RotationLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_RotationLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_TranslationLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_TranslationLerp.vi"/>
 			</Item>
-			<Item Name="PathPlanner_Util_ReadJson.vi" Type="VI" URL="../VI/PathPlanner_Util_ReadJson.vi"/>
 		</Item>
 		<Item Name="WPIHolonomicPose" Type="Folder">
 			<Item Name="PathPlanner_WPITrajHolPose_New.vi" Type="VI" URL="../VI/PathPlanner_WPITrajHolPose_New.vi"/>
