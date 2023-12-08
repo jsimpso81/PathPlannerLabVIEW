@@ -9,60 +9,60 @@ X - completely done
 
 pathplanner labview 24 work check list.
 
-created done	Java class			labview name prefix
+created done	doc	Java class			labview name prefix
 
-X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
+X	X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
 
-X	/	path/EventMarker
-			not done	equals
-			almost done	shouldTrigger (handle nulls)
+X	/		path/EventMarker
+				not done	equals
+				almost done	shouldTrigger (handle nulls)
 
-X	X	path/GoalEndState			PathPlanner_GoalEndState
+X	X		path/GoalEndState			PathPlanner_GoalEndState
 
-X	X	path/PathConstraints			PathPlanner_PathConstraints
+X	X		path/PathConstraints			PathPlanner_PathConstraints
 
-X	/	path/PathPlannerPath			PathPlanner_Path
-			not done	hotReload
-			not done	pointFromJson (Dont need)
-			not done	replan
-			not done	equals
+X	/		path/PathPlannerPath			PathPlanner_Path
+				not done	hotReload
+				not done	pointFromJson (Dont need)
+				not done	replan
+				not done	equals
 			
 
-X	X	path/PathPlannerTrajectory		PathPlanner_Trajectory
-		x	enhance		readCSVFile
-		x	enhance		wrteCSVFile
+X	X		path/PathPlannerTrajectory		PathPlanner_Trajectory
+			x	enhance		readCSVFile
+			x	enhance		wrteCSVFile
 
-X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
-		x	enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
+X	X		path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
+			x	enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
 
-X	X	path/PathPoint				PathPlanner_PathPoint
+X	X		path/PathPoint				PathPlanner_PathPoint
 
-X	X	path/PathSegment			PathPlanner_PathSegment
+X	X		path/PathSegment			PathPlanner_PathSegment
 
-X	X	path/RotationTarget			PathPlanner_RotationTarget
+X	X		path/RotationTarget			PathPlanner_RotationTarget
 
 
-		util/ChassisSpeedRateLimit		
+			util/ChassisSpeedRateLimit		
 
-X	X	util/GeometryUtil
+X	X		util/GeometryUtil
 
-		util/HolonomicPathFollowerConfig
-		util/PathPlannerLogging
-		util/PIDConstants
-		util/PPLibTelemetry
-		util/ReplanningConfig
+			util/HolonomicPathFollowerConfig
+			util/PathPlannerLogging
+			util/PIDConstants
+			util/PPLibTelemetry
+			util/ReplanningConfig
 
-		pathfinding/LocalADStar
-		pathfinding/Pathfinder
-		pathfinding/Pathfinding
+			pathfinding/LocalADStar
+			pathfinding/Pathfinder
+			pathfinding/Pathfinding
 
-		controllers/PathFollowingController	-- interface
-		controllers/PPHolonomicDriveController
-		controllers/PPLTVController
-		controllers/PPRamseteController
+			controllers/PathFollowingController	-- interface
+			controllers/PPHolonomicDriveController
+			controllers/PPLTVController
+			controllers/PPRamseteController
 
-		auto/... not now
-		commands/... not now
+			auto/... not now
+			commands/... not now
 
 		
 
