@@ -31,9 +31,6 @@
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
-		<Item Name="_Obsolete_Path" Type="Folder"/>
-		<Item Name="_Obsolete_Waypoint" Type="Folder"/>
-		<Item Name="_TO_DO" Type="Folder"/>
 		<Item Name="ConstraintsZone" Type="Folder">
 			<Item Name="PathPlanner_ConstraintsZone_Equals.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_Equals.vi"/>
 			<Item Name="PathPlanner_ConstraintsZone_ForSegmentIndex.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_ForSegmentIndex.vi"/>
@@ -90,6 +87,7 @@
 			<Item Name="PathPlanner_PathConstraints_IsNull.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_IsNull.vi"/>
 			<Item Name="PathPlanner_PathConstraints_New.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_New.vi"/>
 		</Item>
+		<Item Name="PathPlanner" Type="Folder"/>
 		<Item Name="PathPoint" Type="Folder">
 			<Item Name="PathPlanner_PathPoint_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_Equals.vi"/>
 			<Item Name="PathPlanner_PathPoint_GetAll.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_GetAll.vi"/>

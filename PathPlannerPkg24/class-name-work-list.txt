@@ -13,38 +13,46 @@ created done	doc	Java class			labview name prefix
 
 X	X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
 
-X	/		path/EventMarker
+X	/	-	path/EventMarker
 				not done	equals
 				almost done	shouldTrigger (handle nulls)
 
-X	X		path/GoalEndState			PathPlanner_GoalEndState
+X	X	X	path/GoalEndState			PathPlanner_GoalEndState
 
 X	X		path/PathConstraints			PathPlanner_PathConstraints
 
-X	/		path/PathPlannerPath			PathPlanner_Path
+X	/	-	path/PathPlannerPath			PathPlanner_Path
 				not done	hotReload
 				not done	pointFromJson (Dont need)
 				not done	replan
 				not done	equals
 			
 
-X	X		path/PathPlannerTrajectory		PathPlanner_Trajectory
+X	X	-	path/PathPlannerTrajectory		PathPlanner_Trajectory
 			x	enhance		readCSVFile
 			x	enhance		wrteCSVFile
 
-X	X		path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
+X	X	-	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
 			x	enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
 
-X	X		path/PathPoint				PathPlanner_PathPoint
+X	X	X	path/PathPoint				PathPlanner_PathPoint
 
-X	X		path/PathSegment			PathPlanner_PathSegment
+X	X	-	path/PathSegment			PathPlanner_PathSegment
 
-X	X		path/RotationTarget			PathPlanner_RotationTarget
+X	X	-	path/RotationTarget			PathPlanner_RotationTarget
 
 
-			util/ChassisSpeedRateLimit		
+-	-	-	util/ChassisSpeedRateLimit		
 
-X	X		util/GeometryUtil
+X	X	-	util/GeometryUtil
+
+NO	NO	NO	controllers/PathFollowingController	-- interface
+
+-	-	-	controllers/PPHolonomicDriveController
+
+-	-	-	controllers/PPLTVController
+
+-	-	-	controllers/PPRamseteController
 
 			util/HolonomicPathFollowerConfig
 			util/PathPlannerLogging
@@ -56,10 +64,6 @@ X	X		util/GeometryUtil
 			pathfinding/Pathfinder
 			pathfinding/Pathfinding
 
-			controllers/PathFollowingController	-- interface
-			controllers/PPHolonomicDriveController
-			controllers/PPLTVController
-			controllers/PPRamseteController
 
 			auto/... not now
 			commands/... not now
