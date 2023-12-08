@@ -3,14 +3,15 @@
 *.llb
 
 # Shared objects (inc. Windows DLLs, Linux shared object libraries)
-# -- *.dll
-# -- *.so
-# -- *.so.*
-# -- *.dylib
+*.dll
+*.so
+*.so.*
+*.dylib
 
-# Executables
+# Executables / NI Packages
 *.exe
 *.rtexe
+*.nipkg
 
 # Metadata
 *.aliases
@@ -22,8 +23,7 @@
 **/bin/**
 **/buildsALL/**
 
-# ignore ni packages
-*.nipkg
 
 # ignore doc builder temp files
-FRC_LV_CtrlTraj_Library_Doc_Builder/HTML_Build_Work/Temp/*
+/Temp/**
+/Temp2/**
