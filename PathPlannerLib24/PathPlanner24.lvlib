@@ -41,8 +41,8 @@
 			<Item Name="PathPlanner_ConstraintsZone_OverlapsRange.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_OverlapsRange.vi"/>
 		</Item>
 		<Item Name="Controllers" Type="Folder">
-			<Item Name="PathPlanner_HolonomicDrvCtrl_Execute.vi" Type="VI" URL="../VI/PathPlanner_HolonomicDrvCtrl_Execute.vi"/>
-			<Item Name="PathPlanner_RamseteCtrl_Execute.vi" Type="VI" URL="../VI/PathPlanner_RamseteCtrl_Execute.vi"/>
+			<Item Name="PathPlanner_Ctrl_HolonomicDrvExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvExecute.vi"/>
+			<Item Name="PathPlanner_Ctrl_RamseteExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_RamseteExecute.vi"/>
 		</Item>
 		<Item Name="EventMarker" Type="Folder">
 			<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
