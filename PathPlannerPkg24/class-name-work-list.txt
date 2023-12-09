@@ -15,17 +15,16 @@ X	X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
 
 X	/	-	path/EventMarker
 				not done	equals
-				almost done	shouldTrigger (handle nulls)
 
 X	X	X	path/GoalEndState			PathPlanner_GoalEndState
 
-X	X		path/PathConstraints			PathPlanner_PathConstraints
+X	X	X	path/PathConstraints			PathPlanner_PathConstraints
 
 X	/	-	path/PathPlannerPath			PathPlanner_Path
-				not done	hotReload
-				not done	pointFromJson (Dont need)
+				dont need	pointFromJson
 				not done	replan
 				not done	equals
+				mostly		fromPathFile (doesn't do telemetry)
 			
 
 X	X	-	path/PathPlannerTrajectory		PathPlanner_Trajectory
@@ -52,7 +51,7 @@ NO	NO	NO	controllers/PathFollowingController	-- interface
 
 -	-	-	controllers/PPLTVController
 
--	-	-	controllers/PPRamseteController
+X	X	-	controllers/PPRamseteController
 
 			util/HolonomicPathFollowerConfig
 			util/PathPlannerLogging

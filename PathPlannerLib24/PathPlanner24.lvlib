@@ -40,6 +40,10 @@
 			<Item Name="PathPlanner_ConstraintsZone_New.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_New.vi"/>
 			<Item Name="PathPlanner_ConstraintsZone_OverlapsRange.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_OverlapsRange.vi"/>
 		</Item>
+		<Item Name="Controllers" Type="Folder">
+			<Item Name="PathPlanner_HolonomicDrvCtrl_Execute.vi" Type="VI" URL="../VI/PathPlanner_HolonomicDrvCtrl_Execute.vi"/>
+			<Item Name="PathPlanner_RamseteCtrl_Execute.vi" Type="VI" URL="../VI/PathPlanner_RamseteCtrl_Execute.vi"/>
+		</Item>
 		<Item Name="EventMarker" Type="Folder">
 			<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
 			<Item Name="PathPlanner_EventMarker_GetCommand.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetCommand.vi"/>
@@ -47,7 +51,12 @@
 			<Item Name="PathPlanner_EventMarker_GetWaypointRelativePos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetWaypointRelativePos.vi"/>
 			<Item Name="PathPlanner_EventMarker_New.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_New.vi"/>
 			<Item Name="PathPlanner_EventMarker_Reset.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_Reset.vi"/>
+			<Item Name="PathPlanner_EventMarker_SetMarkerPos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_SetMarkerPos.vi"/>
 			<Item Name="PathPlanner_EventMarker_ShouldTrigger.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_ShouldTrigger.vi"/>
+		</Item>
+		<Item Name="Followers" Type="Folder">
+			<Item Name="PathFindThemFollowHolonomic" Type="Folder"/>
+			<Item Name="PathFindThenFollowRamsete" Type="Folder"/>
 		</Item>
 		<Item Name="GoalEndState" Type="Folder">
 			<Item Name="PathPlanner_GoalEndState_Equals.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_Equals.vi"/>
@@ -72,6 +81,7 @@
 			<Item Name="PathPlanner_Path_GetPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPoint.vi"/>
 			<Item Name="PathPlanner_Path_GetPreviewStartingHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPreviewStartingHolonomicPose.vi"/>
 			<Item Name="PathPlanner_Path_GetStartingDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetStartingDifferentialPose.vi"/>
+			<Item Name="PathPlanner_Path_HotReload.vi" Type="VI" URL="../VI/PathPlanner_Path_HotReload.vi"/>
 			<Item Name="PathPlanner_Path_IsReversed.vi" Type="VI" URL="../VI/PathPlanner_Path_IsReversed.vi"/>
 			<Item Name="PathPlanner_Path_MapPct.vi" Type="VI" URL="../VI/PathPlanner_Path_MapPct.vi"/>
 			<Item Name="PathPlanner_Path_New.vi" Type="VI" URL="../VI/PathPlanner_Path_New.vi"/>
@@ -87,7 +97,6 @@
 			<Item Name="PathPlanner_PathConstraints_IsNull.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_IsNull.vi"/>
 			<Item Name="PathPlanner_PathConstraints_New.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_New.vi"/>
 		</Item>
-		<Item Name="PathPlanner" Type="Folder"/>
 		<Item Name="PathPoint" Type="Folder">
 			<Item Name="PathPlanner_PathPoint_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_Equals.vi"/>
 			<Item Name="PathPlanner_PathPoint_GetAll.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_GetAll.vi"/>
