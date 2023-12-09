@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<!-- Constructed with LabVIEW Report Generation -->
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+
+<BODY>
+<h2 id="Path" >Path</h2>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_BezierFromPoses" >PathPlanner_Path_BezierFromPoses</h3>
+<p><IMG SRC="PathPlanner_Path_BezierFromPoses_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_BezierFromWaypointsJSON" >PathPlanner_Path_BezierFromWaypointsJSON</h3>
+<p><IMG SRC="PathPlanner_Path_BezierFromWaypointsJSON_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_CreatePath" >PathPlanner_Path_CreatePath</h3>
+<p><IMG SRC="PathPlanner_Path_CreatePath_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create a path from an array of PathPlanner Waypoints.   This routine calculates the trajectory states.  It handles combining separate paths when reversal is flagged.<BR>
+<BR>
+Inputs:<BR>
+   -  PathPlannerWaypoints  --  An array of PathPlannerWaypoints.  This array must contain at least 2 entries.<BR>
+   -  maxVel  --  Max velocity of the path<BR>
+   -  maxAccel  --  Max velocity of the path<BR>
+   -  reversed  --  Should the robot follow the path reversed<BR>
+<BR>
+Outputs:<BR>
+   -  PathPlanner Trajectory  --  The generated path  (path planner trajectory) can be converted to trajectory)<BR>
+<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_Equals" >PathPlanner_Path_Equals</h3>
+<p><IMG SRC="PathPlanner_Path_Equals_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_FromJSON" >PathPlanner_Path_FromJSON</h3>
+<p><IMG SRC="PathPlanner_Path_FromJSON_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_FromPathFile" >PathPlanner_Path_FromPathFile</h3>
+<p><IMG SRC="PathPlanner_Path_FromPathFile_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Load a path file from storage.   This loads the waypoints from a file and calculates the trajectory states.  It handles combining separate paths when reversal is flagged.<BR>
+<BR>
+Inputs:<BR>
+   -  FileName  --  The name of the path to load.   Absolute or relative.<BR>
+   -  maxVel  --  Max velocity of the path<BR>
+   -  maxAccel  --  Max velocity of the path<BR>
+   -  reversed  --  Should the robot follow the path reversed<BR>
+<BR>
+Outputs:<BR>
+   -  PathPlanner Trajectory  --  The generated path  (path planner trajectory) can be converted to trajectory)<BR>
+   -  Error  -- error cluster<BR>
+<BR>
+Note:<BR>
+  -- Default path for roboRIO is    /home/lvuser/natinst/LabVIEW Data<BR>
+  -- Default path for Windows is:  %USERPROFILE%\Documents\LabVIEW Data<BR>
+<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_FromPathPonts" >PathPlanner_Path_FromPathPonts</h3>
+<p><IMG SRC="PathPlanner_Path_FromPathPonts_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetAllPathPoint" >PathPlanner_Path_GetAllPathPoint</h3>
+<p><IMG SRC="PathPlanner_Path_GetAllPathPoint_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetConstraintsForPoint" >PathPlanner_Path_GetConstraintsForPoint</h3>
+<p><IMG SRC="PathPlanner_Path_GetConstraintsForPoint_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetCurveRadiusAtPoint" >PathPlanner_Path_GetCurveRadiusAtPoint</h3>
+<p><IMG SRC="PathPlanner_Path_GetCurveRadiusAtPoint_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetEventMarkers" >PathPlanner_Path_GetEventMarkers</h3>
+<p><IMG SRC="PathPlanner_Path_GetEventMarkers_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetGlobalConstraints" >PathPlanner_Path_GetGlobalConstraints</h3>
+<p><IMG SRC="PathPlanner_Path_GetGlobalConstraints_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetGoalEndState" >PathPlanner_Path_GetGoalEndState</h3>
+<p><IMG SRC="PathPlanner_Path_GetGoalEndState_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetPoint" >PathPlanner_Path_GetPoint</h3>
+<p><IMG SRC="PathPlanner_Path_GetPoint_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetPreviewStartingHolonomicPose" >PathPlanner_Path_GetPreviewStartingHolonomicPose</h3>
+<p><IMG SRC="PathPlanner_Path_GetPreviewStartingHolonomicPose_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_GetStartingDifferentialPose" >PathPlanner_Path_GetStartingDifferentialPose</h3>
+<p><IMG SRC="PathPlanner_Path_GetStartingDifferentialPose_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_IsReversed" >PathPlanner_Path_IsReversed</h3>
+<p><IMG SRC="PathPlanner_Path_IsReversed_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_MapPct" >PathPlanner_Path_MapPct</h3>
+<p><IMG SRC="PathPlanner_Path_MapPct_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_New" >PathPlanner_Path_New</h3>
+<p><IMG SRC="PathPlanner_Path_New_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_New_Empty" >PathPlanner_Path_New_Empty</h3>
+<p><IMG SRC="PathPlanner_Path_New_Empty_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_NumPoints" >PathPlanner_Path_NumPoints</h3>
+<p><IMG SRC="PathPlanner_Path_NumPoints_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_PositionDelta" >PathPlanner_Path_PositionDelta</h3>
+<p><IMG SRC="PathPlanner_Path_PositionDelta_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_PreCalcValues" >PathPlanner_Path_PreCalcValues</h3>
+<p><IMG SRC="PathPlanner_Path_PreCalcValues_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<br>
+</BODY>
+</HTML>

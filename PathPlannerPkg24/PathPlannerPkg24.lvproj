@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Doc" Type="Folder" URL="../Doc">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Menus" Type="Folder" URL="../Menus">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -49,7 +52,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{73A8E09A-EEB7-4C41-B223-109DA062DE0B}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/1_SourceDistribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">43</Property>
+				<Property Name="Bld_version.build" Type="Int">44</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/vi.lib</Property>
@@ -71,7 +74,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{678A11B1-5332-4E3E-B998-37F1DE9A4C48}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8CCA85D-7E7A-4787-86E2-AF0E3478CD57}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MJansen/dir.mnu</Property>
@@ -101,7 +104,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PathPlannerLib24Lv2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2019_4.0.0-44_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2019_4.0.0-46_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port of M. Jansen Path Planner 2024 to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -109,7 +112,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">45</Property>
+				<Property Name="PKG_buildNumber" Type="Int">47</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PathPlannerLib24Lv2019</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -157,19 +160,27 @@
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024 to LabVIEW</Property>
-				<Property Name="PKG_destinations.Count" Type="Int">3</Property>
-				<Property Name="PKG_destinations[0].ID" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
-				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">LabVIEW 2019</Property>
-				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
+				<Property Name="PKG_destinations.Count" Type="Int">5</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{34FFEB28-0CC8-4B3C-8BEC-D3FD6B4FC65A}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">PathPlannerLabVIEW</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_5</Property>
 				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[1].ID" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
-				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">National Instruments</Property>
-				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">LabVIEW 2019</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
 				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[2].ID" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
-				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">vi.lib</Property>
-				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[2].ID" Type="Str">{660BE194-C46C-49AF-A9EC-97441832A5A7}</Property>
+				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">Doc</Property>
+				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{34FFEB28-0CC8-4B3C-8BEC-D3FD6B4FC65A}</Property>
 				<Property Name="PKG_destinations[2].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[3].ID" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
+				<Property Name="PKG_destinations[3].Subdir.Directory" Type="Str">National Instruments</Property>
+				<Property Name="PKG_destinations[3].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[3].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[4].ID" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
+				<Property Name="PKG_destinations[4].Subdir.Directory" Type="Str">vi.lib</Property>
+				<Property Name="PKG_destinations[4].Subdir.Parent" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[4].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_displayName" Type="Str">PathPlanner 2024 LV2019 </Property>
 				<Property Name="PKG_displayVersion" Type="Str"></Property>
 				<Property Name="PKG_feedDescription" Type="Str"></Property>
@@ -183,11 +194,35 @@
 				<Property Name="PKG_packageName" Type="Str">pathplannerpackagelv2019</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Add-Ons</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">3</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Path Planner Lib PDF Ref</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Path Planner LabVIEW</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Ref">/My Computer/Doc/PathPlannerLibLabVIEW.pdf</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{660BE194-C46C-49AF-A9EC-97441832A5A7}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[1].Name" Type="Str">Path Planner Lib HTML Ref</Property>
+				<Property Name="PKG_shortcuts[1].Path" Type="Path">Path Planner LabVIEW</Property>
+				<Property Name="PKG_shortcuts[1].Target.Child" Type="Ref">/My Computer/Doc/HTML/Index.html</Property>
+				<Property Name="PKG_shortcuts[1].Target.Destination" Type="Str">{660BE194-C46C-49AF-A9EC-97441832A5A7}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[2].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[2].Name" Type="Str">Path Planner Lib Ref</Property>
+				<Property Name="PKG_shortcuts[2].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[2].Target.Child" Type="Ref">/My Computer/Doc/PathPlannerLibLabVIEW.pdf</Property>
+				<Property Name="PKG_shortcuts[2].Target.Destination" Type="Str">{660BE194-C46C-49AF-A9EC-97441832A5A7}</Property>
+				<Property Name="PKG_shortcuts[2].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">2</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/1_SourceDistribution</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{660BE194-C46C-49AF-A9EC-97441832A5A7}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">PathPlannerLib 2024 Install Package</Property>
 				<Property Name="PKG_version" Type="Str">4.0.0</Property>
 			</Item>
@@ -201,7 +236,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PathPlannerLibLv2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2020_4.0.0-44_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2020_4.0.0-46_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port of M. Jansen Path Planner 2024 to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -209,7 +244,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">45</Property>
+				<Property Name="PKG_buildNumber" Type="Int">47</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PathPlannerLib24Lv2020</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -257,19 +292,27 @@
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024 to LabVIEW</Property>
-				<Property Name="PKG_destinations.Count" Type="Int">3</Property>
+				<Property Name="PKG_destinations.Count" Type="Int">5</Property>
 				<Property Name="PKG_destinations[0].ID" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
 				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">LabVIEW 2020</Property>
 				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
 				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[1].ID" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
-				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">National Instruments</Property>
-				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{6635ADE2-EB7C-4E5D-B99A-3AA0F2F08BC1}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">Doc</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{80031714-7379-481F-B624-782D2F81AC12}</Property>
 				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[2].ID" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
-				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">vi.lib</Property>
-				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[2].ID" Type="Str">{80031714-7379-481F-B624-782D2F81AC12}</Property>
+				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">PathPlannerLabVIEW</Property>
+				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">root_5</Property>
 				<Property Name="PKG_destinations[2].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[3].ID" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
+				<Property Name="PKG_destinations[3].Subdir.Directory" Type="Str">National Instruments</Property>
+				<Property Name="PKG_destinations[3].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[3].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[4].ID" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
+				<Property Name="PKG_destinations[4].Subdir.Directory" Type="Str">vi.lib</Property>
+				<Property Name="PKG_destinations[4].Subdir.Parent" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[4].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_displayName" Type="Str">PathPlanner 2024 LV2020</Property>
 				<Property Name="PKG_displayVersion" Type="Str"></Property>
 				<Property Name="PKG_feedDescription" Type="Str"></Property>
@@ -283,17 +326,39 @@
 				<Property Name="PKG_packageName" Type="Str">pathplannerpackagelv2020</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Add-Ons</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">3</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Path Planner Lib PDF Ref</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Path Planner LabVIEW</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Ref">/My Computer/Doc/PathPlannerLibLabVIEW.pdf</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{6635ADE2-EB7C-4E5D-B99A-3AA0F2F08BC1}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[1].Name" Type="Str">Path Planner Lib HTML Ref</Property>
+				<Property Name="PKG_shortcuts[1].Path" Type="Path">Path Planner LabVIEW</Property>
+				<Property Name="PKG_shortcuts[1].Target.Child" Type="Ref">/My Computer/Doc/HTML/Index.html</Property>
+				<Property Name="PKG_shortcuts[1].Target.Destination" Type="Str">{6635ADE2-EB7C-4E5D-B99A-3AA0F2F08BC1}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[2].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[2].Name" Type="Str">Path Planner Lib Ref</Property>
+				<Property Name="PKG_shortcuts[2].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[2].Target.Child" Type="Ref">/My Computer/Doc/PathPlannerLibLabVIEW.pdf</Property>
+				<Property Name="PKG_shortcuts[2].Target.Destination" Type="Str">{6635ADE2-EB7C-4E5D-B99A-3AA0F2F08BC1}</Property>
+				<Property Name="PKG_shortcuts[2].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">2</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/1_SourceDistribution</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{6635ADE2-EB7C-4E5D-B99A-3AA0F2F08BC1}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">PathPlannerLib Install Package</Property>
 				<Property Name="PKG_version" Type="Str">4.0.0</Property>
 			</Item>
 			<Item Name="PathPlannerLib24Lv2023" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2019/resource/Framework/Providers/Builds/Package/NIPKG/NIPKG/NIPKG.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2019/resource/Framework/Providers/Builds/Package/Common/UI/PackageUI.lvclass</Property>
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_certificates" Type="Bool">false</Property>
 				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
@@ -303,7 +368,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PathPlannerLibLv2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2023_4.0.0-44_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2023_4.0.0-46_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port of M. Jansen Path Planner 2024 to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -311,7 +376,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">45</Property>
+				<Property Name="PKG_buildNumber" Type="Int">47</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PathPlannerLib24Lv2023</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -359,19 +424,27 @@
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024 to LabVIEW</Property>
-				<Property Name="PKG_destinations.Count" Type="Int">3</Property>
-				<Property Name="PKG_destinations[0].ID" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
-				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">LabVIEW 2023</Property>
-				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
+				<Property Name="PKG_destinations.Count" Type="Int">5</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{0BACB55D-17A1-4E97-8DBE-8E8A081D2865}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">PathPlannerLabVIEW</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_5</Property>
 				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[1].ID" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
-				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">National Instruments</Property>
-				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">LabVIEW 2023</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
 				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[2].ID" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
-				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">vi.lib</Property>
-				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[2].ID" Type="Str">{8295C88E-3EDC-4EC8-9999-AD693A6CD054}</Property>
+				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">National Instruments</Property>
+				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">root_5</Property>
 				<Property Name="PKG_destinations[2].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[3].ID" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
+				<Property Name="PKG_destinations[3].Subdir.Directory" Type="Str">vi.lib</Property>
+				<Property Name="PKG_destinations[3].Subdir.Parent" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
+				<Property Name="PKG_destinations[3].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[4].ID" Type="Str">{D9A4E780-8655-4DBB-9AC3-3B725ECE093C}</Property>
+				<Property Name="PKG_destinations[4].Subdir.Directory" Type="Str">Doc</Property>
+				<Property Name="PKG_destinations[4].Subdir.Parent" Type="Str">{0BACB55D-17A1-4E97-8DBE-8E8A081D2865}</Property>
+				<Property Name="PKG_destinations[4].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_displayName" Type="Str">PathPlanner 2024 LV2020</Property>
 				<Property Name="PKG_displayVersion" Type="Str"></Property>
 				<Property Name="PKG_feedDescription" Type="Str"></Property>
@@ -385,11 +458,35 @@
 				<Property Name="PKG_packageName" Type="Str">pathplannerpackagelv2023</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Add-Ons</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">3</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Path Planner Lib PDF Ref</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Path Planner LabVIEW</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Ref">/My Computer/Doc/PathPlannerLibLabVIEW.pdf</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{D9A4E780-8655-4DBB-9AC3-3B725ECE093C}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[1].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[1].Name" Type="Str">Path Planner Lib HTML Ref</Property>
+				<Property Name="PKG_shortcuts[1].Path" Type="Path">Path Planner LabVIEW</Property>
+				<Property Name="PKG_shortcuts[1].Target.Child" Type="Ref">/My Computer/Doc/HTML/Index.html</Property>
+				<Property Name="PKG_shortcuts[1].Target.Destination" Type="Str">{D9A4E780-8655-4DBB-9AC3-3B725ECE093C}</Property>
+				<Property Name="PKG_shortcuts[1].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_shortcuts[2].Destination" Type="Str">root_1</Property>
+				<Property Name="PKG_shortcuts[2].Name" Type="Str">Path Planner Lib Ref</Property>
+				<Property Name="PKG_shortcuts[2].Path" Type="Path"></Property>
+				<Property Name="PKG_shortcuts[2].Target.Child" Type="Ref">/My Computer/Doc/PathPlannerLibLabVIEW.pdf</Property>
+				<Property Name="PKG_shortcuts[2].Target.Destination" Type="Str">{D9A4E780-8655-4DBB-9AC3-3B725ECE093C}</Property>
+				<Property Name="PKG_shortcuts[2].Target.Source" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_shortcuts[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">2</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{CFD021A7-C3C9-473F-A373-31137F057270}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/1_SourceDistribution</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{D9A4E780-8655-4DBB-9AC3-3B725ECE093C}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/Doc</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">PathPlannerLib Install Package</Property>
 				<Property Name="PKG_version" Type="Str">4.0.0</Property>
 			</Item>

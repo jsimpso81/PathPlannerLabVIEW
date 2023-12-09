@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<!-- Constructed with LabVIEW Report Generation -->
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+
+<BODY>
+<h2 id="TypeDef" >TypeDef</h2>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerCommand" >TypeDef-PathPlannerCommand</h3>
+<p><IMG SRC="PathPlannerCommand_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerCommand_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerCommand.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerConstraintsZone" >TypeDef-PathPlannerConstraintsZone</h3>
+<p><IMG SRC="PathPlannerConstraintsZone_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">A zone on a path with different kinematic constraints<BR>
+<BR>
+Contains:<BR>
+  --  MinWayPointPos   - double -  Starting distance on path to apply constraint<BR>
+  --  MaxWayPointPos  - double -   Ending distance on path to apply constraint<BR>
+  --  Constraint   -  cluster  -  Constraint to apply<BR>
+  --  Present  - boolean  -  flag indicting this cluster is not null<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerConstraintsZone_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerConstraintsZone.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerEventMarker" >TypeDef-PathPlannerEventMarker</h3>
+<p><IMG SRC="PathPlannerEventMarker_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Describes the goal end state of the robot when finishing a path<BR>
+<BR>
+contains:<BR>
+<BR>
+  double velocity<BR>
+  Rotation2d rotation<BR>
+<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerEventMarker_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerEventMarker.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerGoalEndState" >TypeDef-PathPlannerGoalEndState</h3>
+<p><IMG SRC="PathPlannerGoalEndState_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Describes the goal end state of the robot when finishing a path<BR>
+<BR>
+contains:<BR>
+  --  velocity  - double<BR>
+  --  rotation  -  Rotation2d <BR>
+<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerGoalEndState_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerGoalEndState.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerPath" >TypeDef-PathPlannerPath</h3>
+<p><IMG SRC="PathPlannerPath_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerPath_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPath.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerPathConstraints" >TypeDef-PathPlannerPathConstraints</h3>
+<p><IMG SRC="PathPlannerPathConstraints_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Kinematic path following constraints<BR>
+<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerPathConstraints_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathConstraints.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerPathPoint" >TypeDef-PathPlannerPathPoint</h3>
+<p><IMG SRC="PathPlannerPathPoint_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">A point along a pathplanner path<BR>
+<BR>
+Contains:<BR>
+  --  position - translation2d  -  The position of this point<BR>
+  --  distanceAlongPath - double -   The distance of this point along the path, in meters<BR>
+  --  CurveRadius - double -   The curve radius at this point <BR>
+  --  MaxV - double -   The max velocity at this point <BR>
+  --  holonomicRotation - Rotation2d -  The target rotation at this point <BR>
+  --  constraints - cluster -   The constraints applied to this point <BR>
+</pre></p>
+<p><IMG SRC="PathPlannerPathPoint_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathPoint.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerPathSegment" >TypeDef-PathPlannerPathSegment</h3>
+<p><IMG SRC="PathPlannerPathSegment_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerPathSegment_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathSegment.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerRotationTarget" >TypeDef-PathPlannerRotationTarget</h3>
+<p><IMG SRC="PathPlannerRotationTarget_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerRotationTarget_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerRotationTarget.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerTrajectory" >TypeDef-PathPlannerTrajectory</h3>
+<p><IMG SRC="PathPlannerTrajectory_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerTrajectory_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerTrajectory.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerTrajectoryState" >TypeDef-PathPlannerTrajectoryState</h3>
+<p><IMG SRC="PathPlannerTrajectoryState_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">PathPlanner Trajectory State<BR>
+<BR>
+    --  The time at this state in seconds <BR>
+    timeSeconds;<BR>
+<BR>
+    -- The velocity at this state in m/s<BR>
+    velocityMps<BR>
+<BR>
+    -- The acceleration at this state in m/s^2<BR>
+    accelerationMpsSq<BR>
+<BR>
+    --  ????<BR>
+    headingAngularVelocityRps<BR>
+<BR>
+    --  The position at this state in meters<BR>
+    positionMeters<BR>
+<BR>
+    -- The heading (direction of travel) at this state<BR>
+    heading<BR>
+<BR>
+    -- The target holonomic rotation at this state<BR>
+    targetHolonomicRotation<BR>
+<BR>
+    -- The curvature at this state in rad/m<BR>
+    curvatureRadPerMeter<BR>
+<BR>
+    -- The constraints to apply at this state<BR>
+    constraints<BR>
+<BR>
+    -- Values only used during generation<BR>
+    deltaPos<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerTrajectoryState_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerTrajectoryState.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerWPITrajHolonomicPose" >TypeDef-PathPlannerWPITrajHolonomicPose</h3>
+<p><IMG SRC="PathPlannerWPITrajHolonomicPose_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerWPITrajHolonomicPose_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerWPITrajHolonomicPose.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerWaypoint" >TypeDef-PathPlannerWaypoint</h3>
+<p><IMG SRC="PathPlannerWaypoint_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><IMG SRC="PathPlannerWaypoint_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerWaypoint.ctl" ALIGN=BOTTOM></p><br>
+<br>
+</BODY>
+</HTML>

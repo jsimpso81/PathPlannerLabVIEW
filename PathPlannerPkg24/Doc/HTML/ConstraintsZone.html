@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<!-- Constructed with LabVIEW Report Generation -->
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+
+<BODY>
+<h2 id="ConstraintsZone" >ConstraintsZone</h2>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_Equals" >PathPlanner_ConstraintsZone_Equals</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_Equals_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Compares two Constraints Zone definitions<BR>
+<BR>
+ Inputs:<BR>
+  --  ConstraintsZone  - cluster - first definition to compare<BR>
+  -- Other ConstraintsZone  - cluster - other definition to compare<BR>
+<BR>
+Outputs:<BR>
+  -- Equal  - boolean - TRUE if equal.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_ForSegmentIndex" >PathPlanner_ConstraintsZone_ForSegmentIndex</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_ForSegmentIndex_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Transform the positions of this zone for a given segment number.<BR>
+ <BR>
+For example, a zone from [1.5, 2.0] for the segment 1 will have the positions [0.5, 1.0]<BR>
+ <BR>
+Inputs: <BR>
+  --  ConstraintsZone  - cluster - definition of zone<BR>
+  --  segmentIndex  -  int  - The segment index to transform positions for<BR>
+<BR>
+Outputs:<BR>
+  --   NewConstraintsZone  - cluster  - The transformed zone<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_FromJSON" >PathPlanner_ConstraintsZone_FromJSON</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_FromJSON_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create a constraints zone from json<BR>
+ <BR>
+Inputs: <BR>
+  --  JsonString  -  string  -  String containing the JSON to parse.<BR>
+<BR>
+Outputs:<BR>
+  --   ConstraintsZone  -  cluster  -  The constraints zone defined by the given json object<BR>
+  --  Exists  -- boolean  -- True if a constraints zone was found and parsed.</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_GetAll" >PathPlanner_ConstraintsZone_GetAll</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_GetAll_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the elements of the constraints zone cluster.<BR>
+ <BR>
+Inputs:<BR>
+  --  ConstraintsZone  -  cluster  -  Data structure containing constraints zone.<BR>
+<BR>
+Outputs:<BR>
+  --   minWayPointPos  - double  -  Waypoint relative starting position<BR>
+  --  maxWayPointPos  -  double  -  Waypoint relative end position<BR>
+  -- Constaints  -- cluster  -- Constraints to apply within this region.<BR>
+<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_IsWithinZone" >PathPlanner_ConstraintsZone_IsWithinZone</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_IsWithinZone_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get if a given waypoint relative position is within this zone<BR>
+ <BR>
+Inputs:<BR>
+  --  ConstraintsZone  -- cluster  -- data structure containing zone definition. <BR>
+  --  t - double - Waypoint relative position<BR>
+<BR>
+Outputs:<BR>
+  --   WithinZone  - boolean  - True if given position is within this zone<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_New" >PathPlanner_ConstraintsZone_New</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_New_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create a new constraints zone<BR>
+<BR>
+Inputs: <BR>
+  --  minWaypointPos  -  double  -  Starting position of the zone<BR>
+  --  maxWaypointPos  -  double  -  End position of the zone<BR>
+  --  constraints   -  cluster  -  The constraints to apply within the zone<BR>
+<BR>
+Outputs:<BR>
+  --  ConstraintsZone  -  cluster -  data cluster with constraint<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ConstraintsZone_OverlapsRange" >PathPlanner_ConstraintsZone_OverlapsRange</h3>
+<p><IMG SRC="PathPlanner_ConstraintsZone_OverlapsRange_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get if this zone overlaps a given range<BR>
+<BR>
+Inputs:<BR>
+  --  ConstraintsZone  - cluster -  zone definition. <BR>
+  --  minPos - double - The minimum waypoint relative position of the range<BR>
+  --  maxPos - double - The maximum waypoint relative position of the range<BR>
+<BR>
+Outputs:<BR>
+  --   OverlapsRange  - boolean  - True if any part of this zone is within the given range<BR>
+</pre></p>
+<br>
+</BODY>
+</HTML>
