@@ -42,6 +42,7 @@
 		</Item>
 		<Item Name="Controllers" Type="Folder">
 			<Item Name="PathPlanner_Ctrl_HolonomicDrvExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvExecute.vi"/>
+			<Item Name="PathPlanner_Ctrl_LTVExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_LTVExecute.vi"/>
 			<Item Name="PathPlanner_Ctrl_RamseteExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_RamseteExecute.vi"/>
 		</Item>
 		<Item Name="EventMarker" Type="Folder">
