@@ -9,6 +9,9 @@
 	<Property Name="NI_IconEditor" Type="Str">49 57 48 48 56 48 48 53 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 34 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 182 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 255 255 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 4 70 105 108 108 100 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 10 1 0
 
 </Property>
+	<Item Name="Enum" Type="Folder">
+		<Item Name="PathPlanner_CommandUtilType_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_CommandUtilType_ENUM.ctl"/>
+	</Item>
 	<Item Name="Macros" Type="Folder">
 		<Item Name="macro_CreatePathTraj.vi" Type="VI" URL="../Macros/macro_CreatePathTraj.vi"/>
 		<Item Name="macro_ReadPathFileCreateTrajectory.vi" Type="VI" URL="../Macros/macro_ReadPathFileCreateTrajectory.vi"/>
@@ -16,7 +19,7 @@
 		<Item Name="macro_ReadTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadTrajectoryCSVFile.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
-		<Item Name="PathPlannerCommand.ctl" Type="VI" URL="../TypeDef/PathPlannerCommand.ctl"/>
+		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>
 		<Item Name="PathPlannerGoalEndState.ctl" Type="VI" URL="../TypeDef/PathPlannerGoalEndState.ctl"/>
@@ -31,122 +34,133 @@
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
-		<Item Name="ConstraintsZone" Type="Folder">
-			<Item Name="PathPlanner_ConstraintsZone_Equals.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_Equals.vi"/>
-			<Item Name="PathPlanner_ConstraintsZone_ForSegmentIndex.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_ForSegmentIndex.vi"/>
-			<Item Name="PathPlanner_ConstraintsZone_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_FromJSON.vi"/>
-			<Item Name="PathPlanner_ConstraintsZone_GetAll.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_GetAll.vi"/>
-			<Item Name="PathPlanner_ConstraintsZone_IsWithinZone.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_IsWithinZone.vi"/>
-			<Item Name="PathPlanner_ConstraintsZone_New.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_New.vi"/>
-			<Item Name="PathPlanner_ConstraintsZone_OverlapsRange.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_OverlapsRange.vi"/>
+		<Item Name="Commands" Type="Folder"/>
+		<Item Name="CommandUtil" Type="Folder">
+			<Item Name="PathPlanner_CommandUtil_Equals.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_Equals.vi"/>
+			<Item Name="PathPlanner_CommandUtil_TypeFromString.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_TypeFromString.vi"/>
 		</Item>
 		<Item Name="Controllers" Type="Folder">
 			<Item Name="PathPlanner_Ctrl_HolonomicDrvExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvExecute.vi"/>
 			<Item Name="PathPlanner_Ctrl_LTVExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_LTVExecute.vi"/>
 			<Item Name="PathPlanner_Ctrl_RamseteExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_RamseteExecute.vi"/>
 		</Item>
-		<Item Name="EventMarker" Type="Folder">
-			<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
-			<Item Name="PathPlanner_EventMarker_GetCommand.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetCommand.vi"/>
-			<Item Name="PathPlanner_EventMarker_GetMinimumTriggerDistance.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetMinimumTriggerDistance.vi"/>
-			<Item Name="PathPlanner_EventMarker_GetWaypointRelativePos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetWaypointRelativePos.vi"/>
-			<Item Name="PathPlanner_EventMarker_New.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_New.vi"/>
-			<Item Name="PathPlanner_EventMarker_Reset.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_Reset.vi"/>
-			<Item Name="PathPlanner_EventMarker_SetMarkerPos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_SetMarkerPos.vi"/>
-			<Item Name="PathPlanner_EventMarker_ShouldTrigger.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_ShouldTrigger.vi"/>
-		</Item>
-		<Item Name="Followers" Type="Folder">
-			<Item Name="PathFindThemFollowHolonomic" Type="Folder"/>
-			<Item Name="PathFindThenFollowRamsete" Type="Folder"/>
-		</Item>
-		<Item Name="GoalEndState" Type="Folder">
-			<Item Name="PathPlanner_GoalEndState_Equals.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_Equals.vi"/>
-			<Item Name="PathPlanner_GoalEndState_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_FromJSON.vi"/>
-			<Item Name="PathPlanner_GoalEndState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_GetAll.vi"/>
-			<Item Name="PathPlanner_GoalEndState_New.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_New.vi"/>
-		</Item>
 		<Item Name="Path" Type="Folder">
-			<Item Name="PathPlanner_Path_BezierFromPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromPoses.vi"/>
-			<Item Name="PathPlanner_Path_BezierFromWaypointsJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromWaypointsJSON.vi"/>
-			<Item Name="PathPlanner_Path_CreatePath.vi" Type="VI" URL="../VI/PathPlanner_Path_CreatePath.vi"/>
-			<Item Name="PathPlanner_Path_Equals.vi" Type="VI" URL="../VI/PathPlanner_Path_Equals.vi"/>
-			<Item Name="PathPlanner_Path_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_FromJSON.vi"/>
-			<Item Name="PathPlanner_Path_FromPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathFile.vi"/>
-			<Item Name="PathPlanner_Path_FromPathPonts.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathPonts.vi"/>
-			<Item Name="PathPlanner_Path_GetAllPathPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetAllPathPoint.vi"/>
-			<Item Name="PathPlanner_Path_GetConstraintsForPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetConstraintsForPoint.vi"/>
-			<Item Name="PathPlanner_Path_GetCurveRadiusAtPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetCurveRadiusAtPoint.vi"/>
-			<Item Name="PathPlanner_Path_GetEventMarkers.vi" Type="VI" URL="../VI/PathPlanner_Path_GetEventMarkers.vi"/>
-			<Item Name="PathPlanner_Path_GetGlobalConstraints.vi" Type="VI" URL="../VI/PathPlanner_Path_GetGlobalConstraints.vi"/>
-			<Item Name="PathPlanner_Path_GetGoalEndState.vi" Type="VI" URL="../VI/PathPlanner_Path_GetGoalEndState.vi"/>
-			<Item Name="PathPlanner_Path_GetPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPoint.vi"/>
-			<Item Name="PathPlanner_Path_GetPreviewStartingHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPreviewStartingHolonomicPose.vi"/>
-			<Item Name="PathPlanner_Path_GetStartingDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetStartingDifferentialPose.vi"/>
-			<Item Name="PathPlanner_Path_HotReload.vi" Type="VI" URL="../VI/PathPlanner_Path_HotReload.vi"/>
-			<Item Name="PathPlanner_Path_IsReversed.vi" Type="VI" URL="../VI/PathPlanner_Path_IsReversed.vi"/>
-			<Item Name="PathPlanner_Path_MapPct.vi" Type="VI" URL="../VI/PathPlanner_Path_MapPct.vi"/>
-			<Item Name="PathPlanner_Path_New.vi" Type="VI" URL="../VI/PathPlanner_Path_New.vi"/>
-			<Item Name="PathPlanner_Path_New_Empty.vi" Type="VI" URL="../VI/PathPlanner_Path_New_Empty.vi"/>
-			<Item Name="PathPlanner_Path_NumPoints.vi" Type="VI" URL="../VI/PathPlanner_Path_NumPoints.vi"/>
-			<Item Name="PathPlanner_Path_PositionDelta.vi" Type="VI" URL="../VI/PathPlanner_Path_PositionDelta.vi"/>
-			<Item Name="PathPlanner_Path_PreCalcValues.vi" Type="VI" URL="../VI/PathPlanner_Path_PreCalcValues.vi"/>
-		</Item>
-		<Item Name="PathConstraints" Type="Folder">
-			<Item Name="PathPlanner_PathConstraints_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_Equals.vi"/>
-			<Item Name="PathPlanner_PathConstraints_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_FromJSON.vi"/>
-			<Item Name="PathPlanner_PathConstraints_GetAll.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_GetAll.vi"/>
-			<Item Name="PathPlanner_PathConstraints_IsNull.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_IsNull.vi"/>
-			<Item Name="PathPlanner_PathConstraints_New.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_New.vi"/>
-		</Item>
-		<Item Name="PathPoint" Type="Folder">
-			<Item Name="PathPlanner_PathPoint_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_Equals.vi"/>
-			<Item Name="PathPlanner_PathPoint_GetAll.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_GetAll.vi"/>
-			<Item Name="PathPlanner_PathPoint_New.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_New.vi"/>
-		</Item>
-		<Item Name="PathSegment" Type="Folder">
-			<Item Name="PathPlanner_PathSegment_FindConstraintZone.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_FindConstraintZone.vi"/>
-			<Item Name="PathPlanner_PathSegment_GetSegmentPoints.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_GetSegmentPoints.vi"/>
-			<Item Name="PathPlanner_PathSegment_IsPresent.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_IsPresent.vi"/>
-			<Item Name="PathPlanner_PathSegment_New.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_New.vi"/>
-			<Item Name="PathPlanner_PathSegment_Resolution.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_Resolution.vi"/>
-		</Item>
-		<Item Name="RotationTarget" Type="Folder">
-			<Item Name="PathPlanner_RotationTarget_Equals.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_Equals.vi"/>
-			<Item Name="PathPlanner_RotationTarget_ForSegmentIndex.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_ForSegmentIndex.vi"/>
-			<Item Name="PathPlanner_RotationTarget_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_FromJSON.vi"/>
-			<Item Name="PathPlanner_RotationTarget_GetAll.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_GetAll.vi"/>
-			<Item Name="PathPlanner_RotationTarget_New.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_New.vi"/>
-		</Item>
-		<Item Name="Trajectory" Type="Folder">
-			<Item Name="PathPlanner_Trajectory_GenerateStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates.vi"/>
-			<Item Name="PathPlanner_Trajectory_GenerateStates_Pass1.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass1.vi"/>
-			<Item Name="PathPlanner_Trajectory_GenerateStates_Pass2.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass2.vi"/>
-			<Item Name="PathPlanner_Trajectory_GenerateStates_Pass3.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass3.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetEndState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetEndState.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetInitialDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialDifferentialPose.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetInitialState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialState.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetInitialTargetHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialTargetHolonomicPose.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetNextRotationTargetIdx.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetNextRotationTargetIdx.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetState.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetStates.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetTotalTime.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetTotalTime.vi"/>
-			<Item Name="PathPlanner_Trajectory_GetWPITrajectory.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetWPITrajectory.vi"/>
-			<Item Name="PathPlanner_Trajectory_New.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_New.vi"/>
-			<Item Name="PathPlanner_Trajectory_New_States.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_New_States.vi"/>
-			<Item Name="PathPlanner_Trajectory_ReadCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_ReadCSVFile.vi"/>
-			<Item Name="PathPlanner_Trajectory_Sample.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_Sample.vi"/>
-			<Item Name="PathPlanner_Trajectory_WriteCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFile.vi"/>
-			<Item Name="PathPlanner_Trajectory_WriteCSVFileIndividualState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileIndividualState.vi"/>
-			<Item Name="PathPlanner_Trajectory_WriteCSVFileStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileStates.vi"/>
-		</Item>
-		<Item Name="TrajectoryState" Type="Folder">
-			<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetAll.vi"/>
-			<Item Name="PathPlanner_TrajectoryState_GetDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetDifferentialPose.vi"/>
-			<Item Name="PathPlanner_TrajectoryState_GetTargetHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetTargetHolonomicPose.vi"/>
-			<Item Name="PathPlanner_TrajectoryState_GetWPITrajectoryState.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetWPITrajectoryState.vi"/>
-			<Item Name="PathPlanner_TrajectoryState_Interpolate.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Interpolate.vi"/>
-			<Item Name="PathPlanner_TrajectoryState_New.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_New.vi"/>
-			<Item Name="PathPlanner_TrajectoryState_Reverse.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Reverse.vi"/>
+			<Item Name="ConstraintsZone" Type="Folder">
+				<Item Name="PathPlanner_ConstraintsZone_Equals.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_Equals.vi"/>
+				<Item Name="PathPlanner_ConstraintsZone_ForSegmentIndex.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_ForSegmentIndex.vi"/>
+				<Item Name="PathPlanner_ConstraintsZone_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_FromJSON.vi"/>
+				<Item Name="PathPlanner_ConstraintsZone_GetAll.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_GetAll.vi"/>
+				<Item Name="PathPlanner_ConstraintsZone_IsWithinZone.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_IsWithinZone.vi"/>
+				<Item Name="PathPlanner_ConstraintsZone_New.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_New.vi"/>
+				<Item Name="PathPlanner_ConstraintsZone_OverlapsRange.vi" Type="VI" URL="../VI/PathPlanner_ConstraintsZone_OverlapsRange.vi"/>
+			</Item>
+			<Item Name="EventMarker" Type="Folder">
+				<Item Name="PathPlanner_EventMarker_Equals.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_Equals.vi"/>
+				<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
+				<Item Name="PathPlanner_EventMarker_GetCommand.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetCommand.vi"/>
+				<Item Name="PathPlanner_EventMarker_GetMinimumTriggerDistance.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetMinimumTriggerDistance.vi"/>
+				<Item Name="PathPlanner_EventMarker_GetWaypointRelativePos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetWaypointRelativePos.vi"/>
+				<Item Name="PathPlanner_EventMarker_New.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_New.vi"/>
+				<Item Name="PathPlanner_EventMarker_Reset.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_Reset.vi"/>
+				<Item Name="PathPlanner_EventMarker_SetMarkerPos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_SetMarkerPos.vi"/>
+				<Item Name="PathPlanner_EventMarker_ShouldTrigger.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_ShouldTrigger.vi"/>
+			</Item>
+			<Item Name="GoalEndState" Type="Folder">
+				<Item Name="PathPlanner_GoalEndState_Equals.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_Equals.vi"/>
+				<Item Name="PathPlanner_GoalEndState_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_FromJSON.vi"/>
+				<Item Name="PathPlanner_GoalEndState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_GetAll.vi"/>
+				<Item Name="PathPlanner_GoalEndState_New.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_New.vi"/>
+			</Item>
+			<Item Name="Path" Type="Folder">
+				<Item Name="PathPlanner_Path_BezierFromPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromPoses.vi"/>
+				<Item Name="PathPlanner_Path_BezierFromWaypointsJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromWaypointsJSON.vi"/>
+				<Item Name="PathPlanner_Path_CreatePath.vi" Type="VI" URL="../VI/PathPlanner_Path_CreatePath.vi"/>
+				<Item Name="PathPlanner_Path_Equals.vi" Type="VI" URL="../VI/PathPlanner_Path_Equals.vi"/>
+				<Item Name="PathPlanner_Path_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_FromJSON.vi"/>
+				<Item Name="PathPlanner_Path_FromPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathFile.vi"/>
+				<Item Name="PathPlanner_Path_FromPathPonts.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathPonts.vi"/>
+				<Item Name="PathPlanner_Path_GetAllPathPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetAllPathPoint.vi"/>
+				<Item Name="PathPlanner_Path_GetConstraintsForPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetConstraintsForPoint.vi"/>
+				<Item Name="PathPlanner_Path_GetCurveRadiusAtPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetCurveRadiusAtPoint.vi"/>
+				<Item Name="PathPlanner_Path_GetEventMarkers.vi" Type="VI" URL="../VI/PathPlanner_Path_GetEventMarkers.vi"/>
+				<Item Name="PathPlanner_Path_GetGlobalConstraints.vi" Type="VI" URL="../VI/PathPlanner_Path_GetGlobalConstraints.vi"/>
+				<Item Name="PathPlanner_Path_GetGoalEndState.vi" Type="VI" URL="../VI/PathPlanner_Path_GetGoalEndState.vi"/>
+				<Item Name="PathPlanner_Path_GetPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPoint.vi"/>
+				<Item Name="PathPlanner_Path_GetPreviewStartingHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPreviewStartingHolonomicPose.vi"/>
+				<Item Name="PathPlanner_Path_GetStartingDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetStartingDifferentialPose.vi"/>
+				<Item Name="PathPlanner_Path_HotReload.vi" Type="VI" URL="../VI/PathPlanner_Path_HotReload.vi"/>
+				<Item Name="PathPlanner_Path_IsReversed.vi" Type="VI" URL="../VI/PathPlanner_Path_IsReversed.vi"/>
+				<Item Name="PathPlanner_Path_MapPct.vi" Type="VI" URL="../VI/PathPlanner_Path_MapPct.vi"/>
+				<Item Name="PathPlanner_Path_New.vi" Type="VI" URL="../VI/PathPlanner_Path_New.vi"/>
+				<Item Name="PathPlanner_Path_New_Empty.vi" Type="VI" URL="../VI/PathPlanner_Path_New_Empty.vi"/>
+				<Item Name="PathPlanner_Path_NumPoints.vi" Type="VI" URL="../VI/PathPlanner_Path_NumPoints.vi"/>
+				<Item Name="PathPlanner_Path_PositionDelta.vi" Type="VI" URL="../VI/PathPlanner_Path_PositionDelta.vi"/>
+				<Item Name="PathPlanner_Path_PreCalcValues.vi" Type="VI" URL="../VI/PathPlanner_Path_PreCalcValues.vi"/>
+			</Item>
+			<Item Name="PathConstraints" Type="Folder">
+				<Item Name="PathPlanner_PathConstraints_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_Equals.vi"/>
+				<Item Name="PathPlanner_PathConstraints_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_FromJSON.vi"/>
+				<Item Name="PathPlanner_PathConstraints_GetAll.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_GetAll.vi"/>
+				<Item Name="PathPlanner_PathConstraints_IsNull.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_IsNull.vi"/>
+				<Item Name="PathPlanner_PathConstraints_New.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_New.vi"/>
+			</Item>
+			<Item Name="PathPoint" Type="Folder">
+				<Item Name="PathPlanner_PathPoint_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_Equals.vi"/>
+				<Item Name="PathPlanner_PathPoint_GetAll.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_GetAll.vi"/>
+				<Item Name="PathPlanner_PathPoint_New.vi" Type="VI" URL="../VI/PathPlanner_PathPoint_New.vi"/>
+			</Item>
+			<Item Name="PathSegment" Type="Folder">
+				<Item Name="PathPlanner_PathSegment_FindConstraintZone.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_FindConstraintZone.vi"/>
+				<Item Name="PathPlanner_PathSegment_GetSegmentPoints.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_GetSegmentPoints.vi"/>
+				<Item Name="PathPlanner_PathSegment_New.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_New.vi"/>
+				<Item Name="PathPlanner_PathSegment_Resolution.vi" Type="VI" URL="../VI/PathPlanner_PathSegment_Resolution.vi"/>
+			</Item>
+			<Item Name="RotationTarget" Type="Folder">
+				<Item Name="PathPlanner_RotationTarget_Equals.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_Equals.vi"/>
+				<Item Name="PathPlanner_RotationTarget_ForSegmentIndex.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_ForSegmentIndex.vi"/>
+				<Item Name="PathPlanner_RotationTarget_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_FromJSON.vi"/>
+				<Item Name="PathPlanner_RotationTarget_GetAll.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_GetAll.vi"/>
+				<Item Name="PathPlanner_RotationTarget_New.vi" Type="VI" URL="../VI/PathPlanner_RotationTarget_New.vi"/>
+			</Item>
+			<Item Name="Trajectory" Type="Folder">
+				<Item Name="PathPlanner_Trajectory_GenerateStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates.vi">
+					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+				</Item>
+				<Item Name="PathPlanner_Trajectory_GenerateStates_Pass1.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass1.vi">
+					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+				</Item>
+				<Item Name="PathPlanner_Trajectory_GenerateStates_Pass2.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass2.vi">
+					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+				</Item>
+				<Item Name="PathPlanner_Trajectory_GenerateStates_Pass3.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass3.vi">
+					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+				</Item>
+				<Item Name="PathPlanner_Trajectory_GetEndState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetEndState.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetInitialDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialDifferentialPose.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetInitialState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialState.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetInitialTargetHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialTargetHolonomicPose.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetNextRotationTargetIdx.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetNextRotationTargetIdx.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetState.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetStates.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetTotalTime.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetTotalTime.vi"/>
+				<Item Name="PathPlanner_Trajectory_GetWPITrajectory.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetWPITrajectory.vi"/>
+				<Item Name="PathPlanner_Trajectory_New.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_New.vi"/>
+				<Item Name="PathPlanner_Trajectory_New_States.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_New_States.vi"/>
+				<Item Name="PathPlanner_Trajectory_ReadCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_ReadCSVFile.vi"/>
+				<Item Name="PathPlanner_Trajectory_Sample.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_Sample.vi"/>
+				<Item Name="PathPlanner_Trajectory_WriteCSVFile.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFile.vi"/>
+				<Item Name="PathPlanner_Trajectory_WriteCSVFileIndividualState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileIndividualState.vi"/>
+				<Item Name="PathPlanner_Trajectory_WriteCSVFileStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileStates.vi"/>
+			</Item>
+			<Item Name="TrajectoryState" Type="Folder">
+				<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetAll.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_GetDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetDifferentialPose.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_GetTargetHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetTargetHolonomicPose.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_GetWPITrajectoryState.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetWPITrajectoryState.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_Interpolate.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Interpolate.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_New.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_New.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_Reverse.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Reverse.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
 			<Item Name="GeomUtil" Type="Folder">

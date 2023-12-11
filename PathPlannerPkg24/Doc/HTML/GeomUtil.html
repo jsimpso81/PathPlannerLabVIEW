@@ -10,7 +10,16 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_CalculateRadius" >PathPlanner_GeomUtil_CalculateRadius</h3>
 <p><IMG SRC="PathPlanner_GeomUtil_CalculateRadius_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Calculate the curve radius given 3 points on the curve<BR>
+ <BR>
+Inputs: <BR>
+  -  a - translation2d - Point A<BR>
+  -  b - translation2d - Point B<BR>
+  -  c - translation2d - Point C<BR>
+<BR>
+Outputs:<BR>
+  -  Radius - double - Curve radius<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_CoerceHeadingDegrees" >PathPlanner_GeomUtil_CoerceHeadingDegrees</h3>
@@ -25,27 +34,74 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_CubicLerp" >PathPlanner_GeomUtil_CubicLerp</h3>
 <p><IMG SRC="PathPlanner_GeomUtil_CubicLerp_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Cubic interpolation between Translation2ds<BR>
+ <BR>
+Inputs: <BR>
+  -  a - translation2d - Position 1<BR>
+  -  b - translation2d - Position 2<BR>
+  -  c - translation2d - Position 3<BR>
+  -  t - double - Interpolation factor (0.0-1.0)<BR>
+<BR>
+Outputs:<BR>
+  -  Lerp - translation2d - Interpolated value<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_DoubleLerp" >PathPlanner_GeomUtil_DoubleLerp</h3>
 <p><IMG SRC="PathPlanner_GeomUtil_DoubleLerp_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Interpolate between two doubles<BR>
+<BR>
+Inputs: <BR>
+  -  startVal - double - Start value<BR>
+  -  endVal - double -  End value<BR>
+  -  t - double -  Interpolation factor (0.0-1.0)<BR>
+<BR>
+Outputs:<BR>
+  -  Lerp - double - Interpolated  value<BR>
+ <BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_QuadraticLerp" >PathPlanner_GeomUtil_QuadraticLerp</h3>
 <p><IMG SRC="PathPlanner_GeomUtil_QuadraticLerp_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Quadratic interpolation between Translation2ds<BR>
+ <BR>
+Inputs: <BR>
+  -  a - translation2d - Position 1<BR>
+  -  b - translation2d - Position 2<BR>
+  -  c - translation2d - Position 3<BR>
+  -  d - translation2d - Position 4<BR>
+  -  t - double - Interpolation factor (0.0-1.0)<BR>
+<BR>
+Outputs:<BR>
+  -  Lerp - translation2d - Interpolated value<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_RotationLerp" >PathPlanner_GeomUtil_RotationLerp</h3>
 <p><IMG SRC="PathPlanner_GeomUtil_RotationLerp_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Interpolate between two Rotation2ds<BR>
+ <BR>
+Inputs: <BR>
+  -  startVal - rotation2d - Start value<BR>
+  -  endVal - rotation2d - End value<BR>
+  -  t - double - Interpolation factor (0.0-1.0)<BR>
+<BR>
+Outputs:<BR>
+  -  Lerp  - rotation2d - Interpolated value<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_GeomUtil_TranslationLerp" >PathPlanner_GeomUtil_TranslationLerp</h3>
 <p><IMG SRC="PathPlanner_GeomUtil_TranslationLerp_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Inputs: <BR>
+  -  a - translation2d - Position 1<BR>
+  -  b - translation2d - Position 2<BR>
+  -  t - double - Interpolation factor (0.0-1.0)<BR>
+<BR>
+Outputs:<BR>
+  -  lerp  - translation2d - Interpolated value<BR>
+</pre></p>
 <br>
 </BODY>
 </HTML>

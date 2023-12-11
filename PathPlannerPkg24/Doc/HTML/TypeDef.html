@@ -8,10 +8,10 @@
 <BODY>
 <h2 id="TypeDef" >TypeDef</h2>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
-<h3 id="TypeDef-PathPlannerCommand" >TypeDef-PathPlannerCommand</h3>
-<p><IMG SRC="PathPlannerCommand_iconc.png"  ALIGN=BOTTOM></p>
+<h3 id="TypeDef-PathPlannerCommandUtil" >TypeDef-PathPlannerCommandUtil</h3>
+<p><IMG SRC="PathPlannerCommandUtil_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
-<p><IMG SRC="PathPlannerCommand_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerCommand.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerCommandUtil_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerCommandUtil.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerConstraintsZone" >TypeDef-PathPlannerConstraintsZone</h3>
@@ -29,12 +29,14 @@ Contains:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerEventMarker" >TypeDef-PathPlannerEventMarker</h3>
 <p><IMG SRC="PathPlannerEventMarker_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Describes the goal end state of the robot when finishing a path<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Position along the path that will trigger a command when reached<BR>
 <BR>
-contains:<BR>
-<BR>
-  double velocity<BR>
-  Rotation2d rotation<BR>
+Contains<BR>
+  -  WayPointRelativePose - double<BR>
+  -  Command - cluster<BR>
+  -  MinimumTriggerDistance - double<BR>
+  -  MarkerPos - translation2d<BR>
+  -  LastRobotPos - translation2d<BR>
 <BR>
 </pre></p>
 <p><IMG SRC="PathPlannerEventMarker_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerEventMarker.ctl" ALIGN=BOTTOM></p><br>
@@ -62,6 +64,13 @@ contains:<BR>
 <p><IMG SRC="PathPlannerPathConstraints_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Kinematic path following constraints<BR>
 <BR>
+Contains:<BR>
+  -  Max Velocity (Meters/Second)<BR>
+  -  Max Acceleration (Meters/Second^2)<BR>
+  -  Max Angular Velocity (Radians/Second)<BR>
+  -  Max Angular Acceleration (Radians/Second^2)<BR>
+  - Exists - boolean - flag indicating this data is not NULL<BR>
+<BR>
 </pre></p>
 <p><IMG SRC="PathPlannerPathConstraints_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathConstraints.ctl" ALIGN=BOTTOM></p><br>
 <br>
@@ -83,55 +92,50 @@ Contains:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerPathSegment" >TypeDef-PathPlannerPathSegment</h3>
 <p><IMG SRC="PathPlannerPathSegment_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">A bezier curve segment<BR>
+<BR>
+Contains:<BR>
+  -  SegmentPoints - array - Array of PathPoints<BR>
+</pre></p>
 <p><IMG SRC="PathPlannerPathSegment_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathSegment.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerRotationTarget" >TypeDef-PathPlannerRotationTarget</h3>
 <p><IMG SRC="PathPlannerRotationTarget_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">A target holonomic rotation at a position along a path<BR>
+<BR>
+Contains:<BR>
+  -  waypointRelativePosition - double<BR>
+  -  target - rotation2d<BR>
+  -  exists - boolean - TRUE if not null</pre></p>
 <p><IMG SRC="PathPlannerRotationTarget_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerRotationTarget.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerTrajectory" >TypeDef-PathPlannerTrajectory</h3>
 <p><IMG SRC="PathPlannerTrajectory_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Trajectory created from a pathplanner path<BR>
+<BR>
+Contains:<BR>
+  -  States - array - List of trajectory states<BR>
+</pre></p>
 <p><IMG SRC="PathPlannerTrajectory_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerTrajectory.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerTrajectoryState" >TypeDef-PathPlannerTrajectoryState</h3>
 <p><IMG SRC="PathPlannerTrajectoryState_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">PathPlanner Trajectory State<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">A state along the trajectory<BR>
 <BR>
-    --  The time at this state in seconds <BR>
-    timeSeconds;<BR>
-<BR>
-    -- The velocity at this state in m/s<BR>
-    velocityMps<BR>
-<BR>
-    -- The acceleration at this state in m/s^2<BR>
-    accelerationMpsSq<BR>
-<BR>
-    --  ????<BR>
-    headingAngularVelocityRps<BR>
-<BR>
-    --  The position at this state in meters<BR>
-    positionMeters<BR>
-<BR>
-    -- The heading (direction of travel) at this state<BR>
-    heading<BR>
-<BR>
-    -- The target holonomic rotation at this state<BR>
-    targetHolonomicRotation<BR>
-<BR>
-    -- The curvature at this state in rad/m<BR>
-    curvatureRadPerMeter<BR>
-<BR>
-    -- The constraints to apply at this state<BR>
-    constraints<BR>
-<BR>
-    -- Values only used during generation<BR>
-    deltaPos<BR>
+Contains:<BR>
+  -  timeSeconds - double - The time at this state in seconds<BR>
+  -  velocityMps - double - The velocity at this state in m/s<BR>
+  -  accelerationMpsSq - double - The acceleration at this state in m/s^2<BR>
+  -  headingAngularVelociyRPS - double - The time at this state in seconds<BR>
+  -  positionMeters - translation2d - The position at this state in meters<BR>
+  -  heading - rotation2d - The heading (direction of travel) at this state<BR>
+  -  targetHolonomicRotation - rotation2d - The target holonomic rotation (orientation) at this state<BR>
+  -  curvatureRadPerMeter - double - The curvature at this state in rad/m<BR>
+  -  constraints - pathconstraints - The constraints to apply at this state<BR>
+  -  deltaPos - double - Values only used during generation<BR>
 </pre></p>
 <p><IMG SRC="PathPlannerTrajectoryState_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerTrajectoryState.ctl" ALIGN=BOTTOM></p><br>
 <br>

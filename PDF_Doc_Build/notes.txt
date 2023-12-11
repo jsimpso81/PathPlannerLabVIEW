@@ -14,8 +14,7 @@ source library
 C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\VI
 
 second source library
-C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\VI2
-
+ -- none - turn off use second directory switch
 
 TYPEDEF
 -------
@@ -28,8 +27,6 @@ C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\TypeDef
 
 ENUM
 -------
-Currently there aren't any, but if there where these are the directories.
-
 output
 C:\Shares\github\PathPlannerLabVIEW\Temp2
 

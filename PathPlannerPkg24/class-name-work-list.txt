@@ -2,6 +2,24 @@
 Based on Beta 5 with updates from Nov 9 - 461 and 460
 source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\java\com\pathplanner\lib\path
 
+
+Work list:
+	doc for existing (all but path)
+	path replan
+	examples
+	replanning config
+	commands/FollowPath(base for next three)
+	commands/FollowHolonomicPath 
+	commands/FollowLTVPath 
+	commands/FollowRamsetePath 
+	commands/FollowHolonomicPathWithEvents (add events)
+	commands/FollowLTVPathWithEvents (add events)
+	commands/FollowRamsetePathWithEvents (add events)
+	commands/FindFollowHolonomicPathWithEvents
+	commands/FindFollowLTVPathWithEvents
+	commands/FindFollowRamsetePathWithEvents
+	ADStar (labview already has an implementation, can it be used?)
+
 X - completely done
 / - partially done -- notes indicate what isn't done.
 ! - major work to do
@@ -13,8 +31,7 @@ created done	doc	Java class			labview name prefix
 
 X	X	X	path/ConstraintsZone			PathPlanner_ConstraintsZone
 
-X	/	-	path/EventMarker
-				not done	equals
+X	X	X	path/EventMarker			PathPlanner_EventMarker
 
 X	X	X	path/GoalEndState			PathPlanner_GoalEndState
 
@@ -23,40 +40,54 @@ X	X	X	path/PathConstraints			PathPlanner_PathConstraints
 X	/	-	path/PathPlannerPath			PathPlanner_Path
 				dont need	pointFromJson
 				not done	replan
-				not done	equals
 				mostly		fromPathFile (doesn't do telemetry)
 			
 
-X	X	-	path/PathPlannerTrajectory		PathPlanner_Trajectory
+X	X	X	path/PathPlannerTrajectory		PathPlanner_Trajectory
 			x	enhance		readCSVFile
 			x	enhance		wrteCSVFile
 
-X	X	-	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
+X	X	X	path/PathPlannerTrajectory.State	PathPlanner_TrajectoryState
 			x	enhance		getWPITrajectoryState (wpilib state) --> NOT IN PP LIB
 
 X	X	X	path/PathPoint				PathPlanner_PathPoint
 
-X	X	-	path/PathSegment			PathPlanner_PathSegment
+X	X	X	path/PathSegment			PathPlanner_PathSegment
 
-X	X	-	path/RotationTarget			PathPlanner_RotationTarget
+X	X	X	path/RotationTarget			PathPlanner_RotationTarget
 
 
--	-	-	util/ChassisSpeedRateLimit		
+-	-	-	util/ChassisSpeedRateLimit	(not used anywhere)		
 
-X	X	-	util/GeometryUtil
+X	X	X	util/GeometryUtil
 
 NO	NO	NO	controllers/PathFollowingController	-- interface
 
--	-	-	controllers/PPHolonomicDriveController
+X	X	-	controllers/PPHolonomicDriveController
 
--	-	-	controllers/PPLTVController
+X	X	-	controllers/PPLTVController
 
 X	X	-	controllers/PPRamseteController
+
+			commands/FollowPath(base for next three)
+			commands/FollowHolonomicPath 
+			commands/FollowLTVPath 
+			commands/FollowRamsetePath 
+			commands/FollowHolonomicPathWithEvents (add events)
+			commands/FollowLTVPathWithEvents (add events)
+			commands/FollowRamsetePathWithEvents (add events)
+			commands/FindFollowHolonomicPathWithEvents
+			commands/FindFollowLTVPathWithEvents
+			commands/FindFollowRamsetePathWithEvents
+
+			commands/RunAuto
+
 
 			util/HolonomicPathFollowerConfig
 			util/PathPlannerLogging
 			util/PIDConstants
 			util/PPLibTelemetry
+
 			util/ReplanningConfig
 
 			pathfinding/LocalADStar

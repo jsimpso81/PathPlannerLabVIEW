@@ -30,80 +30,101 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetEndState" >PathPlanner_Trajectory_GetEndState</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetEndState_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the end state of the path<BR>
-<BR>
-Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the end state of the trajectory<BR>
+ <BR>
+Inputs: <BR>
+  -  Trajectory - cluster - trajectory definition<BR>
 <BR>
 Outputs:<BR>
-   - PathPlannerState  --  The last state in the path<BR>
-<BR>
+  -  EndState - trajectoryState - The end state<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetInitialDifferentialPose" >PathPlanner_Trajectory_GetInitialDifferentialPose</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetInitialDifferentialPose_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
-Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get this initial pose for a differential drivetrain<BR>
+ <BR>
+Inputs: <BR>
+  -  Trajectory - cluster - trajectory definition<BR>
 <BR>
 Outputs:<BR>
-<BR>
+  -  DifferentialPose - pose2d - The initial pose<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetInitialState" >PathPlanner_Trajectory_GetInitialState</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetInitialState_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the initial state of the path<BR>
-<BR>
-Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the initial state of the trajectory<BR>
+ <BR>
+Inputs: <BR>
+  -  Trajectory - cluster - trajectory definition<BR>
 <BR>
 Outputs:<BR>
-   - PathPlannerState  --  The first state in the path<BR>
-<BR>
+  -  InitialState - trajectoryState - The initial state<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetInitialTargetHolonomicPose" >PathPlanner_Trajectory_GetInitialTargetHolonomicPose</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetInitialTargetHolonomicPose_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
-Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the initial target pose for a holonomic drivetrain NOTE: This is a "target" pose, meaning the rotation will be the value of the next rotation target along the path, not what the rotation should be at the start of the path<BR>
+ <BR>
+Inputs: <BR>
+  -  Trajectory - cluster - trajectory definition<BR>
 <BR>
 Outputs:<BR>
-<BR>
+  -  TargetHolonomicPose - pose2d - The initial target pose<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetNextRotationTargetIdx" >PathPlanner_Trajectory_GetNextRotationTargetIdx</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetNextRotationTargetIdx_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"><BR>
+<BR>
+Inputs: <BR>
+  - trajectory - cluster - trajectory definition<BR>
+<BR>
+Outputs:<BR>
+  - NextRotationTargetIndex - integer - <BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetState" >PathPlanner_Trajectory_GetState</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetState_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get a state in the path based on its index.   <BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the goal state at the given index<BR>
 <BR>
-In most cases, using sample() is a better method.<BR>
+In most (all) cases, using sample() is a better method.<BR>
 <BR>
 Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
+   --  Traectory  -- PathPlanner Trajectory data cluster<BR>
    -- index  --  The index of the state to retrieve<BR>
 <BR>
 Outputs:<BR>
-   - PathPlannerState  --  The state at the given index<BR>
+   - TrajectoryState  --  The state at the given index<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetStates" >PathPlanner_Trajectory_GetStates</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetStates_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get all of the pre-generated states in the trajectory<BR>
+ <BR>
+Inputs: <BR>
+  -  Trajectory - cluster - trajectory definition<BR>
+<BR>
+Outputs:<BR>
+  - TrajectoryStates - array - List of all states<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetTotalTime" >PathPlanner_Trajectory_GetTotalTime</h3>
 <p><IMG SRC="PathPlanner_Trajectory_GetTotalTime_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the total run time of the trajectory<BR>
+ <BR>
+Inputs: <BR>
+  -  Trajectory - cluster - trajectory definition<BR>
+<BR>
+Outputs:<BR>
+  - TotalTime - seconds -  Total run time in seconds<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_GetWPITrajectory" >PathPlanner_Trajectory_GetWPITrajectory</h3>
@@ -120,12 +141,25 @@ Outputs<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_New" >PathPlanner_Trajectory_New</h3>
 <p><IMG SRC="PathPlanner_Trajectory_New_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Generate a PathPlannerTrajectory<BR>
+<BR>
+Inputs: <BR>
+  -  path - cluster - path to generate the trajectory for<BR>
+  -  startingSpeeds - chassis speeds - Starting speeds of the robot when starting the trajectory<BR>
+<BR>
+Outputs:<BR>
+  - trajectory - cluster - created trajectory data</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_New_States" >PathPlanner_Trajectory_New_States</h3>
 <p><IMG SRC="PathPlanner_Trajectory_New_States_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Generate a PathPlannerTrajectory<BR>
+<BR>
+Inputs: <BR>
+  - PathPlannerStates - array of TrajectoryStates - States to use to create this trajectory/<BR>
+<BR>
+Outputs:<BR>
+  - trajectory - cluster - created trajectory data</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_ReadCSVFile" >PathPlanner_Trajectory_ReadCSVFile</h3>
@@ -157,14 +191,14 @@ Notes on file contents:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Trajectory_Sample" >PathPlanner_Trajectory_Sample</h3>
 <p><IMG SRC="PathPlanner_Trajectory_Sample_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Sample the path at a point in time<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the target state at the given point in time along the trajectory<BR>
 <BR>
 Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
-   -- time  --  The time to sample<BR>
+   --  PathPlannerTraectory  -- trajectory - PathPlanner Trajectory data cluster<BR>
+   -- time  --  double - The time to sample<BR>
 <BR>
 Outputs:<BR>
-   - PathPlannerState  --  The state at the given point in time<BR>
+   - PathPlannerState  - trajectorystate -  The state at the given point in time<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">

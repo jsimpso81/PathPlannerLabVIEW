@@ -10,27 +10,54 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_PathSegment_FindConstraintZone" >PathPlanner_PathSegment_FindConstraintZone</h3>
 <p><IMG SRC="PathPlanner_PathSegment_FindConstraintZone_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Find a constraints zone within this path segment.<BR>
+<BR>
+Inputs: <BR>
+  -  PathSegment - cluster - Data defining path segment<BR>
+  -  Zones - array - List of constraint zones to search.<BR>
+<BR>
+Outputs:<BR>
+  -  ReturnedZone - cluster - Found constraints zone definition.<BR>
+  -  IsPresent - boolean - TRUE if a constraints zone was found.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_PathSegment_GetSegmentPoints" >PathPlanner_PathSegment_GetSegmentPoints</h3>
 <p><IMG SRC="PathPlanner_PathSegment_GetSegmentPoints_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
-<br>
-<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
-<h3 id="PathPlanner_PathSegment_IsPresent" >PathPlanner_PathSegment_IsPresent</h3>
-<p><IMG SRC="PathPlanner_PathSegment_IsPresent_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get the path points for this segment<BR>
+ <BR>
+Inputs: <BR>
+  -  PathSegment - cluster - Data defining path segment<BR>
+<BR>
+Outputs:<BR>
+  -  SetmentPoint - array - points for this segment<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_PathSegment_New" >PathPlanner_PathSegment_New</h3>
 <p><IMG SRC="PathPlanner_PathSegment_New_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Generate a new path segment<BR>
+<BR>
+Inputs: <BR>
+  -  p1 - translation2d - Start anchor point<BR>
+  -  p2 - translation2d -  Start next control<BR>
+  -  p3 - translation2d -  End prev control<BR>
+  -  p4 - translation2d -  End anchor point<BR>
+  -  targetHolonomicRotations - array Rotation targets for within this segment (Optional. Default: empty)<BR>
+  -  constraintZones  - array - Constraint zones for within this segment (Optional.  Default: empty)<BR>
+  -  endSegment - boolean - Is this the last segment in the path<BR>
+<BR>
+Outputs:<BR>
+  -  Segment - cluster - Data defining path segment<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_PathSegment_Resolution" >PathPlanner_PathSegment_Resolution</h3>
 <p><IMG SRC="PathPlanner_PathSegment_Resolution_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">The resolution used during path generation<BR>
+<BR>
+Outputs:<BR>
+  - Resolution - double</pre></p>
 <br>
 </BODY>
 </HTML>
