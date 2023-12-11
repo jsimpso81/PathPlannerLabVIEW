@@ -1,3 +1,13 @@
+Process to build documentation
+1) delete files in TEMP and TEMP2 subdirectories
+2) Run VI doc builder program as described below.
+3) Update ODT document.  If there are new function categories they will need to be inserted (Insert HTML file) into the document.  Save ODT and export to PDF.
+4) If there are new categories the index.html file will need to be udpated.
+5) delete all the files (not directories) under the DOC folder in the package project directoy
+7) Copy the PDF and index.html to the DOC folder (html under html subdirectory)
+8) Copy the TEMP and TEMP2 folders to the DOC folder html subfolder.
+9) Rebuild package.
+
 destinations for temp build of pdf doc..
 
 Uses WPILIB LabVIEW Math documentation builder....  Open project file

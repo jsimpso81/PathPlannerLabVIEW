@@ -4,17 +4,18 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 
 
 Work list:
-	doc for existing (all but path)
 	path replan
+	controller holonomic - finish
 	examples
 	replanning config
-	commands/FollowPath(base for next three)
+	- nothing really to do - commands/FollowPath(base for next three)
 	commands/FollowHolonomicPath 
 	commands/FollowLTVPath 
 	commands/FollowRamsetePath 
 	commands/FollowHolonomicPathWithEvents (add events)
 	commands/FollowLTVPathWithEvents (add events)
 	commands/FollowRamsetePathWithEvents (add events)
+
 	commands/FindFollowHolonomicPathWithEvents
 	commands/FindFollowLTVPathWithEvents
 	commands/FindFollowRamsetePathWithEvents

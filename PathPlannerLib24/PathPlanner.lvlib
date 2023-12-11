@@ -19,6 +19,7 @@
 		<Item Name="macro_ReadTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadTrajectoryCSVFile.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
+		<Item Name="_Obsolete_PathPlannerWaypoint.ctl" Type="VI" URL="../TypeDef/_Obsolete_PathPlannerWaypoint.ctl"/>
 		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>
@@ -30,7 +31,6 @@
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
 		<Item Name="PathPlannerTrajectoryState.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryState.ctl"/>
-		<Item Name="PathPlannerWaypoint.ctl" Type="VI" URL="../TypeDef/PathPlannerWaypoint.ctl"/>
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
@@ -96,6 +96,10 @@
 				<Item Name="PathPlanner_Path_NumPoints.vi" Type="VI" URL="../VI/PathPlanner_Path_NumPoints.vi"/>
 				<Item Name="PathPlanner_Path_PositionDelta.vi" Type="VI" URL="../VI/PathPlanner_Path_PositionDelta.vi"/>
 				<Item Name="PathPlanner_Path_PreCalcValues.vi" Type="VI" URL="../VI/PathPlanner_Path_PreCalcValues.vi"/>
+				<Item Name="PathPlanner_Path_RePlan.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan.vi"/>
+				<Item Name="PathPlanner_Path_RePlan_Worker1.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker1.vi"/>
+				<Item Name="PathPlanner_Path_RePlan_Worker2.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker2.vi"/>
+				<Item Name="PathPlanner_Path_RePlan_Worker3.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker3.vi"/>
 			</Item>
 			<Item Name="PathConstraints" Type="Folder">
 				<Item Name="PathPlanner_PathConstraints_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_Equals.vi"/>
