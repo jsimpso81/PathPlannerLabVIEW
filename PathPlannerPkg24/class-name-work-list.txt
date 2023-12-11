@@ -6,9 +6,11 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 Work list:
 	path replan
 	controller holonomic - finish
-	examples
+	examples (some done, package built)
 	replanning config
-	- nothing really to do - commands/FollowPath(base for next three)
+	look at adding holonomic rotational velocity to trajectory state
+	build path with all different event marker variation to ensure parsing.
+	commands/FollowPath(base for next three) - nothing really to do - 
 	commands/FollowHolonomicPath 
 	commands/FollowLTVPath 
 	commands/FollowRamsetePath 
