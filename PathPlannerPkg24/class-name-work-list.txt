@@ -5,9 +5,7 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 
 Work list:
 	path replan
-	controller holonomic - finish
 	examples (some done, package built)
-	replanning config
 	look at adding holonomic rotational velocity to trajectory state
 	build path with all different event marker variation to ensure parsing.
 	commands/FollowPath(base for next three) - nothing really to do - 
@@ -62,6 +60,7 @@ X	X	X	path/RotationTarget			PathPlanner_RotationTarget
 
 -	-	-	util/ChassisSpeedRateLimit	(not used anywhere)		
 
+created done	doc	Java class			labview name prefix
 X	X	X	util/GeometryUtil
 
 NO	NO	NO	controllers/PathFollowingController	-- interface
@@ -71,6 +70,8 @@ X	X	-	controllers/PPHolonomicDriveController
 X	X	-	controllers/PPLTVController
 
 X	X	-	controllers/PPRamseteController
+
+X	X	-	util/ReplanningConfig
 
 			commands/FollowPath(base for next three)
 			commands/FollowHolonomicPath 
@@ -85,25 +86,17 @@ X	X	-	controllers/PPRamseteController
 
 			commands/RunAuto
 
-
 			util/HolonomicPathFollowerConfig
 			util/PathPlannerLogging
 			util/PIDConstants
 			util/PPLibTelemetry
 
-			util/ReplanningConfig
-
 			pathfinding/LocalADStar
 			pathfinding/Pathfinder
 			pathfinding/Pathfinding
 
-
 			auto/... not now
 			commands/... not now
-
-		
-
-		
 
 		
 		

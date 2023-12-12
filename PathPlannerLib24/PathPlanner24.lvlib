@@ -28,6 +28,7 @@
 		<Item Name="PathPlannerPathConstraints.ctl" Type="VI" URL="../TypeDef/PathPlannerPathConstraints.ctl"/>
 		<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="../TypeDef/PathPlannerPathPoint.ctl"/>
 		<Item Name="PathPlannerPathSegment.ctl" Type="VI" URL="../TypeDef/PathPlannerPathSegment.ctl"/>
+		<Item Name="PathPlannerReplanningConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerReplanningConfig.ctl"/>
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
 		<Item Name="PathPlannerTrajectoryState.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryState.ctl"/>
@@ -176,6 +177,10 @@
 				<Item Name="PathPlanner_GeomUtil_QuadraticLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_QuadraticLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_RotationLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_RotationLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_TranslationLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_TranslationLerp.vi"/>
+			</Item>
+			<Item Name="ReplanningConfig" Type="Folder">
+				<Item Name="PathPlanner_ReplanningConfig_GetAll.vi" Type="VI" URL="../VI/PathPlanner_ReplanningConfig_GetAll.vi"/>
+				<Item Name="PathPlanner_ReplanningConfig_New.vi" Type="VI" URL="../VI/PathPlanner_ReplanningConfig_New.vi"/>
 			</Item>
 		</Item>
 		<Item Name="WPIHolonomicPose" Type="Folder">
