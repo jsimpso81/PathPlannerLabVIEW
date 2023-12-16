@@ -75,6 +75,7 @@
 			<Item Name="Path" Type="Folder">
 				<Item Name="PathPlanner_Path_BezierFromPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromPoses.vi"/>
 				<Item Name="PathPlanner_Path_BezierFromWaypointsJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromWaypointsJSON.vi"/>
+				<Item Name="PathPlanner_Path_BezierToWaypoints.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierToWaypoints.vi"/>
 				<Item Name="PathPlanner_Path_CreatePath.vi" Type="VI" URL="../VI/PathPlanner_Path_CreatePath.vi"/>
 				<Item Name="PathPlanner_Path_Equals.vi" Type="VI" URL="../VI/PathPlanner_Path_Equals.vi"/>
 				<Item Name="PathPlanner_Path_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_FromJSON.vi"/>
@@ -101,6 +102,7 @@
 				<Item Name="PathPlanner_Path_RePlan_Worker1.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker1.vi"/>
 				<Item Name="PathPlanner_Path_RePlan_Worker2.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker2.vi"/>
 				<Item Name="PathPlanner_Path_RePlan_Worker3.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker3.vi"/>
+				<Item Name="PathPlanner_Path_ToPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_ToPathFile.vi"/>
 			</Item>
 			<Item Name="PathConstraints" Type="Folder">
 				<Item Name="PathPlanner_PathConstraints_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_Equals.vi"/>
