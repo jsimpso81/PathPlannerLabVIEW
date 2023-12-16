@@ -462,56 +462,7 @@ DirectoryIndex index.htm
 				<Item Name="NT Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String.vi"/>
 				<Item Name="NT Write Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Value.vi"/>
 				<Item Name="NT Write Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Variant.vi"/>
-				<Item Name="PathPlanner.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/PathPlanner.lvlib"/>
-				<Item Name="PathPlanner_CommandUtilType_ENUM.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/ENum/PathPlanner_CommandUtilType_ENUM.ctl"/>
-				<Item Name="PathPlanner_ConstraintsZone_ForSegmentIndex.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_ConstraintsZone_ForSegmentIndex.vi"/>
-				<Item Name="PathPlanner_ConstraintsZone_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_ConstraintsZone_GetAll.vi"/>
-				<Item Name="PathPlanner_ConstraintsZone_IsWithinZone.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_ConstraintsZone_IsWithinZone.vi"/>
-				<Item Name="PathPlanner_ConstraintsZone_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_ConstraintsZone_New.vi"/>
-				<Item Name="PathPlanner_ConstraintsZone_OverlapsRange.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_ConstraintsZone_OverlapsRange.vi"/>
-				<Item Name="PathPlanner_EventMarker_SetMarkerPos.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_EventMarker_SetMarkerPos.vi"/>
-				<Item Name="PathPlanner_GeomUtil_CalculateRadius.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GeomUtil_CalculateRadius.vi"/>
-				<Item Name="PathPlanner_GeomUtil_CubicLerp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GeomUtil_CubicLerp.vi"/>
-				<Item Name="PathPlanner_GeomUtil_DoubleLerp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GeomUtil_DoubleLerp.vi"/>
-				<Item Name="PathPlanner_GeomUtil_QuadraticLerp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GeomUtil_QuadraticLerp.vi"/>
-				<Item Name="PathPlanner_GeomUtil_RotationLerp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GeomUtil_RotationLerp.vi"/>
-				<Item Name="PathPlanner_GeomUtil_TranslationLerp.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GeomUtil_TranslationLerp.vi"/>
-				<Item Name="PathPlanner_GoalEndState_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_GoalEndState_New.vi"/>
-				<Item Name="PathPlanner_Path_CreatePath.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_CreatePath.vi"/>
-				<Item Name="PathPlanner_Path_GetCurveRadiusAtPoint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_GetCurveRadiusAtPoint.vi"/>
-				<Item Name="PathPlanner_Path_GetGlobalConstraints.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_GetGlobalConstraints.vi"/>
-				<Item Name="PathPlanner_Path_GetPoint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_GetPoint.vi"/>
-				<Item Name="PathPlanner_Path_GetPreviewStartingHolonomicPose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_GetPreviewStartingHolonomicPose.vi"/>
-				<Item Name="PathPlanner_Path_GetStartingDifferentialPose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_GetStartingDifferentialPose.vi"/>
-				<Item Name="PathPlanner_Path_IsReversed.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_IsReversed.vi"/>
-				<Item Name="PathPlanner_Path_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_New.vi"/>
-				<Item Name="PathPlanner_Path_NumPoints.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_NumPoints.vi"/>
-				<Item Name="PathPlanner_Path_PreCalcValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_Path_PreCalcValues.vi"/>
-				<Item Name="PathPlanner_PathConstraints_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathConstraints_GetAll.vi"/>
-				<Item Name="PathPlanner_PathConstraints_IsNull.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathConstraints_IsNull.vi"/>
-				<Item Name="PathPlanner_PathConstraints_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathConstraints_New.vi"/>
-				<Item Name="PathPlanner_PathPoint_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathPoint_GetAll.vi"/>
-				<Item Name="PathPlanner_PathPoint_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathPoint_New.vi"/>
-				<Item Name="PathPlanner_PathSegment_FindConstraintZone.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathSegment_FindConstraintZone.vi"/>
-				<Item Name="PathPlanner_PathSegment_GetSegmentPoints.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathSegment_GetSegmentPoints.vi"/>
-				<Item Name="PathPlanner_PathSegment_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathSegment_New.vi"/>
-				<Item Name="PathPlanner_PathSegment_Resolution.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_PathSegment_Resolution.vi"/>
-				<Item Name="PathPlanner_RotationTarget_ForSegmentIndex.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_RotationTarget_ForSegmentIndex.vi"/>
-				<Item Name="PathPlanner_RotationTarget_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_RotationTarget_GetAll.vi"/>
-				<Item Name="PathPlanner_RotationTarget_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_RotationTarget_New.vi"/>
-				<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_TrajectoryState_GetAll.vi"/>
-				<Item Name="PathPlanner_TrajectoryState_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_TrajectoryState_New.vi"/>
-				<Item Name="PathPlanner_TrajectoryState_Reverse.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/VI/PathPlanner_TrajectoryState_Reverse.vi"/>
-				<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerCommandUtil.ctl"/>
-				<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerConstraintsZone.ctl"/>
-				<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerEventMarker.ctl"/>
-				<Item Name="PathPlannerGoalEndState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerGoalEndState.ctl"/>
-				<Item Name="PathPlannerPath.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerPath.ctl"/>
-				<Item Name="PathPlannerPathConstraints.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerPathConstraints.ctl"/>
-				<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerPathPoint.ctl"/>
-				<Item Name="PathPlannerPathSegment.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerPathSegment.ctl"/>
-				<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerRotationTarget.ctl"/>
-				<Item Name="PathPlannerTrajectoryState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/TypeDef/PathPlannerTrajectoryState.ctl"/>
+				<Item Name="PathPlanner24.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/PathPlanner24.lvlib"/>
 				<Item Name="Prepare Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Pattern.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="roboRIO_FPGA_2020_20.1.2.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2020_20.1.2.lvbitx"/>
