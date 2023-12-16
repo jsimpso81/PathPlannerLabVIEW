@@ -6,10 +6,11 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 Work list:
 	/ path replan
 	/ examples (some done, package built)
-	- doc for new functions (write path)
-	- look at adding holonomic rotational velocity to trajectory state
+	/ doc for new functions (write path)
+	- look at adding holonomic rotational velocity to trajectory state 
+		(so far keep it compatible with java/c)
 	- build path with all different event marker variation to ensure parsing.
-	- commands/FollowPath(base for next three) - nothing really to do - 
+	n/a commands/FollowPath(base for next three) - nothing really to do - 
 	- commands/FollowHolonomicPath 
 	- commands/FollowLTVPath 
 	- commands/FollowRamsetePath 
