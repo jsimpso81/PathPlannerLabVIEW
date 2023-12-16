@@ -19,7 +19,6 @@
 		<Item Name="macro_ReadTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadTrajectoryCSVFile.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
-		<Item Name="_Obsolete_PathPlannerWaypoint.ctl" Type="VI" URL="../TypeDef/_Obsolete_PathPlannerWaypoint.ctl"/>
 		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>

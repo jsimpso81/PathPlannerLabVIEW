@@ -10,8 +10,20 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerCommandUtil" >TypeDef-PathPlannerCommandUtil</h3>
 <p><IMG SRC="PathPlannerCommandUtil_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
-<p><IMG SRC="PathPlannerCommandUtil_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerCommandUtil.ctl" ALIGN=BOTTOM></p><br>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">The CommandUtil cluster stores the data for commands issued by Event Markers.<BR>
+<BR>
+The cluster contains:<BR>
+  -  name - string<BR>
+  -  type - CommandUtilType_Enum<BR>
+  -  WaitTime - double<BR>
+  -  PathName - string<BR>
+  -  Commands - array of cluster containing<BR>
+       -  Type - CommandUtilType_Enum<BR>
+       -  WaitTime - double<BR>
+       -  Name - string<BR>
+       -  PathName - string<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerCommandUtil_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerCommandUtil.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerConstraintsZone" >TypeDef-PathPlannerConstraintsZone</h3>
@@ -24,7 +36,7 @@ Contains:<BR>
   --  Constraint   -  cluster  -  Constraint to apply<BR>
   --  Present  - boolean  -  flag indicting this cluster is not null<BR>
 </pre></p>
-<p><IMG SRC="PathPlannerConstraintsZone_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerConstraintsZone.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerConstraintsZone_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerConstraintsZone.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerEventMarker" >TypeDef-PathPlannerEventMarker</h3>
@@ -39,7 +51,7 @@ Contains<BR>
   -  LastRobotPos - translation2d<BR>
 <BR>
 </pre></p>
-<p><IMG SRC="PathPlannerEventMarker_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerEventMarker.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerEventMarker_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerEventMarker.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerGoalEndState" >TypeDef-PathPlannerGoalEndState</h3>
@@ -51,7 +63,7 @@ contains:<BR>
   --  rotation  -  Rotation2d <BR>
 <BR>
 </pre></p>
-<p><IMG SRC="PathPlannerGoalEndState_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerGoalEndState.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerGoalEndState_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerGoalEndState.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerPath" >TypeDef-PathPlannerPath</h3>
@@ -69,7 +81,7 @@ Contains:<BR>
   -  reversed - boolean<BR>
   -  previewStartingRotation - Rotation2d <BR>
 </pre></p>
-<p><IMG SRC="PathPlannerPath_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerPath.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerPath_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPath.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerPathConstraints" >TypeDef-PathPlannerPathConstraints</h3>
@@ -84,7 +96,7 @@ Contains:<BR>
   - Exists - boolean - flag indicating this data is not NULL<BR>
 <BR>
 </pre></p>
-<p><IMG SRC="PathPlannerPathConstraints_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerPathConstraints.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerPathConstraints_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathConstraints.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerPathPoint" >TypeDef-PathPlannerPathPoint</h3>
@@ -99,7 +111,7 @@ Contains:<BR>
   --  holonomicRotation - Rotation2d -  The target rotation at this point <BR>
   --  constraints - cluster -   The constraints applied to this point <BR>
 </pre></p>
-<p><IMG SRC="PathPlannerPathPoint_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerPathPoint.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerPathPoint_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathPoint.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerPathSegment" >TypeDef-PathPlannerPathSegment</h3>
@@ -109,7 +121,21 @@ Contains:<BR>
 Contains:<BR>
   -  SegmentPoints - array - Array of PathPoints<BR>
 </pre></p>
-<p><IMG SRC="PathPlannerPathSegment_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerPathSegment.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerPathSegment_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerPathSegment.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerReplanningConfig" >TypeDef-PathPlannerReplanningConfig</h3>
+<p><IMG SRC="PathPlannerReplanningConfig_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Configuration for path replanning<BR>
+<BR>
+Contains:<BR>
+<BR>
+  -  enableInitialReplanning - boolean - Should the path be replanned at the start of path following if the robot is not already at the starting point?<BR>
+  -  enableDynamicReplanning - boolean - Should the path be replanned if the error grows too large or if a large error spike happens while following the path?<BR>
+  -  dynamicReplanningTotalErrorThreshold - double - The total error threshold, in meters, that will cause the path to be replanned <BR>
+  -  dynamicReplanningErrorSpikeThreshold - double - The error spike threshold, in meters, that will cause the path to be replanned<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerReplanningConfig_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerReplanningConfig.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerRotationTarget" >TypeDef-PathPlannerRotationTarget</h3>
@@ -120,7 +146,7 @@ Contains:<BR>
   -  waypointRelativePosition - double<BR>
   -  target - rotation2d<BR>
   -  exists - boolean - TRUE if not null</pre></p>
-<p><IMG SRC="PathPlannerRotationTarget_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerRotationTarget.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerRotationTarget_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerRotationTarget.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerTrajectory" >TypeDef-PathPlannerTrajectory</h3>
@@ -130,7 +156,7 @@ Contains:<BR>
 Contains:<BR>
   -  States - array - List of trajectory states<BR>
 </pre></p>
-<p><IMG SRC="PathPlannerTrajectory_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerTrajectory.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerTrajectory_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerTrajectory.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerTrajectoryState" >TypeDef-PathPlannerTrajectoryState</h3>
@@ -149,19 +175,24 @@ Contains:<BR>
   -  constraints - pathconstraints - The constraints to apply at this state<BR>
   -  deltaPos - double - Values only used during generation<BR>
 </pre></p>
-<p><IMG SRC="PathPlannerTrajectoryState_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerTrajectoryState.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="PathPlannerTrajectoryState_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerTrajectoryState.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerWPITrajHolonomicPose" >TypeDef-PathPlannerWPITrajHolonomicPose</h3>
 <p><IMG SRC="PathPlannerWPITrajHolonomicPose_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
-<p><IMG SRC="PathPlannerWPITrajHolonomicPose_frontpanel.png"  ALT="PathPlanner.lvlib:PathPlannerWPITrajHolonomicPose.ctl" ALIGN=BOTTOM></p><br>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">The WPITrajHolonomicPose stores the Holonomic pose (position of robot and holonomic rotation ) for a PathPlanner trajectory when iits states are converted to WPI Trajectory states.  This data structure can be sampled similar to other trajectory states.  It allows the user to replace the normal WPI trajectory pose with this to help control holonomic robots.<BR>
+<BR>
+Contains<BR>
+  -  TimeSeconds - double<BR>
+  -  HolonomicPose - pose2d<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerWPITrajHolonomicPose_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerWPITrajHolonomicPose.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-_Obsolete_PathPlannerWaypoint" >TypeDef-_Obsolete_PathPlannerWaypoint</h3>
 <p><IMG SRC="_Obsolete_PathPlannerWaypoint_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
-<p><IMG SRC="_Obsolete_PathPlannerWaypoint_frontpanel.png"  ALT="PathPlanner.lvlib:_Obsolete_PathPlannerWaypoint.ctl" ALIGN=BOTTOM></p><br>
+<p><IMG SRC="_Obsolete_PathPlannerWaypoint_frontpanel.png"  ALT="_Obsolete_PathPlannerWaypoint.ctl" ALIGN=BOTTOM></p><br>
 <br>
 </BODY>
 </HTML>

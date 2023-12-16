@@ -10,19 +10,28 @@
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_WPITrajHolPose_New" >PathPlanner_WPITrajHolPose_New</h3>
 <p><IMG SRC="PathPlanner_WPITrajHolPose_New_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create  a WPITrajHolPose data cluster.  <BR>
+<BR>
+Inputs:<BR>
+  -  TimeSeconds - double - Trajectory sample time<BR>
+  -  HolonomicPose - pose2d - The holonomic Pose at this time.<BR>
+<BR>
+Outputs:<BR>
+  -  WPITrajHolonomicPose - cluster - created data structure<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_WPITrajHolPose_Sample" >PathPlanner_WPITrajHolPose_Sample</h3>
 <p><IMG SRC="PathPlanner_WPITrajHolPose_Sample_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Sample the path at a point in time<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Sample the WPI Trajectory Holonomic Pose array at a point in time<BR>
 <BR>
 Inputs:<BR>
-   --  PathPlannerTraectory  -- PathPlanner Trajectory data cluster<BR>
+   --  WPIHolonomicPose   - array - WPI Holonomic Pose data cluster<BR>
    -- time  --  The time to sample<BR>
 <BR>
 Outputs:<BR>
-   - PathPlannerState  --  The state at the given point in time<BR>
+   - HolonomicPose - pose2d - Desired holonomic pose at the given time.<BR>
+<BR>
 </pre></p>
 <br>
 </BODY>

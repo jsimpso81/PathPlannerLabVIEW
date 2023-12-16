@@ -35,6 +35,18 @@ Outputs:<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_BezierToWaypoints" >PathPlanner_Path_BezierToWaypoints</h3>
+<p><IMG SRC="PathPlanner_Path_BezierToWaypoints_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Convert bezier points to waypoints allowing them to be written to a JSON string.<BR>
+<BR>
+Inputs: <BR>
+  -  Bezier - array of translation2s - List of bezier points<BR>
+<BR>
+Outputs:<BR>
+  -  waypoints - array of cluster - waypoints compatible with pathplanner path JSON strings.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_CreatePath" >PathPlanner_Path_CreatePath</h3>
 <p><IMG SRC="PathPlanner_Path_CreatePath_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create the path points for this path.  This is an internal function.<BR>
@@ -284,7 +296,15 @@ Outputs:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_New_Empty" >PathPlanner_Path_New_Empty</h3>
 <p><IMG SRC="PathPlanner_Path_New_Empty_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Creates an empty path data cluster.  This is an INTERNAL function.  Users should not call this.<BR>
+<BR>
+Inputs:<BR>
+  -  Global Constraitns - cluster<BR>
+  -  GoalEndState - cluster<BR>
+<BR>
+Outputs:<BR>
+  -  PathPlannerPath - cluster - empty path planner path data cluster.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_NumPoints" >PathPlanner_Path_NumPoints</h3>
@@ -325,7 +345,9 @@ Outputs:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_RePlan" >PathPlanner_Path_RePlan</h3>
 <p><IMG SRC="PathPlanner_Path_RePlan_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Hot reload the path. This is used internally.<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path<BR>
+<BR>
+NOT COMPLETE.  DONT USE.<BR>
 <BR>
 Inputs: <BR>
   -  Path - cluster - path definition data structure<BR>
@@ -338,17 +360,46 @@ Outputs:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_RePlan_Worker1" >PathPlanner_Path_RePlan_Worker1</h3>
 <p><IMG SRC="PathPlanner_Path_RePlan_Worker1_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 1<BR>
+<BR>
+NOT COMPLETE.  DONT USE.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_RePlan_Worker2" >PathPlanner_Path_RePlan_Worker2</h3>
 <p><IMG SRC="PathPlanner_Path_RePlan_Worker2_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 1<BR>
+<BR>
+NOT COMPLETE.  DONT USE.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_RePlan_Worker3" >PathPlanner_Path_RePlan_Worker3</h3>
 <p><IMG SRC="PathPlanner_Path_RePlan_Worker3_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;"></pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 3<BR>
+<BR>
+NOT COMPLETE.  DONT USE.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_ToPathFile" >PathPlanner_Path_ToPathFile</h3>
+<p><IMG SRC="PathPlanner_Path_ToPathFile_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Write a path to a path file in storage.  The path normally has a .PATH extension.  Internally this file is formatted as JSON.<BR>
+<BR>
+Inputs: <BR>
+  -  Path - cluster - PathPlannerPath created from the given file name<BR>
+  -   filename - string - The name of the path to write.  Existing files will be overwritten.<BR>
+<BR>
+Outputs:<BR>
+  -  Error out - cluster - Error cluster<BR>
+  -  Full Filename - string - fully qualified file name.<BR>
+<BR>
+Notes on file naming:<BR>
+  -  The file name must include the extention.  ".csv" is  not automatically appended to the name.  <BR>
+  -  The file name can be a simple file or an absolute path.  If a simple file name is used the default path on the RoboRIO is:  "home:\lvuser\natinst\LabVIEW Data".  On a Windows PC the default path is the LabVIEW default directory.  Normally this is: “%HOMEDRIVE%%HOMEPATH%\Documents\LabView Data".<BR>
+  -  Filenames on the RoboRIO, which runs Linux, are case sensitive.<BR>
+<BR>
+</pre></p>
 <br>
 </BODY>
 </HTML>

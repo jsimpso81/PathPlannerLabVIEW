@@ -4,23 +4,25 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 
 
 Work list:
-	path replan
-	examples (some done, package built)
-	look at adding holonomic rotational velocity to trajectory state
-	build path with all different event marker variation to ensure parsing.
-	commands/FollowPath(base for next three) - nothing really to do - 
-	commands/FollowHolonomicPath 
-	commands/FollowLTVPath 
-	commands/FollowRamsetePath 
-	commands/FollowHolonomicPathWithEvents (add events)
-	commands/FollowLTVPathWithEvents (add events)
-	commands/FollowRamsetePathWithEvents (add events)
+	/ path replan
+	/ examples (some done, package built)
+	- doc for new functions (write path)
+	- look at adding holonomic rotational velocity to trajectory state
+	- build path with all different event marker variation to ensure parsing.
+	- commands/FollowPath(base for next three) - nothing really to do - 
+	- commands/FollowHolonomicPath 
+	- commands/FollowLTVPath 
+	- commands/FollowRamsetePath 
+	- commands/FollowHolonomicPathWithEvents (add events)
+	- commands/FollowLTVPathWithEvents (add events)
+	- commands/FollowRamsetePathWithEvents (add events)
 
-	commands/FindFollowHolonomicPathWithEvents
-	commands/FindFollowLTVPathWithEvents
-	commands/FindFollowRamsetePathWithEvents
-	ADStar (labview already has an implementation, can it be used?)
+	- commands/FindFollowHolonomicPathWithEvents
+	- commands/FindFollowLTVPathWithEvents
+	- commands/FindFollowRamsetePathWithEvents
+	- ADStar (labview already has an implementation, can it be used?)
 
+- - not done at all (or blank)
 X - completely done
 / - partially done -- notes indicate what isn't done.
 ! - major work to do

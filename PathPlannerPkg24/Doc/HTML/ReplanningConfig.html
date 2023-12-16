@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<!-- Constructed with LabVIEW Report Generation -->
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+
+<BODY>
+<h2 id="ReplanningConfig" >ReplanningConfig</h2>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ReplanningConfig_GetAll" >PathPlanner_ReplanningConfig_GetAll</h3>
+<p><IMG SRC="PathPlanner_ReplanningConfig_GetAll_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Get individual data elements from a PathPlanningConfig cluster<BR>
+<BR>
+Inputs:<BR>
+  -  PathPlanningConfig - cluster<BR>
+<BR>
+Outputs:<BR>
+  -  EnableInitialReplanning  - boolean  Should the path be replanned at the start of path following if the robot is not already at the starting point?<BR>
+  -  EnableDynamicReplanning boolean - Should the path be replanned if the error grows too large or if a large error spike happens while following the path?<BR>
+  -  DynamicReplanningTotalErrorThreshold - double - The total error threshold, in meters, that will cause the path to be replanned<BR>
+  -  DynamicReplanningErrorSpikeThreshold  - double -  The error spike threshold, in meters, that will cause the path to be replanned<BR>
+<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_ReplanningConfig_New" >PathPlanner_ReplanningConfig_New</h3>
+<p><IMG SRC="PathPlanner_ReplanningConfig_New_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Create a path replanning configuration<BR>
+<BR>
+Inputs:<BR>
+  -  EnableInitialReplanning  - boolean  Should the path be replanned at the start of path following if the robot is not already at the starting point?  (Optional.  Default: TRUE)<BR>
+  -  EnableDynamicReplanning boolean - Should the path be replanned if the error grows too large or if a large error spike happens while following the path?  (Optional.  Default: FALSE)<BR>
+  -  DynamicReplanningTotalErrorThreshold - double - The total error threshold, in meters, that will cause the path to be replanned  (Optional.  Default: 1.0)<BR>
+  -  DynamicReplanningErrorSpikeThreshold  - double -  The error spike threshold, in meters, that will cause the path to be replanned.    (Optional.  Default: 0.25)<BR>
+<BR>
+Outputs:<BR>
+  -  ReplanningConfig - cluster - created data cluster<BR>
+</pre></p>
+<br>
+</BODY>
+</HTML>
