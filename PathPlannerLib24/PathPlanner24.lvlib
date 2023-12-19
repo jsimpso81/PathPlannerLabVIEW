@@ -101,6 +101,7 @@
 				<Item Name="PathPlanner_Path_RePlan_Worker1.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker1.vi"/>
 				<Item Name="PathPlanner_Path_RePlan_Worker2.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker2.vi"/>
 				<Item Name="PathPlanner_Path_RePlan_Worker3.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker3.vi"/>
+				<Item Name="PathPlanner_Path_RePlan_Worker4.vi" Type="VI" URL="../VI/PathPlanner_Path_RePlan_Worker4.vi"/>
 				<Item Name="PathPlanner_Path_ToPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_ToPathFile.vi"/>
 			</Item>
 			<Item Name="PathConstraints" Type="Folder">
