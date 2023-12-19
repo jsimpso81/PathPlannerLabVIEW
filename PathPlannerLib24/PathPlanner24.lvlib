@@ -14,6 +14,9 @@
 	</Item>
 	<Item Name="Macros" Type="Folder">
 		<Item Name="macro_CreatePathTraj.vi" Type="VI" URL="../Macros/macro_CreatePathTraj.vi"/>
+		<Item Name="macro_Ctrl_HolonomicExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_HolonomicExecute.vi"/>
+		<Item Name="macro_Ctrl_LTVExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_LTVExecute.vi"/>
+		<Item Name="macro_Ctrl_RamseteExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_RamseteExecute.vi"/>
 		<Item Name="macro_ReadPathFileCreateTrajectory.vi" Type="VI" URL="../Macros/macro_ReadPathFileCreateTrajectory.vi"/>
 		<Item Name="macro_ReadPathFileWriteTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadPathFileWriteTrajectoryCSVFile.vi"/>
 		<Item Name="macro_ReadTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadTrajectoryCSVFile.vi"/>

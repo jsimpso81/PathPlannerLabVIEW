@@ -4,16 +4,21 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 
 
 Work list:
-	/ path replan
+	X path replan
 	/ examples (some done, package built)
-	/ doc for new functions (write path)
-	- look at adding holonomic rotational velocity to trajectory state 
-		(so far keep it compatible with java/c)
-	- build path with all different event marker variation to ensure parsing.
+	X doc for new functions (write path)
+	X macros for controllers
+	X menus for new functions and macros.
+	\ look at adding holonomic rotational velocity to trajectory state 
+		(so far keep it compatible with java/c - not now)
+	- testing - build path with all different event marker variation to ensure parsing.
+	- testing - java pgm to make csv file to compare with.
 	n/a commands/FollowPath(base for next three) - nothing really to do - 
+
 	- commands/FollowHolonomicPath 
 	- commands/FollowLTVPath 
 	- commands/FollowRamsetePath 
+
 	- commands/FollowHolonomicPathWithEvents (add events)
 	- commands/FollowLTVPathWithEvents (add events)
 	- commands/FollowRamsetePathWithEvents (add events)
@@ -21,12 +26,17 @@ Work list:
 	- commands/FindFollowHolonomicPathWithEvents
 	- commands/FindFollowLTVPathWithEvents
 	- commands/FindFollowRamsetePathWithEvents
-	- ADStar (labview already has an implementation, can it be used?)
 
+	- ADStar (labview already has an implementation, can it be used?)
+	- auto
+
+
+Legend
 - - not done at all (or blank)
 X - completely done
 / - partially done -- notes indicate what isn't done.
 ! - major work to do
+\ - not now.
 
 
 pathplanner labview 24 work check list.
@@ -41,9 +51,8 @@ X	X	X	path/GoalEndState			PathPlanner_GoalEndState
 
 X	X	X	path/PathConstraints			PathPlanner_PathConstraints
 
-X	/	-	path/PathPlannerPath			PathPlanner_Path
+X	/	X	path/PathPlannerPath			PathPlanner_Path
 				dont need	pointFromJson
-				not done	replan
 				mostly		fromPathFile (doesn't do telemetry)
 			
 
@@ -68,13 +77,13 @@ X	X	X	util/GeometryUtil
 
 NO	NO	NO	controllers/PathFollowingController	-- interface
 
-X	X	-	controllers/PPHolonomicDriveController
+X	X	X	controllers/PPHolonomicDriveController
 
-X	X	-	controllers/PPLTVController
+X	X	X	controllers/PPLTVController
 
-X	X	-	controllers/PPRamseteController
+X	X	X	controllers/PPRamseteController
 
-X	X	-	util/ReplanningConfig
+X	X	X	util/ReplanningConfig
 
 			commands/FollowPath(base for next three)
 			commands/FollowHolonomicPath 

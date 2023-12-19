@@ -345,16 +345,15 @@ Outputs:<BR>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_RePlan" >PathPlanner_Path_RePlan</h3>
 <p><IMG SRC="PathPlanner_Path_RePlan_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path<BR>
-<BR>
-NOT COMPLETE.  DONT USE.<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan this path based on the current robot position and speeds<BR>
 <BR>
 Inputs: <BR>
   -  Path - cluster - path definition data structure<BR>
-  -   JSON String - string - JSON string containing the new path to load<BR>
+  -  StartingPose - pose2d -  New starting pose for the replanned path<BR>
+  -  CurrentSpeeds - chassis speeds -  Current chassis speeds of the robot<BR>
 <BR>
 Outputs:<BR>
-  -  Path - cluster - path definition data structure<BR>
+  -  RePlannedPath - cluster - path definition data structure<BR>
   -  Error - boolean - TRUE if an error occured.</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
@@ -362,15 +361,16 @@ Outputs:<BR>
 <p><IMG SRC="PathPlanner_Path_RePlan_Worker1_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 1<BR>
 <BR>
-NOT COMPLETE.  DONT USE.<BR>
+Internal routine.  Not for end user use.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Path_RePlan_Worker2" >PathPlanner_Path_RePlan_Worker2</h3>
 <p><IMG SRC="PathPlanner_Path_RePlan_Worker2_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 1<BR>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 2<BR>
 <BR>
-NOT COMPLETE.  DONT USE.<BR>
+Internal routine.  Not for end user use.<BR>
+<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
@@ -378,7 +378,15 @@ NOT COMPLETE.  DONT USE.<BR>
 <p><IMG SRC="PathPlanner_Path_RePlan_Worker3_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 3<BR>
 <BR>
-NOT COMPLETE.  DONT USE.<BR>
+Internal routine.  Not for end user use.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Path_RePlan_Worker4" >PathPlanner_Path_RePlan_Worker4</h3>
+<p><IMG SRC="PathPlanner_Path_RePlan_Worker4_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Replan path worker 4<BR>
+<BR>
+Internal routine.  Not for end user use.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
