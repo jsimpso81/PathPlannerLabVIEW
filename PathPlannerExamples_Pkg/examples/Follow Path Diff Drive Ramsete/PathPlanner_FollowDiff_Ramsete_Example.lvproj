@@ -1080,8 +1080,6 @@
 			<Item Name="ode.dll" Type="Document" URL="ode.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PPS_TRAJECTORY_GLOBALS.vi" Type="VI" URL="../Trajectory Following/PPS_TRAJECTORY_GLOBALS.vi"/>
-			<Item Name="PPS_TRAJECTORY_SET_CLOSED_LOOP.vi" Type="VI" URL="../Trajectory Following/PPS_TRAJECTORY_SET_CLOSED_LOOP.vi"/>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1947,8 +1945,6 @@ DirectoryIndex index.htm
 			<Item Name="ode.dll" Type="Document" URL="ode.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PPS_TRAJECTORY_GLOBALS.vi" Type="VI" URL="../Trajectory Following/PPS_TRAJECTORY_GLOBALS.vi"/>
-			<Item Name="PPS_TRAJECTORY_SET_CLOSED_LOOP.vi" Type="VI" URL="../Trajectory Following/PPS_TRAJECTORY_SET_CLOSED_LOOP.vi"/>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

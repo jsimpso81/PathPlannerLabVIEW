@@ -1,11 +1,11 @@
 X
-## FRC LabVIEW Path Planner Swerve Drive Robot Follow Using Holonomic Drive Controller
+## FRC LabVIEW Path Planner Differential Drive Robot Follow Using Ramsete
 
 This sample robot based on the standard LabVIEW robot project, contains both a simulated and physical robot that creates both relative and absolute trajectories using Path Planner LabVIEW.  
 
 ### Simulated Robot
 
-This robot contains a fully modeled swerve drive robot.  To run the robot:
+This robot contains a fully modeled differential drive robot.  To run the robot:
 
 1. Start the FRC Driverstation and optionally start the dashboard.
 1. In the LabVIEW project under the "Computer" target, open 'XXX_RobotMain.vi' and press the run arrow. 
@@ -33,9 +33,7 @@ The teleop controls were assigned to an game (xbox) type controller.
 ![joystick!](images/xbox-360_controller.png)
 
 - **Left Stick Y** -- Drive robot forward and backwards
-- **Right Stick X** -- Drive the robot side to side.
-- **Right Trigger** -- Spin the robot clockwise.
-- **Left Trigger** -- Spin the robot counter clockwise.
+- **Right Stick X** -- Turn the robot.
 - **A** -- Execute relative trajectory (robot orientation stays the same)
 - **B** -- Execute relative trajectory (robot orientation points in direction of travel)
 - **Start** -- Enable closed loop drive control (default)
