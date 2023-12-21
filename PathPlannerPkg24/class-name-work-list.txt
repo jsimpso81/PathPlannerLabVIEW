@@ -5,7 +5,7 @@ source is here C:\Shares\github\mjansen4857-pathplanner\pathplannerlib\src\main\
 
 Work list:
 	X path replan
-	/ examples (some done, package built)
+	x examples
 	X doc for new functions (write path)
 	X macros for controllers
 	X menus for new functions and macros.

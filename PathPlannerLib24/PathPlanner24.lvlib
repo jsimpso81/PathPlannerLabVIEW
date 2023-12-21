@@ -172,6 +172,12 @@
 				<Item Name="PathPlanner_TrajectoryState_Reverse.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Reverse.vi"/>
 			</Item>
 		</Item>
+		<Item Name="PathFinding" Type="Folder">
+			<Item Name="GridPosition" Type="Folder">
+				<Item Name="PathPlanner_GridPos_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_GridPos_FromJSON.vi"/>
+				<Item Name="PathPlanner_GridPos_ReadNavFile.vi" Type="VI" URL="../VI/PathPlanner_GridPos_ReadNavFile.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Util" Type="Folder">
 			<Item Name="GeomUtil" Type="Folder">
 				<Item Name="PathPlanner_GeomUtil_CalculateRadius.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_CalculateRadius.vi"/>
