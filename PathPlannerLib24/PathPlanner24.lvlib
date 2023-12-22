@@ -28,7 +28,7 @@
 		<Item Name="PathPlannerCtrlLTVUnicycleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlLTVUnicycleConfig.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>
 		<Item Name="PathPlannerGoalEndState.ctl" Type="VI" URL="../TypeDef/PathPlannerGoalEndState.ctl"/>
-		<Item Name="PathPlannerGrid.ctl" Type="VI" URL="../TypeDef/PathPlannerGrid.ctl"/>
+		<Item Name="PathPlannerObstacleGrid.ctl" Type="VI" URL="../TypeDef/PathPlannerObstacleGrid.ctl"/>
 		<Item Name="PathPlannerPath.ctl" Type="VI" URL="../TypeDef/PathPlannerPath.ctl"/>
 		<Item Name="PathPlannerPathConstraints.ctl" Type="VI" URL="../TypeDef/PathPlannerPathConstraints.ctl"/>
 		<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="../TypeDef/PathPlannerPathPoint.ctl"/>
@@ -178,10 +178,10 @@
 			</Item>
 		</Item>
 		<Item Name="PathFinding" Type="Folder">
-			<Item Name="GridPosition" Type="Folder">
-				<Item Name="PathPlanner_GridPos_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_GridPos_FromJSON.vi"/>
-				<Item Name="PathPlanner_GridPos_ReadNavFile.vi" Type="VI" URL="../VI/PathPlanner_GridPos_ReadNavFile.vi"/>
-				<Item Name="PathPlanner_GridPos_ToOccupancyGrid.vi" Type="VI" URL="../VI/PathPlanner_GridPos_ToOccupancyGrid.vi"/>
+			<Item Name="ObstacleGrid" Type="Folder">
+				<Item Name="PathPlanner_ObstacleGrid_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_FromJSON.vi"/>
+				<Item Name="PathPlanner_ObstacleGrid_ReadNavFile.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_ReadNavFile.vi"/>
+				<Item Name="PathPlanner_ObstacleGrid_ToOccupancyGrid.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_ToOccupancyGrid.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">

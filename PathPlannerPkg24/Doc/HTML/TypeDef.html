@@ -39,6 +39,33 @@ Contains:<BR>
 <p><IMG SRC="PathPlannerConstraintsZone_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerConstraintsZone.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerCtrlHolConfig" >TypeDef-PathPlannerCtrlHolConfig</h3>
+<p><IMG SRC="PathPlannerCtrlHolConfig_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Configuration parameters for Path Planner Holonimic Controller.<BR>
+<BR>
+Contains:<BR>
+  -  Holonomic_Ctrl_Pack_Tuning - cluster<BR>
+  -  Drive Base Radius M - double<BR>
+  -  Max Wheel Speed M/S  -  double<BR>
+  -  Tolerance SI - pose2d<BR>
+<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerCtrlHolConfig_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerCtrlHolConfig.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerCtrlLTVUnicycleConfig" >TypeDef-PathPlannerCtrlLTVUnicycleConfig</h3>
+<p><IMG SRC="PathPlannerCtrlLTVUnicycleConfig_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Configuration parameters for Path Planner Differential Drive LTV Unicycle Controller.<BR>
+<BR>
+Contains:<BR>
+  -  LTV_Unicycle_Ctrl_Model  -  cluster<BR>
+  -  LTV_Unicycle_Ctrl_Tolerance  -  cluster<BR>
+  -  Track Width M  -  double<BR>
+  -  Max Wheel Speed M/S  - double<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerCtrlLTVUnicycleConfig_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerCtrlLTVUnicycleConfig.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerEventMarker" >TypeDef-PathPlannerEventMarker</h3>
 <p><IMG SRC="PathPlannerEventMarker_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Position along the path that will trigger a command when reached<BR>
@@ -64,6 +91,20 @@ contains:<BR>
 <BR>
 </pre></p>
 <p><IMG SRC="PathPlannerGoalEndState_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerGoalEndState.ctl" ALIGN=BOTTOM></p><br>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="TypeDef-PathPlannerObstacleGrid" >TypeDef-PathPlannerObstacleGrid</h3>
+<p><IMG SRC="PathPlannerObstacleGrid_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Contains definition of Obstacle grid.  This grid is used to define areas pathfinding should avoid.<BR>
+<BR>
+Contains:<BR>
+  -  NodeSizeMeters  -  double   -  Size of each grid element.  Meters<BR>
+  -  FIeld size  -  translation2d  -  X and Y size of gird.  Meters<BR>
+  -  Grid  -  boolean array  -  Array containing obstacles to avoid when finding a path.   Index into array is X, Y, where X and Y are increments of the node size in meters.  If node size is 0.2 then array element (1,2) = positon 0.2, 0.4 meters.<BR>
+<BR>
+<BR>
+</pre></p>
+<p><IMG SRC="PathPlannerObstacleGrid_frontpanel.png"  ALT="PathPlanner24.lvlib:PathPlannerObstacleGrid.ctl" ALIGN=BOTTOM></p><br>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="TypeDef-PathPlannerPath" >TypeDef-PathPlannerPath</h3>
@@ -129,7 +170,6 @@ Contains:<BR>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Configuration for path replanning<BR>
 <BR>
 Contains:<BR>
-<BR>
   -  enableInitialReplanning - boolean - Should the path be replanned at the start of path following if the robot is not already at the starting point?<BR>
   -  enableDynamicReplanning - boolean - Should the path be replanned if the error grows too large or if a large error spike happens while following the path?<BR>
   -  dynamicReplanningTotalErrorThreshold - double - The total error threshold, in meters, that will cause the path to be replanned <BR>

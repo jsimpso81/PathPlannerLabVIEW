@@ -13,17 +13,11 @@
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Calculates the next output of the path following controller for holonomic drive robots.  This wraps a Holonomic Drive Control function with the particulars needed to follow a PathPlanner trajectory.<BR>
 <BR>
 Inputs:<BR>
-  -  Holonomic_Ctrl_Pack_Tuning - cluster - The tuning paraameters for the holonomic drive controller.  These are static.  They should not be changed after the first call to this function.<BR>
-  -  Tolerance SI - pose2d - The values used to calculate "At Refernece".   These are in SI units.<BR>
+  -  PathPlanner_Holonomic_Ctrl_Pack_Tuning - cluster - The tuning paraameters for the holonomic drive controller.  These are static.  They should not be changed after the first call to this function.<BR>
   -   CurrentPoseSi - pose2d - The current pose calculated by odometry or pose estimation.  The pose can be absolute or relative depending on what type of trajectory is being followed.<BR>
   -  PathPlannerState - cluster - The path palnner trajectory state containing the desired position and velocities of the robot.<BR>
-  -  RobotParams - cluster - Contains details about the robot needed to control the chassis speed.  These include:<BR>
-        -  The max speed of a drive module in meters/sec<BR>
-        -  The radius of the drive base in meters. For swerve drive, this is the<BR>
-            distance from the center of the robot to the furthest module. For <BR>
-             mecanum, this is the drive base width / 2<BR>
-  -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
   -  Reset - boolean - When TRUE the holonomic drive controller is reset.  This should be set to TRUE for the first execution of a trajectory.<BR>
+  -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
   -  Period - double - The loop period in seconds for this controller.  (Optional.  Default: 0.020)<BR>
 <BR>
 Outputs:<BR>
@@ -34,18 +28,35 @@ Outputs:<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
-<h3 id="PathPlanner_Ctrl_LTVExecute" >PathPlanner_Ctrl_LTVExecute</h3>
-<p><IMG SRC="PathPlanner_Ctrl_LTVExecute_iconc.png"  ALIGN=BOTTOM></p>
+<h3 id="PathPlanner_Ctrl_HolonomicDrvPack" >PathPlanner_Ctrl_HolonomicDrvPack</h3>
+<p><IMG SRC="PathPlanner_Ctrl_HolonomicDrvPack_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Pack controller tuning configuration for Path Planner Holonomic Drive Controller.<BR>
+<BR>
+Inputs:<BR>
+   - X PID Tuning   -   cluster  -  Input from PACK PROF PID VI<BR>
+   - Y PID Tuning   -   cluster  -  Input from PACK PROF PID VI<BR>
+   -  thetaController   - cluster  -  A profiled PID controller to respond to error in angle.<BR>
+  -  Max Wheel Speed M/.S  -  double  -  Maximum wheel speed (M/S)<BR>
+  -  DriveBaseRadius  -  double  -  The radius of the drive base in meters. For swerve drive, this is the<BR>
+            distance from the center of the robot to the furthest module. For <BR>
+             mecanum, this is the drive base width / 2<BR>
+  -  X Tolerance  -  double  -  X tolerance for calculating At Reference (Meters) (Optional.  Default: 0.0762 )<BR>
+  -  Y Tolerance  -  double  -  Y tolerance for calculating At Reference (Meters) (Optional.  Default: 0.0762 )<BR>
+  -  Rotation Tolerance  -  double  -  Rotation tolerance for calculating At Reference (Degrees) (Optional.  Default: 0.0)873)<BR>
+<BR>
+Outputs:<BR>
+  -- PathPlannerHolCtrlConfig  -- cluster - packed controller configuration.</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Ctrl_LTVUnicycleExecute" >PathPlanner_Ctrl_LTVUnicycleExecute</h3>
+<p><IMG SRC="PathPlanner_Ctrl_LTVUnicycleExecute_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Calculates the next output of the path following controller for differential drive robots using a LTV (linear time varying) Unicycle controller.  This wraps a LTV Control function with the particulars needed to follow a PathPlanner trajectory.<BR>
 <BR>
 Inputs:<BR>
-  -  LTV_Unicycle_Ctrl_Model - cluster - The modeling paraameters for the LTV drive controller.  These are static.  They should not be changed after the first call to this function.<BR>
-  -  UniCycle_Ctrl_Tolerance SI - pose2d - The control paraameters for the LTV drive controller.  These are static.  They should not be changed after the first call to this function.<BR>
+  -  PathPlanner_Ctrl_LTV_Unicycle_Ctrl_Config - cluster - Configuration from the PathPlanner_Ctrl_LTV_Unicycle_Pack_Config VI.<BR>
   -   CurrentPoseSi - pose2d - The current pose calculated by odometry or pose estimation.  The pose can be absolute or relative depending on what type of trajectory is being followed.<BR>
   -  PathPlannerState - cluster - The path palnner trajectory state containing the desired position and velocities of the robot.<BR>
-  -  TrackWidth M - doubler - The effective width of the drive track width in meters.:<BR>
   -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
-  -  MaxWheelSpeed - double - The maximum speed of the drive wheels M/S.<BR>
   -  Period - double - The loop period in seconds for this controller.  (Optional.  Default: 0.020)<BR>
 <BR>
 Outputs:<BR>
@@ -53,7 +64,24 @@ Outputs:<BR>
   -  NormalizedRightWheelSpeedDmd - The desired speed for the right drive wheel in SI units.  The left and right speeds have been normalized so not to exceed the maximum allowed speed.<BR>
   -  AtReference - boolean - TRUE if the robots position is within the defined tolerance.<BR>
   -  PositionError - double - Position error in SI units.  How far the robot is away from the desired trajectory position.<BR>
+  -  LTVUnicycle_Ctrl - cluster - controller data cluster.  Primarily usefull for diagnostics.<BR>
 </pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Ctrl_LTVUnicyclePack" >PathPlanner_Ctrl_LTVUnicyclePack</h3>
+<p><IMG SRC="PathPlanner_Ctrl_LTVUnicyclePack_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Pack controller tuning configuration for Differential Drive LTV Unicycle Controller.<BR>
+<BR>
+Inputs:<BR>
+  -  LTV_Unicycle_Ctrl_Model - cluster - The modeling paraameters for the LTV drive controller.  These are static.  They should not be changed after the first call to this function.<BR>
+  -  Track With - double - Track width (Meters)<BR>
+  -  Max Wheel Speed M/.S  - double - Maximum wheel speed (M/S)<BR>
+  -  X Tolerance  -- X tolerance for calculating At Reference (Meters) (Optional.  Default: 0.0762 )<BR>
+  -  Y Tolerance  -- Y tolerance for calculating At Reference (Meters) (Optional.  Default: 0.0762 )<BR>
+  -  Rotation Tolerance  -- Rotation tolerance for calculating At Reference (Degrees) (Optional.  Default: 0.0)873)<BR>
+<BR>
+Outputs:<BR>
+  -- PathPlannerLTVUnicycleCtrlConfig  -- cluster - packed controller configuration.</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Ctrl_RamseteExecute" >PathPlanner_Ctrl_RamseteExecute</h3>
@@ -66,13 +94,13 @@ Inputs:<BR>
   -  PathPlannerState - cluster - The path palnner trajectory state containing the desired position and velocities of the robot.<BR>
   -  Reset - boolean - When TRUE, resets the Ramsete controller.  This should be set to TRUE for the first sample of following any trajectory.<BR>
   -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
-  -  Period - double - The loop period in seconds for this controller.  (Optional.  Default: 0.020)<BR>
 <BR>
 Outputs:<BR>
   -  NormalizedLeftWheelSpeedDmd - The desired speed for the left drive wheel in SI units.  The left and right speeds have been normalized so not to exceed the maximum allowed speed.<BR>
   -  NormalizedRightWheelSpeedDmd - The desired speed for the right drive wheel in SI units.  The left and right speeds have been normalized so not to exceed the maximum allowed speed.<BR>
   -  AtReference - boolean - TRUE if the robots position is within the defined tolerance.<BR>
   -  PositionError - double - Position error in SI units.  How far the robot is away from the desired trajectory position.<BR>
+  -  OutRamsete - cluster - Current Ramsete data cluster.  Primarily for diagnostic purposes.<BR>
 </pre></p>
 <br>
 </BODY>
