@@ -15,7 +15,7 @@
 	<Item Name="Macros" Type="Folder">
 		<Item Name="macro_CreatePathTraj.vi" Type="VI" URL="../Macros/macro_CreatePathTraj.vi"/>
 		<Item Name="macro_Ctrl_HolonomicExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_HolonomicExecute.vi"/>
-		<Item Name="macro_Ctrl_LTVExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_LTVExecute.vi"/>
+		<Item Name="macro_Ctrl_LTVUnicycleExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_LTVUnicycleExecute.vi"/>
 		<Item Name="macro_Ctrl_RamseteExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_RamseteExecute.vi"/>
 		<Item Name="macro_ReadPathFileCreateTrajectory.vi" Type="VI" URL="../Macros/macro_ReadPathFileCreateTrajectory.vi"/>
 		<Item Name="macro_ReadPathFileWriteTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadPathFileWriteTrajectoryCSVFile.vi"/>
@@ -24,8 +24,11 @@
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
+		<Item Name="PathPlannerCtrlHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlHolConfig.ctl"/>
+		<Item Name="PathPlannerCtrlLTVUnicycleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlLTVUnicycleConfig.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>
 		<Item Name="PathPlannerGoalEndState.ctl" Type="VI" URL="../TypeDef/PathPlannerGoalEndState.ctl"/>
+		<Item Name="PathPlannerGrid.ctl" Type="VI" URL="../TypeDef/PathPlannerGrid.ctl"/>
 		<Item Name="PathPlannerPath.ctl" Type="VI" URL="../TypeDef/PathPlannerPath.ctl"/>
 		<Item Name="PathPlannerPathConstraints.ctl" Type="VI" URL="../TypeDef/PathPlannerPathConstraints.ctl"/>
 		<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="../TypeDef/PathPlannerPathPoint.ctl"/>
@@ -44,7 +47,9 @@
 		</Item>
 		<Item Name="Controllers" Type="Folder">
 			<Item Name="PathPlanner_Ctrl_HolonomicDrvExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvExecute.vi"/>
-			<Item Name="PathPlanner_Ctrl_LTVExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_LTVExecute.vi"/>
+			<Item Name="PathPlanner_Ctrl_HolonomicDrvPack.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvPack.vi"/>
+			<Item Name="PathPlanner_Ctrl_LTVUnicycleExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_LTVUnicycleExecute.vi"/>
+			<Item Name="PathPlanner_Ctrl_LTVUnicyclePack.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_LTVUnicyclePack.vi"/>
 			<Item Name="PathPlanner_Ctrl_RamseteExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_RamseteExecute.vi"/>
 		</Item>
 		<Item Name="Path" Type="Folder">
@@ -176,6 +181,7 @@
 			<Item Name="GridPosition" Type="Folder">
 				<Item Name="PathPlanner_GridPos_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_GridPos_FromJSON.vi"/>
 				<Item Name="PathPlanner_GridPos_ReadNavFile.vi" Type="VI" URL="../VI/PathPlanner_GridPos_ReadNavFile.vi"/>
+				<Item Name="PathPlanner_GridPos_ToOccupancyGrid.vi" Type="VI" URL="../VI/PathPlanner_GridPos_ToOccupancyGrid.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
