@@ -65,6 +65,7 @@
 			<Item Name="EventMarker" Type="Folder">
 				<Item Name="PathPlanner_EventMarker_Equals.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_Equals.vi"/>
 				<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
+				<Item Name="PathPlanner_EventMarker_FromJSON_Data.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON_Data.vi"/>
 				<Item Name="PathPlanner_EventMarker_GetCommand.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetCommand.vi"/>
 				<Item Name="PathPlanner_EventMarker_GetMinimumTriggerDistance.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetMinimumTriggerDistance.vi"/>
 				<Item Name="PathPlanner_EventMarker_GetWaypointRelativePos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetWaypointRelativePos.vi"/>
