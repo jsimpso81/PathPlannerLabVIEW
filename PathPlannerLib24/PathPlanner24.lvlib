@@ -22,6 +22,7 @@
 		<Item Name="macro_ReadTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadTrajectoryCSVFile.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
+		<Item Name="PathPlannerCmdFollowHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowHolConfig.ctl"/>
 		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
 		<Item Name="PathPlannerCtrlHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlHolConfig.ctl"/>
@@ -40,7 +41,10 @@
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
-		<Item Name="Commands" Type="Folder"/>
+		<Item Name="Commands" Type="Folder">
+			<Item Name="PathPlanner_Cmd_FollowHolonomicPathExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowHolonomicPathExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_FollowHolonomicPathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowHolonomicPathPack.vi"/>
+		</Item>
 		<Item Name="CommandUtil" Type="Folder">
 			<Item Name="PathPlanner_CommandUtil_Equals.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_Equals.vi"/>
 			<Item Name="PathPlanner_CommandUtil_TypeFromString.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_TypeFromString.vi"/>
