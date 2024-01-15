@@ -15,7 +15,7 @@ Work list:
 	- testing - java pgm to make csv file to compare with.
 	n/a commands/FollowPath(base for next three) - nothing really to do - 
 
-	- commands/FollowHolonomicPath 
+	/ commands/FollowHolonomicPath 
 	- commands/FollowLTVPath 
 	- commands/FollowRamsetePath 
 

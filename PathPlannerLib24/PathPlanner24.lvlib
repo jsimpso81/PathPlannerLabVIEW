@@ -23,6 +23,7 @@
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="PathPlannerCmdFollowHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowHolConfig.ctl"/>
+		<Item Name="PathPlannerCmdFollowRamConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowRamConfig.ctl"/>
 		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
 		<Item Name="PathPlannerCtrlHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlHolConfig.ctl"/>
@@ -42,8 +43,13 @@
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Commands" Type="Folder">
+			<Item Name="PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi"/>
 			<Item Name="PathPlanner_Cmd_FollowHolonomicPathExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowHolonomicPathExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FollowHolonomicPathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowHolonomicPathPack.vi"/>
+			<Item Name="PathPlanner_Cmd_FollowLTVUnicyclePathExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowLTVUnicyclePathExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_FollowLTVUnicyclePathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowLTVUnicyclePathPack.vi"/>
+			<Item Name="PathPlanner_Cmd_FollowRamsetePathExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowRamsetePathExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_FollowRamsetePathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowRamsetePathPack.vi"/>
 		</Item>
 		<Item Name="CommandUtil" Type="Folder">
 			<Item Name="PathPlanner_CommandUtil_Equals.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_Equals.vi"/>
