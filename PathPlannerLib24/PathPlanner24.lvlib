@@ -30,12 +30,15 @@
 		<Item Name="PathPlannerCtrlHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlHolConfig.ctl"/>
 		<Item Name="PathPlannerCtrlLTVUnicycleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlLTVUnicycleConfig.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>
+		<Item Name="PathPlannerFinderDoublePair.ctl" Type="VI" URL="../TypeDef/PathPlannerFinderDoublePair.ctl"/>
+		<Item Name="PathPlannerFinderGridPosition.ctl" Type="VI" URL="../TypeDef/PathPlannerFinderGridPosition.ctl"/>
 		<Item Name="PathPlannerGoalEndState.ctl" Type="VI" URL="../TypeDef/PathPlannerGoalEndState.ctl"/>
 		<Item Name="PathPlannerObstacleGrid.ctl" Type="VI" URL="../TypeDef/PathPlannerObstacleGrid.ctl"/>
 		<Item Name="PathPlannerPath.ctl" Type="VI" URL="../TypeDef/PathPlannerPath.ctl"/>
 		<Item Name="PathPlannerPathConstraints.ctl" Type="VI" URL="../TypeDef/PathPlannerPathConstraints.ctl"/>
 		<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="../TypeDef/PathPlannerPathPoint.ctl"/>
 		<Item Name="PathPlannerPathSegment.ctl" Type="VI" URL="../TypeDef/PathPlannerPathSegment.ctl"/>
+		<Item Name="PathPlannerRectangularObstacle.ctl" Type="VI" URL="../TypeDef/PathPlannerRectangularObstacle.ctl"/>
 		<Item Name="PathPlannerReplanningConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerReplanningConfig.ctl"/>
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
@@ -193,10 +196,46 @@
 			</Item>
 		</Item>
 		<Item Name="PathFinding" Type="Folder">
+			<Item Name="GridPosition" Type="Folder">
+				<Item Name="PathPlanner_GridPosition_CompareTo.vi" Type="VI" URL="../VI/PathPlanner_GridPosition_CompareTo.vi"/>
+				<Item Name="PathPlanner_GridPosition_Equals.vi" Type="VI" URL="../VI/PathPlanner_GridPosition_Equals.vi"/>
+				<Item Name="PathPlanner_GridPosition_FromHash.vi" Type="VI" URL="../VI/PathPlanner_GridPosition_FromHash.vi"/>
+				<Item Name="PathPlanner_GridPosition_Get.vi" Type="VI" URL="../VI/PathPlanner_GridPosition_Get.vi"/>
+				<Item Name="PathPlanner_GridPosition_HashCode.vi" Type="VI" URL="../VI/PathPlanner_GridPosition_HashCode.vi"/>
+				<Item Name="PathPlanner_GridPosition_New.vi" Type="VI" URL="../VI/PathPlanner_GridPosition_New.vi"/>
+			</Item>
 			<Item Name="ObstacleGrid" Type="Folder">
 				<Item Name="PathPlanner_ObstacleGrid_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_FromJSON.vi"/>
+				<Item Name="PathPlanner_ObstacleGrid_ProcessNavFile.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_ProcessNavFile.vi"/>
 				<Item Name="PathPlanner_ObstacleGrid_ReadNavFile.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_ReadNavFile.vi"/>
 				<Item Name="PathPlanner_ObstacleGrid_ToOccupancyGrid.vi" Type="VI" URL="../VI/PathPlanner_ObstacleGrid_ToOccupancyGrid.vi"/>
+			</Item>
+			<Item Name="PathFinder" Type="Folder">
+				<Item Name="PathPlanner_PathFinder_ComparePair.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ComparePair.vi"/>
+				<Item Name="PathPlanner_PathFinder_ComputeOrImprovePath.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ComputeOrImprovePath.vi"/>
+				<Item Name="PathPlanner_PathFinder_Constants.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Constants.vi"/>
+				<Item Name="PathPlanner_PathFinder_DefaultFieldSize.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DefaultFieldSize.vi"/>
+				<Item Name="PathPlanner_PathFinder_DefaultNodeInfo.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DefaultNodeInfo.vi"/>
+				<Item Name="PathPlanner_PathFinder_DoMinor.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DoMinor.vi"/>
+				<Item Name="PathPlanner_PathFinder_DoReset.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DoReset.vi"/>
+				<Item Name="PathPlanner_PathFinder_FindClosestNonObstacle.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_FindClosestNonObstacle.vi"/>
+				<Item Name="PathPlanner_PathFinder_GetAllNeighbors.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GetAllNeighbors.vi"/>
+				<Item Name="PathPlanner_PathFinder_GetGridPos.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GetGridPos.vi"/>
+				<Item Name="PathPlanner_PathFinder_GetOpenNeighbors.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GetOpenNeighbors.vi"/>
+				<Item Name="PathPlanner_PathFinder_Globals.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Globals.vi"/>
+				<Item Name="PathPlanner_PathFinder_GridPosToTranslation2d.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GridPosToTranslation2d.vi"/>
+				<Item Name="PathPlanner_PathFinder_Heuristic.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Heuristic.vi"/>
+				<Item Name="PathPlanner_PathFinder_Key.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Key.vi"/>
+				<Item Name="PathPlanner_PathFinder_New.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_New.vi"/>
+				<Item Name="PathPlanner_PathFinder_TopKey.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_TopKey.vi"/>
+				<Item Name="PathPlanner_PathFinder_WorkerThread.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_WorkerThread.vi"/>
+			</Item>
+			<Item Name="PathFinding" Type="Folder">
+				<Item Name="PathPlanner_PathFinding_EnsureInitialized.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_EnsureInitialized.vi"/>
+				<Item Name="PathPlanner_PathFinding_IsNewPathAvailable.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_IsNewPathAvailable.vi"/>
+				<Item Name="PathPlanner_PathFinding_SetDynamicObstacles.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetDynamicObstacles.vi"/>
+				<Item Name="PathPlanner_PathFinding_SetGoalPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetGoalPosition.vi"/>
+				<Item Name="PathPlanner_PathFinding_SetStartingPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetStartingPosition.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
