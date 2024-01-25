@@ -23,6 +23,7 @@
 		</Item>
 		<Item Name="class-name-work-list.txt" Type="Document" URL="../class-name-work-list.txt"/>
 		<Item Name="PathPlanner24.lvlib" Type="Library" URL="../../PathPlannerLib24/PathPlanner24.lvlib"/>
+		<Item Name="PathPlanner_PathFinding_Cmd_ENUM.ctl" Type="VI" URL="../../PathPlannerLib24/ENum/PathPlanner_PathFinding_Cmd_ENUM.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
