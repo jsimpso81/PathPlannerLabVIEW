@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Enum" Type="Folder">
 		<Item Name="PathPlanner_CommandUtilType_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_CommandUtilType_ENUM.ctl"/>
+		<Item Name="PathPlanner_PathFinding_Cmd_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_PathFinding_Cmd_ENUM.ctl"/>
 	</Item>
 	<Item Name="Macros" Type="Folder">
 		<Item Name="macro_CreatePathTraj.vi" Type="VI" URL="../Macros/macro_CreatePathTraj.vi"/>
@@ -212,6 +213,8 @@
 			</Item>
 			<Item Name="PathFinder" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="PathPlanner_PathFinder_ApplyAnchorSmooth.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ApplyAnchorSmooth.vi"/>
+				<Item Name="PathPlanner_PathFinder_ApplyControlSmooth.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ApplyControlSmooth.vi"/>
 				<Item Name="PathPlanner_PathFinder_ClosedClear.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ClosedClear.vi"/>
 				<Item Name="PathPlanner_PathFinder_ComparePair.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ComparePair.vi"/>
 				<Item Name="PathPlanner_PathFinder_ComputeOrImprovePath.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ComputeOrImprovePath.vi"/>
@@ -219,8 +222,10 @@
 				<Item Name="PathPlanner_PathFinder_Cost.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Cost.vi"/>
 				<Item Name="PathPlanner_PathFinder_DefaultFieldSize.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DefaultFieldSize.vi"/>
 				<Item Name="PathPlanner_PathFinder_DefaultNodeInfo.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DefaultNodeInfo.vi"/>
+				<Item Name="PathPlanner_PathFinder_DoMajor.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DoMajor.vi"/>
 				<Item Name="PathPlanner_PathFinder_DoMinor.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DoMinor.vi"/>
 				<Item Name="PathPlanner_PathFinder_DoReset.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_DoReset.vi"/>
+				<Item Name="PathPlanner_PathFinder_ExtractPath.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_ExtractPath.vi"/>
 				<Item Name="PathPlanner_PathFinder_FindClosestNonObstacle.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_FindClosestNonObstacle.vi"/>
 				<Item Name="PathPlanner_PathFinder_GetAllNeighbors.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GetAllNeighbors.vi"/>
 				<Item Name="PathPlanner_PathFinder_GetGridPos.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GetGridPos.vi"/>
@@ -229,6 +234,7 @@
 				<Item Name="PathPlanner_PathFinder_GridPosToTranslation2d.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_GridPosToTranslation2d.vi"/>
 				<Item Name="PathPlanner_PathFinder_Heuristic.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Heuristic.vi"/>
 				<Item Name="PathPlanner_PathFinder_InconsClear.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_InconsClear.vi"/>
+				<Item Name="PathPlanner_PathFinder_InitializeWorkerThread.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_InitializeWorkerThread.vi"/>
 				<Item Name="PathPlanner_PathFinder_IsCollision.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_IsCollision.vi"/>
 				<Item Name="PathPlanner_PathFinder_IsWalkable.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_IsWalkable.vi"/>
 				<Item Name="PathPlanner_PathFinder_Key.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_Key.vi"/>
@@ -241,7 +247,6 @@
 				<Item Name="PathPlanner_PathFinder_WorkerThread.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_WorkerThread.vi"/>
 			</Item>
 			<Item Name="PathFinding" Type="Folder">
-				<Item Name="PathPlanner_PathFinding_EnsureInitialized.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_EnsureInitialized.vi"/>
 				<Item Name="PathPlanner_PathFinding_IsNewPathAvailable.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_IsNewPathAvailable.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetDynamicObstacles.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetDynamicObstacles.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetGoalPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetGoalPosition.vi"/>
