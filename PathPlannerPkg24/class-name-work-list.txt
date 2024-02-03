@@ -16,18 +16,19 @@ Work list:
 	n/a commands/FollowPath(base for next three) - nothing really to do - 
 
 	/ commands/FollowHolonomicPath 
-	- commands/FollowLTVPath 
-	- commands/FollowRamsetePath 
+	/ commands/FollowLTVPath 
+	/ commands/FollowRamsetePath 
 
-	- commands/FollowHolonomicPathWithEvents (add events)
-	- commands/FollowLTVPathWithEvents (add events)
-	- commands/FollowRamsetePathWithEvents (add events)
+	/ commands/FollowHolonomicPathWithEvents (add events)
+	/ commands/FollowLTVPathWithEvents (add events)
+	/ commands/FollowRamsetePathWithEvents (add events)
 
 	- commands/FindFollowHolonomicPathWithEvents
 	- commands/FindFollowLTVPathWithEvents
 	- commands/FindFollowRamsetePathWithEvents
 
 	- ADStar (labview already has an implementation, can it be used?)
+
 	- auto
 
 
@@ -85,13 +86,13 @@ X	X	X	controllers/PPRamseteController
 
 X	X	X	util/ReplanningConfig
 
-			commands/FollowPath(base for next three)
-			commands/FollowHolonomicPath 
-			commands/FollowLTVPath 
-			commands/FollowRamsetePath 
-			commands/FollowHolonomicPathWithEvents (add events)
-			commands/FollowLTVPathWithEvents (add events)
-			commands/FollowRamsetePathWithEvents (add events)
+no	no	no	commands/FollowPath(base for next three)
+no	no	no	commands/FollowHolonomicPath 
+no	no	no	commands/FollowLTVPath 
+no	no	no	commands/FollowRamsetePath 
+x	x		commands/FollowHolonomicPathWithEvents (add events)
+x	x		commands/FollowLTVPathWithEvents (add events)
+x	x		commands/FollowRamsetePathWithEvents (add events)
 			commands/FindFollowHolonomicPathWithEvents
 			commands/FindFollowLTVPathWithEvents
 			commands/FindFollowRamsetePathWithEvents
