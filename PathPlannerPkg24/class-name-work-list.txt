@@ -15,13 +15,13 @@ Work list:
 	- testing - java pgm to make csv file to compare with.
 	n/a commands/FollowPath(base for next three) - nothing really to do - 
 
-	/ commands/FollowHolonomicPath 
-	/ commands/FollowLTVPath 
-	/ commands/FollowRamsetePath 
+	/ commands/FollowHolonomicPath - not separate
+	/ commands/FollowLTVPath - not separate
+	/ commands/FollowRamsetePath - not separate
 
-	/ commands/FollowHolonomicPathWithEvents (add events)
-	/ commands/FollowLTVPathWithEvents (add events)
-	/ commands/FollowRamsetePathWithEvents (add events)
+	/ commands/FollowHolonomicPathWithEvents - need doc
+	/ commands/FollowLTVPathWithEvents - need doc
+	/ commands/FollowRamsetePathWithEvents - need doc
 
 	- commands/FindFollowHolonomicPathWithEvents
 	- commands/FindFollowLTVPathWithEvents
