@@ -14,6 +14,9 @@
 		<Item Name="PathPlanner_PathFinding_Cmd_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_PathFinding_Cmd_ENUM.ctl"/>
 	</Item>
 	<Item Name="Macros" Type="Folder">
+		<Item Name="macro_Cmd_Follow_RamseteExecute.vi" Type="VI" URL="../Macros/macro_Cmd_Follow_RamseteExecute.vi"/>
+		<Item Name="macro_Cmd_FollowHolonomicExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FollowHolonomicExecute.vi"/>
+		<Item Name="macro_Cmd_FollowLTVUnicycleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FollowLTVUnicycleExecute.vi"/>
 		<Item Name="macro_CreatePathTraj.vi" Type="VI" URL="../Macros/macro_CreatePathTraj.vi"/>
 		<Item Name="macro_Ctrl_HolonomicExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_HolonomicExecute.vi"/>
 		<Item Name="macro_Ctrl_LTVUnicycleExecute.vi" Type="VI" URL="../Macros/macro_Ctrl_LTVUnicycleExecute.vi"/>
