@@ -25,6 +25,8 @@ C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\VI
 
 second source library
  -- none - turn off use second directory switch
+Use second part of name as group
+ -- turn ON
 
 TYPEDEF
 -------
