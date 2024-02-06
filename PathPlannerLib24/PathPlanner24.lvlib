@@ -14,6 +14,7 @@
 		<Item Name="PathPlanner_PathFinding_Cmd_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_PathFinding_Cmd_ENUM.ctl"/>
 	</Item>
 	<Item Name="Macros" Type="Folder">
+		<Item Name="macro_Cmd_FindFollowHolonomicSimpleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FindFollowHolonomicSimpleExecute.vi"/>
 		<Item Name="macro_Cmd_Follow_RamseteExecute.vi" Type="VI" URL="../Macros/macro_Cmd_Follow_RamseteExecute.vi"/>
 		<Item Name="macro_Cmd_FollowHolonomicExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FollowHolonomicExecute.vi"/>
 		<Item Name="macro_Cmd_FollowLTVUnicycleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FollowLTVUnicycleExecute.vi"/>
@@ -26,6 +27,7 @@
 		<Item Name="macro_ReadTrajectoryCSVFile.vi" Type="VI" URL="../Macros/macro_ReadTrajectoryCSVFile.vi"/>
 	</Item>
 	<Item Name="TypeDef" Type="Folder">
+		<Item Name="PathPlannerCmdFindConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFindConfig.ctl"/>
 		<Item Name="PathPlannerCmdFollowHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowHolConfig.ctl"/>
 		<Item Name="PathPlannerCmdFollowLTVUnicycleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowLTVUnicycleConfig.ctl"/>
 		<Item Name="PathPlannerCmdFollowRamConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowRamConfig.ctl"/>
@@ -51,6 +53,8 @@
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Commands" Type="Folder">
+			<Item Name="PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_FindPathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindPathPack.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_InitEvents.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_InitEvents.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_TriggerEvents.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_TriggerEvents.vi"/>
@@ -241,10 +245,12 @@
 				<Item Name="PathPlanner_PathFinder_WorkerThreadALT.vi" Type="VI" URL="../VI/PathPlanner_PathFinder_WorkerThreadALT.vi"/>
 			</Item>
 			<Item Name="PathFinding" Type="Folder">
+				<Item Name="PathPlanner_PathFinding_EnsureInitialized.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_EnsureInitialized.vi"/>
 				<Item Name="PathPlanner_PathFinding_GetNewPath.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_GetNewPath.vi"/>
 				<Item Name="PathPlanner_PathFinding_IsNewPathAvailable.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_IsNewPathAvailable.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetDynamicObstacles.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetDynamicObstacles.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetGoalPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetGoalPosition.vi"/>
+				<Item Name="PathPlanner_PathFinding_SetStartAndGoalPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetStartAndGoalPosition.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetStartingPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetStartingPosition.vi"/>
 			</Item>
 		</Item>
