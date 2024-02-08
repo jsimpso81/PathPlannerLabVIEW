@@ -31,12 +31,35 @@ Inputs:<BR>
 Outputs:<BR>
   -  EventMarkers - array of cluster - The event markers defined by the given json object<BR>
   -  Exists - boolean- TRUE if any event markers were found in the JSON string.<BR>
+<BR>
+Notes:<BR>
+--------<BR>
+Currently the only type of commands that can be issued are Boolean commands.  The value is forced to TRUE when the command is issued.<BR>
+<BR>
+The following table lists the actions performed for different types of commands:<BR>
+  -  Unknown - nothing  - not supported.<BR>
+  -  Wait  - nothing  - not supported<BR>
+  -  Named  - Issue boolean command with TRUE value using the "name" as the command name.<BR>
+  -  Path - nothing - not supported<BR>
+  -  Sequential, Parallel, Race, Deadline - Issue boolean command with TRUE value for each of the commands contained in the "commands" array.    The value for "name" is used as the command name.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_EventMarker_FromJSON_Data" >PathPlanner_EventMarker_FromJSON_Data</h3>
 <p><IMG SRC="PathPlanner_EventMarker_FromJSON_Data_iconc.png"  ALIGN=BOTTOM></p>
-<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Internal function to parse JSON data for Event Markers.   This is data that is different for each different type of Event Marker command.</pre></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">Internal function to parse JSON data for Event Markers.   This is data that is different for each different type of Event Marker command.<BR>
+<BR>
+Notes:<BR>
+--------<BR>
+Currently the only type of commands that can be issued are Boolean commands.  The value is forced to TRUE when the command is issued.<BR>
+<BR>
+The following table lists the actions performed for different types of commands:<BR>
+  -  Unknown - nothing  - not supported.<BR>
+  -  Wait  - nothing  - not supported<BR>
+  -  Named  - Issue boolean command with TRUE value using the "name" as the command name.<BR>
+  -  Path - nothing - not supported<BR>
+  -  Sequential, Parallel, Race, Deadline - Issue boolean command with TRUE value for each of the commands contained in the "commands" array.    The value for "name" is used as the command name.<BR>
+</pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_EventMarker_GetCommand" >PathPlanner_EventMarker_GetCommand</h3>
@@ -86,6 +109,18 @@ Inputs:<BR>
 <BR>
 Outputs:<BR>
   -  EventMarker - cluster - Data cluster<BR>
+<BR>
+<BR>
+Notes:<BR>
+--------<BR>
+Currently the only type of commands that can be issued are Boolean commands.  The value is forced to TRUE when the command is issued.<BR>
+<BR>
+The following table lists the actions performed for different types of commands:<BR>
+  -  Unknown - nothing  - not supported.<BR>
+  -  Wait  - nothing  - not supported<BR>
+  -  Named  - Issue boolean command with TRUE value using the "name" as the command name.<BR>
+  -  Path - nothing - not supported<BR>
+  -  Sequential, Parallel, Race, Deadline - Issue boolean command with TRUE value for each of the commands contained in the "commands" array.    The value for "name" is used as the command name.<BR>
 </pre></p>
 <br>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">

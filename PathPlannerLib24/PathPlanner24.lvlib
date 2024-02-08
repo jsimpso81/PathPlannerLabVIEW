@@ -15,6 +15,8 @@
 	</Item>
 	<Item Name="Macros" Type="Folder">
 		<Item Name="macro_Cmd_FindFollowHolonomicSimpleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FindFollowHolonomicSimpleExecute.vi"/>
+		<Item Name="macro_Cmd_FindFollowLTVUnicycleSimpleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FindFollowLTVUnicycleSimpleExecute.vi"/>
+		<Item Name="macro_Cmd_FindFollowRamseteSimpleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FindFollowRamseteSimpleExecute.vi"/>
 		<Item Name="macro_Cmd_Follow_RamseteExecute.vi" Type="VI" URL="../Macros/macro_Cmd_Follow_RamseteExecute.vi"/>
 		<Item Name="macro_Cmd_FollowHolonomicExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FollowHolonomicExecute.vi"/>
 		<Item Name="macro_Cmd_FollowLTVUnicycleExecute.vi" Type="VI" URL="../Macros/macro_Cmd_FollowLTVUnicycleExecute.vi"/>
@@ -54,6 +56,8 @@
 	<Item Name="VI" Type="Folder">
 		<Item Name="Commands" Type="Folder">
 			<Item Name="PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FindPathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindPathPack.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_InitEvents.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_InitEvents.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi"/>
@@ -247,6 +251,7 @@
 			<Item Name="PathFinding" Type="Folder">
 				<Item Name="PathPlanner_PathFinding_EnsureInitialized.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_EnsureInitialized.vi"/>
 				<Item Name="PathPlanner_PathFinding_GetNewPath.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_GetNewPath.vi"/>
+				<Item Name="PathPlanner_PathFinding_Initialize.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_Initialize.vi"/>
 				<Item Name="PathPlanner_PathFinding_IsNewPathAvailable.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_IsNewPathAvailable.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetDynamicObstacles.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetDynamicObstacles.vi"/>
 				<Item Name="PathPlanner_PathFinding_SetGoalPosition.vi" Type="VI" URL="../VI/PathPlanner_PathFinding_SetGoalPosition.vi"/>

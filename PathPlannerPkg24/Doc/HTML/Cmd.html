@@ -8,6 +8,76 @@
 <BODY>
 <h2 id="Cmd" >Cmd</h2>
 <HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute" >PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute</h3>
+<p><IMG SRC="PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">DOCUMENTATION IS NOT COMPLETE.<BR>
+<BR>
+Find and follow a path for holonomic (swerve and mecanum) drive robots using holonomic controller.<BR>
+                                <BR>
+                                <BR>
+Inputs:<BR>
+  -   CurrentPoseSi - pose2d - The current pose calculated by odometry or pose estimation.  The pose can be absolute or relative depending on what type of trajectory is being followed.<BR>
+  -  Reset - boolean - When TRUE the holonomic drive controller is reset.  This should be set to TRUE for the first execution of a trajectory.<BR>
+  -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
+  -  Period - double - The loop period in seconds for this controller.  (Optional.  Default: 0.020)<BR>
+<BR>
+Outputs:<BR>
+  -  CalcChassisSpeed - cluster - The desired chassis speed in SI units.<BR>
+  -  AtReference - boolean - TRUE if the robots position is within the defined tolerance.<BR>
+  -  PositionError - pose2d - Position error in SI units.  How far the robot is away from the desired trajectory position.<BR>
+  -  out_Holonomic_Drive_Ctrl - THe current holonomic drive controller data cluster.  This is mainly for diagnostic purposes.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute" >PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute</h3>
+<p><IMG SRC="PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">DOCUMENTATION IS NOT COMPLETE.<BR>
+<BR>
+<BR>
+Find and follow a path for differential drive robots using LTV Unicycle controller.<BR>
+                                <BR>
+                                <BR>
+Inputs:<BR>
+  -   CurrentPoseSi - pose2d - The current pose calculated by odometry or pose estimation.  The pose can be absolute or relative depending on what type of trajectory is being followed.<BR>
+  -  Reset - boolean - When TRUE the holonomic drive controller is reset.  This should be set to TRUE for the first execution of a trajectory.<BR>
+  -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
+<BR>
+Outputs:<BR>
+  -  AtReference - boolean - TRUE if the robots position is within the defined tolerance.<BR>
+  -  PositionError - pose2d - Position error in SI units.  How far the robot is away from the desired trajectory position.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute" >PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute</h3>
+<p><IMG SRC="PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">DOCUMENTATION IS NOT COMPLETE.<BR>
+<BR>
+Find and follow a path for differential drive robots using Ramsete controller.<BR>
+                                <BR>
+<BR>
+Inputs:<BR>
+  -   CurrentPoseSi - pose2d - The current pose calculated by odometry or pose estimation.  The pose can be absolute or relative depending on what type of trajectory is being followed.<BR>
+  -  Reset - boolean - When TRUE the holonomic drive controller is reset.  This should be set to TRUE for the first execution of a trajectory.<BR>
+  -  Enabled - boolean - When TRUE, closed loop control is enabled.  (Optional.  Default: TRUE)<BR>
+<BR>
+Outputs:<BR>
+  -  AtReference - boolean - TRUE if the robots position is within the defined tolerance.<BR>
+  -  PositionError - pose2d - Position error in SI units.  How far the robot is away from the desired trajectory position.<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
+<h3 id="PathPlanner_Cmd_FindPathPack" >PathPlanner_Cmd_FindPathPack</h3>
+<p><IMG SRC="PathPlanner_Cmd_FindPathPack_iconc.png"  ALIGN=BOTTOM></p>
+<p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">DOCUMENTATION IS NOT COMPLETE.<BR>
+                                <BR>
+Pack path finding configuration data.<BR>
+<BR>
+Inputs:<BR>
+<BR>
+Outputs:<BR>
+</pre></p>
+<br>
+<HR SIZE="6" WIDTH=" 100.000000%" COLOR="GREY">
 <h3 id="PathPlanner_Cmd_FollowHolonomicPathExecute" >PathPlanner_Cmd_FollowHolonomicPathExecute</h3>
 <p><IMG SRC="PathPlanner_Cmd_FollowHolonomicPathExecute_iconc.png"  ALIGN=BOTTOM></p>
 <p><pre style="overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; font-family: serif; font-size: 12pt;">DOCUMENTATION IS NOT COMPLETE.<BR>
