@@ -50,6 +50,8 @@
 		<Item Name="PathPlannerReplanningConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerReplanningConfig.ctl"/>
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
+		<Item Name="PathPlannerTrajectoryEvent.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvent.ctl"/>
+		<Item Name="PathPlannerTrajectoryEvents.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvents.ctl"/>
 		<Item Name="PathPlannerTrajectoryState.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryState.ctl"/>
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
@@ -96,12 +98,8 @@
 				<Item Name="PathPlanner_EventMarker_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON.vi"/>
 				<Item Name="PathPlanner_EventMarker_FromJSON_Data.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_FromJSON_Data.vi"/>
 				<Item Name="PathPlanner_EventMarker_GetCommand.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetCommand.vi"/>
-				<Item Name="PathPlanner_EventMarker_GetMinimumTriggerDistance.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetMinimumTriggerDistance.vi"/>
 				<Item Name="PathPlanner_EventMarker_GetWaypointRelativePos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_GetWaypointRelativePos.vi"/>
 				<Item Name="PathPlanner_EventMarker_New.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_New.vi"/>
-				<Item Name="PathPlanner_EventMarker_Reset.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_Reset.vi"/>
-				<Item Name="PathPlanner_EventMarker_SetMarkerPos.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_SetMarkerPos.vi"/>
-				<Item Name="PathPlanner_EventMarker_ShouldTrigger.vi" Type="VI" URL="../VI/PathPlanner_EventMarker_ShouldTrigger.vi"/>
 			</Item>
 			<Item Name="GoalEndState" Type="Folder">
 				<Item Name="PathPlanner_GoalEndState_Equals.vi" Type="VI" URL="../VI/PathPlanner_GoalEndState_Equals.vi"/>
