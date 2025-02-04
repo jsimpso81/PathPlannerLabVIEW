@@ -51,6 +51,7 @@
 		<Item Name="PathPlannerRectangularObstacle.ctl" Type="VI" URL="../TypeDef/PathPlannerRectangularObstacle.ctl"/>
 		<Item Name="PathPlannerReplanningConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerReplanningConfig.ctl"/>
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
+		<Item Name="PathPlannerSwerveModTrajState.ctl" Type="VI" URL="../TypeDef/PathPlannerSwerveModTrajState.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
 		<Item Name="PathPlannerTrajectoryEvent.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvent.ctl"/>
 		<Item Name="PathPlannerTrajectoryEvents.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvents.ctl"/>
@@ -142,6 +143,7 @@
 				<Item Name="PathPlanner_Path_GetInitialHeading.vi" Type="VI" URL="../VI/PathPlanner_Path_GetInitialHeading.vi"/>
 				<Item Name="PathPlanner_Path_GetPathPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPathPoses.vi"/>
 				<Item Name="PathPlanner_Path_GetPoint.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPoint.vi"/>
+				<Item Name="PathPlanner_Path_GetPoints.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPoints.vi"/>
 				<Item Name="PathPlanner_Path_GetPointTowardsZones.vi" Type="VI" URL="../VI/PathPlanner_Path_GetPointTowardsZones.vi"/>
 				<Item Name="PathPlanner_Path_GetRotationTargets.vi" Type="VI" URL="../VI/PathPlanner_Path_GetRotationTargets.vi"/>
 				<Item Name="PathPlanner_Path_GetStartingDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Path_GetStartingDifferentialPose.vi"/>
@@ -259,7 +261,7 @@
 			</Item>
 		</Item>
 		<Item Name="Trajectory" Type="Folder">
-			<Item Name="Trajectory" Type="Folder">
+			<Item Name="Trajectory24" Type="Folder">
 				<Item Name="PathPlanner_Trajectory_GenerateStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates.vi">
 					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 				</Item>
