@@ -102,7 +102,7 @@
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/1_SourceDistribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">99</Property>
+				<Property Name="Bld_version.build" Type="Int">101</Property>
 				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
@@ -156,7 +156,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PathPlannerLib24Lv2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2019_2025.0.0-95_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2019_2025.0.0-97_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port of M. Jansen Path Planner2024/2025  to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -164,7 +164,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">96</Property>
+				<Property Name="PKG_buildNumber" Type="Int">98</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PathPlannerLib24Lv2019</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -211,7 +211,7 @@
 				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024 to LabVIEW</Property>
+				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024/2025 to LabVIEW</Property>
 				<Property Name="PKG_destinations.Count" Type="Int">5</Property>
 				<Property Name="PKG_destinations[0].ID" Type="Str">{34FFEB28-0CC8-4B3C-8BEC-D3FD6B4FC65A}</Property>
 				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">PathPlannerLabVIEW</Property>
@@ -288,7 +288,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PathPlannerLibLv2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2020_2025.0.0-95_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2020_2025.0.0-97_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port of M. Jansen Path Planner2024/2025  to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -296,7 +296,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">96</Property>
+				<Property Name="PKG_buildNumber" Type="Int">98</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PathPlannerLib24Lv2020</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -343,7 +343,7 @@
 				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024 to LabVIEW</Property>
+				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024/2025 to LabVIEW</Property>
 				<Property Name="PKG_destinations.Count" Type="Int">5</Property>
 				<Property Name="PKG_destinations[0].ID" Type="Str">{464D1695-4C6C-4EF3-AFE2-783F94DE5FC3}</Property>
 				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">LabVIEW 2020</Property>
@@ -420,7 +420,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PathPlannerLibLv2019/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2023_2025.0.0-95_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">pathplannerpackagelv2023_2025.0.0-97_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str">Port of M. Jansen Path Planner 2024/2025 to LabVIEW</Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">true</Property>
@@ -428,7 +428,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">96</Property>
+				<Property Name="PKG_buildNumber" Type="Int">98</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PathPlannerLib24Lv2023</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -475,7 +475,7 @@
 				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
 				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024 to LabVIEW</Property>
+				<Property Name="PKG_description" Type="Str">Port of M . Jansen Path Planner 2024/2025 to LabVIEW</Property>
 				<Property Name="PKG_destinations.Count" Type="Int">5</Property>
 				<Property Name="PKG_destinations[0].ID" Type="Str">{0BACB55D-17A1-4E97-8DBE-8E8A081D2865}</Property>
 				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">PathPlannerLabVIEW</Property>
