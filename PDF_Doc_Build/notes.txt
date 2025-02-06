@@ -24,7 +24,7 @@ source library
 C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\VI
 
 second source library
- -- none - turn off use second directory switch
+ -- none - turn OFF use second directory switch
 Use second part of name as group
  -- turn ON
 
@@ -46,10 +46,7 @@ source
 C:\Shares\github\PathPlannerLabVIEW\PathPlannerLib24\ENum
 
 
-Need to edit TYPEDEF and ENUM html files since these are not in separate directories.
 
-Then merge TEMP2 back into TEMP.
-
-
+Open odm document.  Update everything.  Add and remove sections as needed.  Update again.  Save.  Export PDF.
 
 
