@@ -27,3 +27,4 @@
 # ignore doc builder temp files
 /Temp/**
 /Temp2/**
+/Temp3/**
