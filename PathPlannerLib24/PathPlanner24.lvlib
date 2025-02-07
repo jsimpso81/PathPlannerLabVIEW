@@ -49,7 +49,6 @@
 		<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="../TypeDef/PathPlannerPathPoint.ctl"/>
 		<Item Name="PathPlannerPointTowardsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerPointTowardsZone.ctl"/>
 		<Item Name="PathPlannerRectangularObstacle.ctl" Type="VI" URL="../TypeDef/PathPlannerRectangularObstacle.ctl"/>
-		<Item Name="PathPlannerReplanningConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerReplanningConfig.ctl"/>
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
 		<Item Name="PathPlannerSwerveModTrajState.ctl" Type="VI" URL="../TypeDef/PathPlannerSwerveModTrajState.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
@@ -66,7 +65,7 @@
 			<Item Name="PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FindPathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindPathPack.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_InitEvents.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_InitEvents.vi"/>
-			<Item Name="PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_Replan_Sample.vi"/>
+			<Item Name="PathPlanner_Cmd_Follow_Internal_Sample.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_Sample.vi"/>
 			<Item Name="PathPlanner_Cmd_Follow_Internal_TriggerEvents.vi" Type="VI" URL="../VI/PathPlanner_Cmd_Follow_Internal_TriggerEvents.vi"/>
 			<Item Name="PathPlanner_Cmd_FollowHolonomicPathExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowHolonomicPathExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FollowHolonomicPathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowHolonomicPathPack.vi"/>
@@ -129,7 +128,6 @@
 				<Item Name="PathPlanner_Path_CreatePath_Worker1.vi" Type="VI" URL="../VI/PathPlanner_Path_CreatePath_Worker1.vi"/>
 				<Item Name="PathPlanner_Path_CreatePath_Worker2.vi" Type="VI" URL="../VI/PathPlanner_Path_CreatePath_Worker2.vi"/>
 				<Item Name="PathPlanner_Path_Equals.vi" Type="VI" URL="../VI/PathPlanner_Path_Equals.vi"/>
-				<Item Name="PathPlanner_Path_FOR_REMOVAL_BezierFromPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_FOR_REMOVAL_BezierFromPoses.vi"/>
 				<Item Name="PathPlanner_Path_FromJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_FromJSON.vi"/>
 				<Item Name="PathPlanner_Path_FromPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathFile.vi"/>
 				<Item Name="PathPlanner_Path_FromPathPonts.vi" Type="VI" URL="../VI/PathPlanner_Path_FromPathPonts.vi"/>
@@ -318,10 +316,6 @@
 				<Item Name="PathPlanner_GeomUtil_QuadraticLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_QuadraticLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_RotationLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_RotationLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_TranslationLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_TranslationLerp.vi"/>
-			</Item>
-			<Item Name="ReplanningConfig" Type="Folder">
-				<Item Name="PathPlanner_ReplanningConfig_GetAll.vi" Type="VI" URL="../VI/PathPlanner_ReplanningConfig_GetAll.vi"/>
-				<Item Name="PathPlanner_ReplanningConfig_New.vi" Type="VI" URL="../VI/PathPlanner_ReplanningConfig_New.vi"/>
 			</Item>
 		</Item>
 		<Item Name="WPIHolonomicPose" Type="Folder">
