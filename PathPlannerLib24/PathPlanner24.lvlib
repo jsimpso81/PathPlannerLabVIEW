@@ -55,6 +55,7 @@
 		<Item Name="PathPlannerTrajectoryEvent.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvent.ctl"/>
 		<Item Name="PathPlannerTrajectoryEvents.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvents.ctl"/>
 		<Item Name="PathPlannerTrajectoryState.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryState.ctl"/>
+		<Item Name="PathPlannerTrajectoryState25.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryState25.ctl"/>
 		<Item Name="PathPlannerWaypoint.ctl" Type="VI" URL="../TypeDef/PathPlannerWaypoint.ctl"/>
 		<Item Name="PathPlannerWPITrajHolonomicPose.ctl" Type="VI" URL="../TypeDef/PathPlannerWPITrajHolonomicPose.ctl"/>
 	</Item>
@@ -259,7 +260,8 @@
 			</Item>
 		</Item>
 		<Item Name="Trajectory" Type="Folder">
-			<Item Name="Trajectory24" Type="Folder">
+			<Item Name="Trajectory" Type="Folder">
+				<Item Name="PathPlanner_Trajectory_FindTimeForWaypointRelPos.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_FindTimeForWaypointRelPos.vi"/>
 				<Item Name="PathPlanner_Trajectory_GenerateStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates.vi">
 					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 				</Item>
@@ -272,6 +274,7 @@
 				<Item Name="PathPlanner_Trajectory_GenerateStates_Pass3.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GenerateStates_Pass3.vi">
 					<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 				</Item>
+				<Item Name="PathPlanner_Trajectory_GetAllWaypointRelPos.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetAllWaypointRelPos.vi"/>
 				<Item Name="PathPlanner_Trajectory_GetEndState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetEndState.vi"/>
 				<Item Name="PathPlanner_Trajectory_GetInitialDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialDifferentialPose.vi"/>
 				<Item Name="PathPlanner_Trajectory_GetInitialState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_GetInitialState.vi"/>
@@ -293,6 +296,7 @@
 				<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetAll.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_GetDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetDifferentialPose.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_GetTargetHolonomicPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetTargetHolonomicPose.vi"/>
+				<Item Name="PathPlanner_TrajectoryState_GetWaypointRelPos.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetWaypointRelPos.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_GetWPITrajectoryState.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetWPITrajectoryState.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_Interpolate.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Interpolate.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_New.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_New.vi"/>

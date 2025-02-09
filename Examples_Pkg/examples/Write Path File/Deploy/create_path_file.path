@@ -1,1 +1,36 @@
-{"version":1,"reversed":false,"previewStartingState":0,"globalConstraints":{"maxVelocity":3.2000000000000001776,"maxAcceleration":2.7999999999999998224,"maxAngularVelocity":1.8000000000000000444,"maxAngularAcceleration":2.3999999999999999112},"goalEndState":{"velocity":1,"rotation":1},"waypoints":[{"anchor":{"x":1,"y":1},"prevControl":{"x":1.0000000000000000199e+30,"y":9.9999999999999996359e+30},"nextControl":{"x":1.1000000000000000888,"y":1},"isLocked":false},{"anchor":{"x":1.3000000000000000444,"y":1},"prevControl":{"x":1.1999999999999999556,"y":1},"nextControl":{"x":2.1013876853447541748,"y":1},"isLocked":false},{"anchor":{"x":3,"y":2.7000000000000001776},"prevControl":{"x":3,"y":1.8986123146552462693},"nextControl":{"x":3,"y":2.8000000000000002665},"isLocked":false},{"anchor":{"x":3,"y":3},"prevControl":{"x":3,"y":2.8999999999999999112},"nextControl":{"x":1.0000000000000000199e+30,"y":9.9999999999999996359e+30},"isLocked":false}],"constraintZones":[],"rotationTargets":[]}
+{"version":"2025.0",
+"reversed":false,
+"idealStartingState": null,
+"globalConstraints":{
+"maxVelocity":3.2000000000000001776,
+"maxAcceleration":2.7999999999999998224,
+"maxAngularVelocity":1.8000000000000000444,
+"maxAngularAcceleration":2.3999999999999999112},
+"goalEndState":{
+"velocity":1,
+"rotation":1},
+"waypoints":[
+{"anchor":{"x":1,"y":1},
+"prevControl":{"x":1.0000000000000000199e+30,"y":9.9999999999999996359e+30},
+"nextControl":{"x":1.1000000000000000888,"y":1},
+"isLocked":false},
+{"anchor":{"x":1.3000000000000000444,"y":1},
+"prevControl":{"x":1.1999999999999999556,"y":1},
+"nextControl":{"x":2.1013876853447541748,"y":1},
+"isLocked":false},
+{"anchor":{"x":3,"y":2.7000000000000001776},
+"prevControl":{"x":3,"y":1.8986123146552462693},
+"nextControl":{"x":3,"y":2.8000000000000002665},
+"isLocked":false},
+{"anchor":{"x":3,"y":3},
+"prevControl":{"x":3,"y":2.8999999999999999112},
+"nextControl":{"x":1.0000000000000000199e+30,"y":9.9999999999999996359e+30},
+"isLocked":false}],
+"constraintZones":[],
+"rotationTargets":[],
+"pointTowardsZones": null,
+"goalEndState": null,
+"eventMarkers": null,
+"globalConstraints": null,
+"useDefaultConstraints": null
+}

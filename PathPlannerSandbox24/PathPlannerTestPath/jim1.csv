@@ -3,8 +3,8 @@
 # PathPlanner CSV Format:
 # timeSeconds, xPositionMeters, yPositionMeters, headingDegrees, velocityMetersPerSecond, accelerationMetersPerSecondSq, curvatureRadPerMeter, holonomicRotationDegrees, angularVelocityDegreesPerSec, holonomicAngularVelocityDegreesPerSec
 #----------------------------------------------------------------------------------------------
-#   Time,       X Position,   Y Position,      Heading,      Velocity,      Acceleration, Curvature, Holonomic Rotation, Angular Velocity, Holonomic Angular Velocity, Comment 
-#   Seconds,     Meters,     Meters,    Degrees, Meters/Sec,Meters/Sec^2, Radians/Meter,  Degrees, Degrees/Sec, Degrees/Sec, 
+#   Time,       X Position,   Y Position,      Heading,      Velocity,      Acceleration, Curvature, Holonomic Rotation, Angular Velocity, Holonomic Angular Velocity, Waypoint Relative Pos, Comment 
+#   Seconds,     Meters,     Meters,    Degrees, Meters/Sec,Meters/Sec^2, Radians/Meter,  Degrees, Degrees/Sec, Degrees/Sec, None,  
    0.00000,    2.00000,    7.00000,  -20.57483,    0.00000,    0.00000,    0.11759,  -45.31541,    0.00000,    0.00000,Segment:  1
    0.39877,    2.23387,    6.91221,  -18.92968,    1.19631,    3.00000,    0.11759,  -45.31541,    0.07200,    0.00000,Segment:  2
    0.55805,    2.45950,    6.83483,  -17.40996,    1.67414,    3.00000,    0.11356,  -45.31541,    0.16653,    0.00000,Segment:  3

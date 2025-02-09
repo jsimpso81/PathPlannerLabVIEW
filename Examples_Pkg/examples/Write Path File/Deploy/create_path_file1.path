@@ -1,18 +1,31 @@
-{"version":1,
+{"version":"2025.0",
  "reversed":false,
- "previewStartingState":0,
- "globalConstraints":		{"maxVelocity":3.2000000000000001776,
+ "idealStartingState": null,
+ "globalConstraints":		
+	{"maxVelocity":3.2000000000000001776,
 	"maxAcceleration":2.7999999999999998224,
 	"maxAngularVelocity":1.8000000000000000444,
-	"maxAngularAcceleration":2.3999999999999999112},
+	"maxAngularAcceleration":2.3999999999999999112,
+        "nominalVoltage": 12.0,
+        "unlimited": false},
 "goalEndState":
 	{"velocity":1,
 	"rotation":1},
 "waypoints":
 [
-	{"anchor":{"x":1,"y":1},"prevControl":{"x":0,"y":0},"nextControl":{"x":1.1200000000000001066,"y":1},"isLocked":false},
-	{"anchor":{"x":1.3000000000000000444,"y":1},"prevControl":{"x":1.1799999999999999378,"y":1},"nextControl":"x":2.2616652224137050453,"y":1},"isLocked":false},
-	{"anchor":{"x":3,"y":2.7000000000000001776},"prevControl":{"x":3,"y":1.7383347775862953988},"nextControl":{"x":3,"y":2.8200000000000002842},"isLocked":false},	{"anchor":{"x":3,"y":3},"prevControl":{"x":3,"y":2.8799999999999998934},"nextControl":{"x":0,"y":0},"isLocked":false}
+	{"anchor":{"x":1,"y":1},"prevControl":{"x":0,"y":0},"nextControl":{"x":1.1200000000000001066,"y":1},"isLocked":false,
+      "linkedName": null},
+	{"anchor":{"x":1.3000000000000000444,"y":1},"prevControl":{"x":1.1799999999999999378,"y":1},"nextControl":"x":2.2616652224137050453,"y":1},"isLocked":false,
+      "linkedName": null},
+	{"anchor":{"x":3,"y":2.7000000000000001776},"prevControl":{"x":3,"y":1.7383347775862953988},"nextControl":{"x":3,"y":2.8200000000000002842},"isLocked":false,
+      "linkedName": null},	{"anchor":{"x":3,"y":3},"prevControl":{"x":3,"y":2.8799999999999998934},"nextControl":{"x":0,"y":0},"isLocked":false,
+      "linkedName": null}
 ],
 "constraintZones":[],
-"rotationTargets":[]}
+"rotationTargets":[],
+"pointTowardsZones": null,
+"goalEndState": null,
+"eventMarkers": null,
+"globalConstraints": null,
+"useDefaultConstraints": null
+}
