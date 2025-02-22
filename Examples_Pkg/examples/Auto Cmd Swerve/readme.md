@@ -1,7 +1,7 @@
 X
-## FRC LabVIEW Path Planner Swerve Drive Robot Follow Using Holonomic Drive Controller
+## FRC LabVIEW Path Planner Swerve Drive Robot Auto Cmd Using Holonomic Drive Controller
 
-This sample robot based on the standard LabVIEW robot project, contains both a simulated and physical robot that creates both relative and absolute trajectories using Path Planner LabVIEW.  
+This sample robot based on the standard LabVIEW robot project, contains a simulated robot that reada and follows an Path Planner AUTO command file using Path Planner LabVIEW.  
 
 ### Simulated Robot
 
@@ -15,16 +15,6 @@ This robot contains a fully modeled swerve drive robot.  To run the robot:
 
 NOTE:  Ignore the *standard* simulation field.
 
-### Physical Robot
-
-This sample could be modfied to run on a physical robot.  At a minimum, the following would need to be done.
-
-The robot code needs to be modified to:
-1. match the hardware that exists on the physical robot.
-2. use the physical robot's differential drive track width.
-3. tune the serve drive and wheel drive control parameters.
-4. tune the robot orientation control
-5. add filtering if needed for gyro and wheel encoder readings.
 
 ### Joystick control map
 
@@ -36,12 +26,9 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **Right Stick X** -- Drive the robot side to side.
 - **Right Trigger** -- Spin the robot clockwise.
 - **Left Trigger** -- Spin the robot counter clockwise.
-- **A** -- Execute relative trajectory (robot orientation stays the same)
-- **B** -- Execute relative trajectory (robot orientation points in direction of travel)
 - **Start** -- Enable closed loop drive control (default)
 - **Back** -- Disable closed loop drive control.
-- **Left Bumper** -- Execute first absolute trajectory.
-- **Right Bumper** -- Execute second absolute trajectory
+- **Left Bumper** -- Execute auto cmd
 - **POV Right** -- Enable closed loop trajectory control (default)
 - **POV Left** -- Disable closed loop trajectory control.
 
@@ -52,9 +39,9 @@ When not executing a trajectory, combinations of the other controls can be used 
 Bookmarks in the LabVIEW project describe some items that may need to be customed on the simulated and physical robots to maximize performance.  
 
 
-### Using a Custom Trajectory
+### Using a Custom Auto or Trajectory
 
-New trajectory files can be created and used.  
+New auto or trajectory files can be created and used.  
 
 ### Custom Dashboard
 
@@ -72,4 +59,4 @@ All the code customizations are compartmentalized into separate routines that ar
 
 
 ---
-File last updated: 12/19/2023
+File last updated: 02/21/2025
