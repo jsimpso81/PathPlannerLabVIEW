@@ -34,24 +34,29 @@
 		<Item Name="PathPlannerCmdFollowHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowHolConfig.ctl"/>
 		<Item Name="PathPlannerCmdFollowLTVUnicycleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowLTVUnicycleConfig.ctl"/>
 		<Item Name="PathPlannerCmdFollowRamConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdFollowRamConfig.ctl"/>
+		<Item Name="PathPlannerCmdPathPlannerAutoConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCmdPathPlannerAutoConfig.ctl"/>
 		<Item Name="PathPlannerCommandUtil.ctl" Type="VI" URL="../TypeDef/PathPlannerCommandUtil.ctl"/>
 		<Item Name="PathPlannerConstraintsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerConstraintsZone.ctl"/>
 		<Item Name="PathPlannerCtrlHolConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlHolConfig.ctl"/>
 		<Item Name="PathPlannerCtrlLTVUnicycleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerCtrlLTVUnicycleConfig.ctl"/>
+		<Item Name="PathPlannerDriveFeedFwds.ctl" Type="VI" URL="../TypeDef/PathPlannerDriveFeedFwds.ctl"/>
 		<Item Name="PathPlannerEventMarker.ctl" Type="VI" URL="../TypeDef/PathPlannerEventMarker.ctl"/>
 		<Item Name="PathPlannerFinderDoublePair.ctl" Type="VI" URL="../TypeDef/PathPlannerFinderDoublePair.ctl"/>
 		<Item Name="PathPlannerFinderGridPosition.ctl" Type="VI" URL="../TypeDef/PathPlannerFinderGridPosition.ctl"/>
 		<Item Name="PathPlannerGoalEndState.ctl" Type="VI" URL="../TypeDef/PathPlannerGoalEndState.ctl"/>
 		<Item Name="PathPlannerIdealStartingState.ctl" Type="VI" URL="../TypeDef/PathPlannerIdealStartingState.ctl"/>
+		<Item Name="PathPlannerModuleConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerModuleConfig.ctl"/>
 		<Item Name="PathPlannerObstacleGrid.ctl" Type="VI" URL="../TypeDef/PathPlannerObstacleGrid.ctl"/>
 		<Item Name="PathPlannerPath.ctl" Type="VI" URL="../TypeDef/PathPlannerPath.ctl"/>
 		<Item Name="PathPlannerPathConstraints.ctl" Type="VI" URL="../TypeDef/PathPlannerPathConstraints.ctl"/>
 		<Item Name="PathPlannerPathPoint.ctl" Type="VI" URL="../TypeDef/PathPlannerPathPoint.ctl"/>
 		<Item Name="PathPlannerPointTowardsZone.ctl" Type="VI" URL="../TypeDef/PathPlannerPointTowardsZone.ctl"/>
 		<Item Name="PathPlannerRectangularObstacle.ctl" Type="VI" URL="../TypeDef/PathPlannerRectangularObstacle.ctl"/>
+		<Item Name="PathPlannerRobotConfig.ctl" Type="VI" URL="../TypeDef/PathPlannerRobotConfig.ctl"/>
 		<Item Name="PathPlannerRotationTarget.ctl" Type="VI" URL="../TypeDef/PathPlannerRotationTarget.ctl"/>
 		<Item Name="PathPlannerSwerveModTrajState.ctl" Type="VI" URL="../TypeDef/PathPlannerSwerveModTrajState.ctl"/>
 		<Item Name="PathPlannerTrajectory.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory.ctl"/>
+		<Item Name="PathPlannerTrajectory25.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectory25.ctl"/>
 		<Item Name="PathPlannerTrajectoryEvent.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvent.ctl"/>
 		<Item Name="PathPlannerTrajectoryEvents.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryEvents.ctl"/>
 		<Item Name="PathPlannerTrajectoryState.ctl" Type="VI" URL="../TypeDef/PathPlannerTrajectoryState.ctl"/>
@@ -61,6 +66,14 @@
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Commands" Type="Folder">
+			<Item Name="PathPlanner_Cmd_AutoHolonomicExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoHolonomicExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoInitFromAutoFile.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoInitFromAutoFile.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoInitFromJson.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoInitFromJson.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoInitFromJsonData.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoInitFromJsonData.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoLTVUnicycleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoLTVUnicycleExecute.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoPack.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoPathsFromCommand.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoPathsFromCommand.vi"/>
+			<Item Name="PathPlanner_Cmd_AutoRamseteExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_AutoRamseteExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowHolonomicPathSimpleExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowLTVUnicyclePathSimpleExecute.vi"/>
 			<Item Name="PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FindFollowRamsetePathSimpleExecute.vi"/>
@@ -80,7 +93,12 @@
 			<Item Name="PathPlanner_CommandUtil_Execute.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_Execute.vi"/>
 			<Item Name="PathPlanner_CommandUtil_TypeFromString.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_TypeFromString.vi"/>
 		</Item>
-		<Item Name="Config" Type="Folder"/>
+		<Item Name="Config" Type="Folder">
+			<Item Name="ModuleConfig" Type="Folder">
+				<Item Name="PathPlanner_ModuleConfig_New.vi" Type="VI" URL="../VI/PathPlanner_ModuleConfig_New.vi"/>
+			</Item>
+			<Item Name="RobotConfig" Type="Folder"/>
+		</Item>
 		<Item Name="Controllers" Type="Folder">
 			<Item Name="PathPlanner_Ctrl_HolonomicDrvExecute.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvExecute.vi"/>
 			<Item Name="PathPlanner_Ctrl_HolonomicDrvPack.vi" Type="VI" URL="../VI/PathPlanner_Ctrl_HolonomicDrvPack.vi"/>
@@ -120,6 +138,7 @@
 				<Item Name="PathPlanner_IdealStartingState_New.vi" Type="VI" URL="../VI/PathPlanner_IdealStartingState_New.vi"/>
 			</Item>
 			<Item Name="Path" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="PathPlanner_Path_BezierFromWaypointsJSON.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierFromWaypointsJSON.vi"/>
 				<Item Name="PathPlanner_Path_BezierToWaypoints.vi" Type="VI" URL="../VI/PathPlanner_Path_BezierToWaypoints.vi"/>
 				<Item Name="PathPlanner_Path_ConstraintsForWaypointPos.vi" Type="VI" URL="../VI/PathPlanner_Path_ConstraintsForWaypointPos.vi"/>
@@ -292,6 +311,15 @@
 				<Item Name="PathPlanner_Trajectory_WriteCSVFileIndividualState.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileIndividualState.vi"/>
 				<Item Name="PathPlanner_Trajectory_WriteCSVFileStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory_WriteCSVFileStates.vi"/>
 			</Item>
+			<Item Name="Trajectory25" Type="Folder">
+				<Item Name="PathPlanner_Trajectory25_FindTimeForWaypointRelPos.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_FindTimeForWaypointRelPos.vi"/>
+				<Item Name="PathPlanner_Trajectory25_GenerateStates.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_GenerateStates.vi"/>
+				<Item Name="PathPlanner_Trajectory25_GenerateStates_Pass1.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_GenerateStates_Pass1.vi"/>
+				<Item Name="PathPlanner_Trajectory25_GenerateStates_Pass2.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_GenerateStates_Pass2.vi"/>
+				<Item Name="PathPlanner_Trajectory25_GetAllWaypointRelPos.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_GetAllWaypointRelPos.vi"/>
+				<Item Name="PathPlanner_Trajectory25_New.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_New.vi"/>
+				<Item Name="PathPlanner_Trajectory25_New_States.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_New_States.vi"/>
+			</Item>
 			<Item Name="TrajectoryState" Type="Folder">
 				<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetAll.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_GetDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetDifferentialPose.vi"/>
@@ -302,19 +330,35 @@
 				<Item Name="PathPlanner_TrajectoryState_New.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_New.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_Reverse.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_Reverse.vi"/>
 			</Item>
+			<Item Name="TrajectoryState25" Type="Folder">
+				<Item Name="PathPlanner_TrajectoryState25_CopyWithTime.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState25_CopyWithTime.vi"/>
+				<Item Name="PathPlanner_TrajectoryState25_Flip.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState25_Flip.vi"/>
+				<Item Name="PathPlanner_TrajectoryState25_Interpolate.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState25_Interpolate.vi"/>
+				<Item Name="PathPlanner_TrajectoryState25_New.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState25_New.vi"/>
+				<Item Name="PathPlanner_TrajectoryState25_Reverse.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState25_Reverse.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Util" Type="Folder">
+			<Item Name="DriveFeedforwards" Type="Folder">
+				<Item Name="PathPlanner_DriveFeedFwds_Flip.vi" Type="VI" URL="../VI/PathPlanner_DriveFeedFwds_Flip.vi"/>
+				<Item Name="PathPlanner_DriveFeedFwds_Interpolate.vi" Type="VI" URL="../VI/PathPlanner_DriveFeedFwds_Interpolate.vi"/>
+				<Item Name="PathPlanner_DriveFeedFwds_Reverse.vi" Type="VI" URL="../VI/PathPlanner_DriveFeedFwds_Reverse.vi"/>
+			</Item>
 			<Item Name="FlippingUtil" Type="Folder">
 				<Item Name="PathPlanner_FieldUtil_FieldSizeX.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FieldSizeX.vi"/>
 				<Item Name="PathPlanner_FieldUtil_FieldSizeY.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FieldSizeY.vi"/>
+				<Item Name="PathPlanner_FieldUtil_FlipFeedforwards.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FlipFeedforwards.vi"/>
+				<Item Name="PathPlanner_FieldUtil_FlipFieldPose.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FlipFieldPose.vi"/>
 				<Item Name="PathPlanner_FieldUtil_FlipFieldPosition.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FlipFieldPosition.vi"/>
 				<Item Name="PathPlanner_FieldUtil_FlipFieldRotation.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FlipFieldRotation.vi"/>
+				<Item Name="PathPlanner_FieldUtil_FlipFieldSpeeds.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FlipFieldSpeeds.vi"/>
 				<Item Name="PathPlanner_FieldUtil_SymmetryType.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_SymmetryType.vi"/>
 			</Item>
 			<Item Name="GeomUtil" Type="Folder">
 				<Item Name="PathPlanner_GeomUtil_CalculateRadius.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_CalculateRadius.vi"/>
 				<Item Name="PathPlanner_GeomUtil_CoerceHeadingDegrees.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_CoerceHeadingDegrees.vi"/>
 				<Item Name="PathPlanner_GeomUtil_CoerceHeadingRadians.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_CoerceHeadingRadians.vi"/>
+				<Item Name="PathPlanner_GeomUtil_CosineInterpolate.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_CosineInterpolate.vi"/>
 				<Item Name="PathPlanner_GeomUtil_CubicLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_CubicLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_DoubleLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_DoubleLerp.vi"/>
 				<Item Name="PathPlanner_GeomUtil_QuadraticLerp.vi" Type="VI" URL="../VI/PathPlanner_GeomUtil_QuadraticLerp.vi"/>
