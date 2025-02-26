@@ -1,0 +1,37 @@
+
+
+   Traj / Auto commands
+
+	- regular command -> from event marker
+		wait - only processed as part of auto, otherwise ignored.
+			wait time from cluster is used.
+		named - issued as digital command.
+		sequence - during trajectories, wait and trajectories are ignored.
+		parallel, race, deadline - during trajectores, same as sequence.
+			during autos, ignored.	
+		
+
+	- trigger event start -> from event marker
+		only if trigger name not blank
+		starts at the same time as regular command
+		only if end pos >= 0
+		issued as one value analog, where value = 1.0
+	- trigger event end -> from event marker
+		only if trigger name not blank
+		only if end pos >= 0
+		issued as one value analog, where value = 0.0
+	- trigger event oneshot -> from event marker
+		only if trigger name not blank
+		only if end pos < 0
+		issued the same as a named command, as a digital command.
+
+	- point towards zone enter -> from point towards zone
+		only if point towards name not blank
+		issued to name from point towards zone.
+		issued as one value analog, where value = 1.0
+	- point towards zone exit -> from point towards zone
+		only if point towards name not blank
+		issued to name from point towards zone.
+		issued as one value analog, where value = 0.0
+
+

@@ -10,7 +10,7 @@
 
 </Property>
 	<Item Name="Enum" Type="Folder">
-		<Item Name="PathPlanner_CommandUtilType_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_CommandUtilType_ENUM.ctl"/>
+		<Item Name="PathPlanner_CommandUtil_Type_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_CommandUtil_Type_ENUM.ctl"/>
 		<Item Name="PathPlanner_FieldSymmetry_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_FieldSymmetry_ENUM.ctl"/>
 		<Item Name="PathPlanner_PathFinding_Cmd_ENUM.ctl" Type="VI" URL="../ENum/PathPlanner_PathFinding_Cmd_ENUM.ctl"/>
 	</Item>
@@ -89,8 +89,11 @@
 			<Item Name="PathPlanner_Cmd_FollowRamsetePathPack.vi" Type="VI" URL="../VI/PathPlanner_Cmd_FollowRamsetePathPack.vi"/>
 		</Item>
 		<Item Name="CommandUtil" Type="Folder">
+			<Item Name="PathPlanner_CommandUtil_DoNamed.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_DoNamed.vi"/>
+			<Item Name="PathPlanner_CommandUtil_DoStartStop.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_DoStartStop.vi"/>
+			<Item Name="PathPlanner_CommandUtil_DoWait.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_DoWait.vi"/>
 			<Item Name="PathPlanner_CommandUtil_Equals.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_Equals.vi"/>
-			<Item Name="PathPlanner_CommandUtil_Execute.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_Execute.vi"/>
+			<Item Name="PathPlanner_CommandUtil_TrajIssue.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_TrajIssue.vi"/>
 			<Item Name="PathPlanner_CommandUtil_TypeFromString.vi" Type="VI" URL="../VI/PathPlanner_CommandUtil_TypeFromString.vi"/>
 		</Item>
 		<Item Name="Config" Type="Folder">
@@ -179,6 +182,8 @@
 				<Item Name="PathPlanner_Path_SamplePath.vi" Type="VI" URL="../VI/PathPlanner_Path_SamplePath.vi"/>
 				<Item Name="PathPlanner_Path_ToPathFile.vi" Type="VI" URL="../VI/PathPlanner_Path_ToPathFile.vi"/>
 				<Item Name="PathPlanner_Path_WaypointsFromPoses.vi" Type="VI" URL="../VI/PathPlanner_Path_WaypointsFromPoses.vi"/>
+				<Item Name="PathPlanner_Path_FlipPath.vi" Type="VI" URL="../VI/PathPlanner_Path_FlipPath.vi"/>
+				<Item Name="PathPlanner_Path_MirrorPath.vi" Type="VI" URL="../VI/PathPlanner_Path_MirrorPath.vi"/>
 			</Item>
 			<Item Name="PathConstraints" Type="Folder">
 				<Item Name="PathPlanner_PathConstraints_Equals.vi" Type="VI" URL="../VI/PathPlanner_PathConstraints_Equals.vi"/>
@@ -320,6 +325,10 @@
 				<Item Name="PathPlanner_Trajectory25_New.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_New.vi"/>
 				<Item Name="PathPlanner_Trajectory25_New_States.vi" Type="VI" URL="../VI/PathPlanner_Trajectory25_New_States.vi"/>
 			</Item>
+			<Item Name="TrajectoryEvent" Type="Folder">
+				<Item Name="PathPlanner_TrajectoryEvent_New_Cmd.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryEvent_New_Cmd.vi"/>
+				<Item Name="PathPlanner_TrajectoryEvent_New_Trig.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryEvent_New_Trig.vi"/>
+			</Item>
 			<Item Name="TrajectoryState" Type="Folder">
 				<Item Name="PathPlanner_TrajectoryState_GetAll.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetAll.vi"/>
 				<Item Name="PathPlanner_TrajectoryState_GetDifferentialPose.vi" Type="VI" URL="../VI/PathPlanner_TrajectoryState_GetDifferentialPose.vi"/>
@@ -343,6 +352,10 @@
 				<Item Name="PathPlanner_DriveFeedFwds_Flip.vi" Type="VI" URL="../VI/PathPlanner_DriveFeedFwds_Flip.vi"/>
 				<Item Name="PathPlanner_DriveFeedFwds_Interpolate.vi" Type="VI" URL="../VI/PathPlanner_DriveFeedFwds_Interpolate.vi"/>
 				<Item Name="PathPlanner_DriveFeedFwds_Reverse.vi" Type="VI" URL="../VI/PathPlanner_DriveFeedFwds_Reverse.vi"/>
+			</Item>
+			<Item Name="FileUtil" Type="Folder">
+				<Item Name="PathPlanner_FileUtil_AddExt.vi" Type="VI" URL="../VI/PathPlanner_FileUtil_AddExt.vi"/>
+				<Item Name="PathPlanner_FileUtil_DefaultDir.vi" Type="VI" URL="../VI/PathPlanner_FileUtil_DefaultDir.vi"/>
 			</Item>
 			<Item Name="FlippingUtil" Type="Folder">
 				<Item Name="PathPlanner_FieldUtil_FieldSizeX.vi" Type="VI" URL="../VI/PathPlanner_FieldUtil_FieldSizeX.vi"/>
