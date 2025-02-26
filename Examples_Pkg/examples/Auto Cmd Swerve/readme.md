@@ -29,6 +29,7 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **Start** -- Enable closed loop drive control (default)
 - **Back** -- Disable closed loop drive control.
 - **Left Bumper** -- Execute auto cmd
+- **Right Bumper** -- Execute mirrored auto cmd
 - **POV Right** -- Enable closed loop trajectory control (default)
 - **POV Left** -- Disable closed loop trajectory control.
 
